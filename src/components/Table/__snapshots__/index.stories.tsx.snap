@@ -3508,12 +3508,12 @@ exports[`Display/Table PageSizeCustom smoke-test 1`] = `
     <div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular MuiTablePagination-toolbar css-mui-classname">
       <div class="MuiTablePagination-spacer css-mui-classname">
       </div>
-      <p class="MuiTablePagination-selectLabel css-mui-classname"
-         id=":rr:"
+      <p id=":rr:"
+         class="MuiTablePagination-selectLabel css-mui-classname"
       >
         Rows per page:
       </p>
-      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-input css-mui-classname">
+      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-select MuiTablePagination-input css-mui-classname">
         <div tabindex="0"
              role="combobox"
              aria-controls=":rs:"
@@ -3735,12 +3735,12 @@ exports[`Display/Table Pagination play-test 1`] = `
     <div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular MuiTablePagination-toolbar css-mui-classname">
       <div class="MuiTablePagination-spacer css-mui-classname">
       </div>
-      <p class="MuiTablePagination-selectLabel css-mui-classname"
-         id=":ru:"
+      <p id=":ru:"
+         class="MuiTablePagination-selectLabel css-mui-classname"
       >
         Rows per page:
       </p>
-      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-input css-mui-classname">
+      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-select MuiTablePagination-input css-mui-classname">
         <div tabindex="0"
              role="combobox"
              aria-controls=":rv:"
@@ -5047,12 +5047,12 @@ exports[`Display/Table StickyPagination smoke-test 1`] = `
     <div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular MuiTablePagination-toolbar css-mui-classname">
       <div class="MuiTablePagination-spacer css-mui-classname">
       </div>
-      <p class="MuiTablePagination-selectLabel css-mui-classname"
-         id=":r11:"
+      <p id=":r11:"
+         class="MuiTablePagination-selectLabel css-mui-classname"
       >
         Rows per page:
       </p>
-      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-input css-mui-classname">
+      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-select MuiTablePagination-input css-mui-classname">
         <div tabindex="0"
              role="combobox"
              aria-controls=":r12:"
