@@ -13,6 +13,8 @@ export { default as Card } from "./components/Card";
 export { default as Checkbox } from "./components/Checkbox";
 export { CheckboxSize } from "./types/Checkbox";
 
+export { default as DateTimePicker } from "./components/DateTimePicker";
+
 export { default as Icon } from "./components/Icon";
 export { default as IconButton } from "./components/IconButton";
 export { Icons, IconSize } from "./types/Icon";
@@ -31,15 +33,20 @@ export { default as Progress } from "./components/Progress";
 export { default as Modal } from "./components/Modal";
 export { ModalSize } from "./types/Modal";
 
-export { default as Select } from "./components/Select";
+export { default as ModalWithTabs } from "./components/ModalWithTabs";
+
+export { default as Select, SelectVirtualized } from "./components/Select";
 
 export { default as Spacer } from "./components/Spacer";
 export { SpacerDirection } from "./types/Spacer";
+
+export { default as Stepper } from "./components/Stepper";
 
 export { default as Switch } from "./components/Switch";
 export { SwitchSize } from "./types/Switch";
 
 export { default as Table } from "./components/Table";
+export { default as TableVirtualized } from "./components/TableVirtualized";
 export { TableActionPosition } from "./types/Table";
 
 export { default as Tabs } from "./components/Tabs";

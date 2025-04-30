@@ -1,16 +1,19 @@
 import React from "react";
 import MUIStyleIcon from "@mui/icons-material/Style";
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 import { Icons } from "../../types/Icon";
 import { getAllComposedDataCy } from "../../utils";
 import getDocsPage from "../../utils/stories";
 
-import Avatar, { DATA_CY_DEFAULT, SUBPARTS_MAP } from ".";
+import { DATA_CY_DEFAULT, MemoizedAvatar, SUBPARTS_MAP } from ".";
 
-export default {
+const COMPONENT_NAME = "Avatar";
+MemoizedAvatar.displayName = COMPONENT_NAME;
+
+const meta = {
   title: "Display/Avatar",
-  component: Avatar,
+  component: MemoizedAvatar,
   parameters: {
     docs: {
       ...getDocsPage({
@@ -18,60 +21,80 @@ export default {
           label: "MUI Avatar Component",
           url: "https://mui.com/components/avatars/",
         },
-        component: "Avatar",
+        component: COMPONENT_NAME,
         e2eTestInfo: {
           dataCyDefault: DATA_CY_DEFAULT,
           subpartsSuffixes: getAllComposedDataCy(SUBPARTS_MAP),
         },
       }),
+      description: {
+        component: "The Avatar component is used to display an image or initials.",
+      },
     },
   },
-} as ComponentMeta<typeof Avatar>;
+} satisfies Meta<typeof MemoizedAvatar>;
 
-const Template: ComponentStory<typeof Avatar> = (args) => <Avatar {...args} dataCy={DATA_CY_DEFAULT} />;
+export default meta;
+type Story = StoryObj<typeof meta>;
 
-export const Primary = Template.bind({});
-Primary.args = {
-  icon: Icons.add,
-};
-
-export const CustomIcon = Template.bind({});
-CustomIcon.args = {
-  icon: <MUIStyleIcon />,
-};
-
-export const Image = Template.bind({});
-Image.args = {
-  src: "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Roof_hafez_tomb.jpg/440px-Roof_hafez_tomb.jpg",
-};
-
-export const Loading = Template.bind({});
-Loading.args = {
-  loading: true,
-};
-
-export const Styled = Template.bind({});
-Styled.args = {
-  ...Primary.args,
-  style: {
-    backgroundColor: "red",
-    color: "white",
+export const Primary: Story = {
+  args: {
+    icon: Icons.add,
   },
 };
 
-export const Text = Template.bind({});
-Text.args = {
-  text: "MO",
+export const CustomIcon: Story = {
+  args: {
+    ...Primary.args,
+    icon: <MUIStyleIcon />,
+  },
 };
 
-export const VariantRounded = Template.bind({});
-VariantRounded.args = {
-  ...Primary.args,
-  variant: "rounded",
+export const Image: Story = {
+  args: {
+    src: "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Roof_hafez_tomb.jpg/440px-Roof_hafez_tomb.jpg",
+  },
 };
 
-export const VariantSquare = Template.bind({});
-VariantSquare.args = {
-  ...Primary.args,
-  variant: "square",
+export const Loading: Story = {
+  args: {
+    loading: true,
+  },
+};
+
+export const LoadingVariant: Story = {
+  args: {
+    loading: true,
+    variant: "square",
+  },
+};
+
+export const Styled: Story = {
+  args: {
+    ...Primary.args,
+    style: {
+      backgroundColor: "red",
+      color: "white",
+    },
+  },
+};
+
+export const Text: Story = {
+  args: {
+    text: "MO",
+  },
+};
+
+export const VariantRounded: Story = {
+  args: {
+    ...Primary.args,
+    variant: "rounded",
+  },
+};
+
+export const VariantSquare: Story = {
+  args: {
+    ...Primary.args,
+    variant: "square",
+  },
 };

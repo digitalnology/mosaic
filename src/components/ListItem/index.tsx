@@ -1,6 +1,6 @@
-import React, { CSSProperties, FC, PropsWithChildren, useCallback, useMemo } from "react";
+import React, { CSSProperties, FC, MouseEvent, PropsWithChildren, useCallback, useMemo } from "react";
 import {
-  ListItem as MUIListItem,
+  ListItemButton as MUIListItemButton,
   ListItemIcon as MUIListItemIcon,
   ListItemText as MUIListItemText,
   Skeleton as MUISkeleton,
@@ -30,17 +30,11 @@ const ListItem: FC<PropsWithChildren<IListItem>> = ({
   icon,
   loading = false,
   onClick: externalOnClick,
-  selected = false,
+  selected: externalSelected = false,
   style,
 }) => {
-  const baseStyle: CSSProperties = useMemo(
-    () => ({ cursor: !loading && externalOnClick ? "pointer" : "default" }),
-    [externalOnClick, loading]
-  );
-
   const onClick = useCallback(
-    // TODO#lb: fix any type
-    (event: any) => {
+    (event: MouseEvent) => {
       suppressEvent(event);
       if (loading) {
         return;
@@ -51,23 +45,35 @@ const ListItem: FC<PropsWithChildren<IListItem>> = ({
     [externalOnClick, loading]
   );
 
+  const itemContent = useMemo(() => {
+    if (loading) {
+      return <MUISkeleton />;
+    }
+
+    return content || children;
+  }, [content, children, loading]);
+
+  const selected = useMemo(() => !loading && externalSelected, [externalSelected, loading]);
+
+  const wrapperStyle = useMemo(
+    (): CSSProperties => ({
+      cursor: !loading && !!externalOnClick ? "pointer" : "default",
+      ...style,
+    }),
+    [externalOnClick, loading, style]
+  );
+
   return (
-    <MUIListItem
-      data-cy={dataCy}
-      dense={dense}
-      onClick={onClick}
-      selected={!loading && selected}
-      style={{ ...baseStyle, ...style }}
-    >
+    <MUIListItemButton data-cy={dataCy} dense={dense} onClick={onClick} selected={selected} style={wrapperStyle}>
       {icon && (
         <MUIListItemIcon>
           <IconWrapper dataCy={getComposedDataCy(dataCy, SUBPARTS_MAP.icon)} icon={icon} loading={loading} />
         </MUIListItemIcon>
       )}
       <MUIListItemText data-cy={getComposedDataCy(dataCy, SUBPARTS_MAP.content, loading)} disableTypography>
-        {loading ? <MUISkeleton /> : content || children}
+        {itemContent}
       </MUIListItemText>
-    </MUIListItem>
+    </MUIListItemButton>
   );
 };
 

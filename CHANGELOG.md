@@ -1,3 +1,200 @@
+## [10.3.3](https://github.com/melfore/mosaic/compare/v10.3.2...v10.3.3) (2025-01-13)
+
+## [10.3.2](https://github.com/melfore/mosaic/compare/v10.3.1...v10.3.2) (2024-12-17)
+
+
+### chore
+
+* 🤖 upgrade  @mui/* to v6 and @mui/x-date-pickers to v7 ([48ccc8e](https://github.com/melfore/mosaic/commit/48ccc8e2eb859d83994e14890edf4e1085bda546)), closes [#436](https://github.com/melfore/mosaic/issues/436) [#437](https://github.com/melfore/mosaic/issues/437)
+
+
+### BREAKING CHANGES
+
+* 🧨 mui and mui/x major upgrade
+
+## [10.3.1](https://github.com/melfore/mosaic/compare/v10.3.0...v10.3.1) (2024-09-25)
+
+# [10.3.0](https://github.com/melfore/mosaic/compare/v10.2.6...v10.3.0) (2024-09-24)
+
+
+### Features
+
+* 🎸 [TableVirtualized] Added new component ([01e6d73](https://github.com/melfore/mosaic/commit/01e6d73ef28f679641ca6c81c4d535ed54a1193c)), closes [#421](https://github.com/melfore/mosaic/issues/421)
+
+## [10.2.6](https://github.com/melfore/mosaic/compare/v10.2.5...v10.2.6) (2024-07-11)
+
+## [10.2.5](https://github.com/melfore/mosaic/compare/v10.2.4...v10.2.5) (2024-07-11)
+
+## [10.2.4](https://github.com/melfore/mosaic/compare/v10.2.3...v10.2.4) (2024-07-11)
+
+## [10.2.3](https://github.com/melfore/mosaic/compare/v10.2.2...v10.2.3) (2024-06-19)
+
+## [10.2.2](https://github.com/melfore/mosaic/compare/v10.2.1...v10.2.2) (2024-06-18)
+
+## [10.2.1](https://github.com/melfore/mosaic/compare/v10.2.0...v10.2.1) (2024-04-04)
+
+# [10.2.0](https://github.com/melfore/mosaic/compare/v10.1.4...v10.2.0) (2024-04-04)
+
+
+### Features
+
+* 🎸 [Selecet]Change autoSort prop ([b7808cb](https://github.com/melfore/mosaic/commit/b7808cbb1c35e536b5b539d77aab279bab291ec6)), closes [#405](https://github.com/melfore/mosaic/issues/405)
+
+## [10.1.4](https://github.com/melfore/mosaic/compare/v10.1.3...v10.1.4) (2024-02-19)
+
+## [10.1.3](https://github.com/melfore/mosaic/compare/v10.1.2...v10.1.3) (2024-02-15)
+
+## [10.1.2](https://github.com/melfore/mosaic/compare/v10.1.1...v10.1.2) (2024-02-13)
+
+## [10.1.1](https://github.com/melfore/mosaic/compare/v10.1.0...v10.1.1) (2024-01-30)
+
+# [10.1.0](https://github.com/melfore/mosaic/compare/v10.0.0...v10.1.0) (2024-01-25)
+
+
+### Features
+
+* 🎸 [Tabs] Added single tab color ([a01f698](https://github.com/melfore/mosaic/commit/a01f6985f06c5e564193b77c9ba398262b43d7c6)), closes [#393](https://github.com/melfore/mosaic/issues/393)
+
+# [10.0.0](https://github.com/melfore/mosaic/compare/v9.11.0...v10.0.0) (2024-01-25)
+
+
+### Features
+
+* 🎸 [Tabs] Renamed `labelList` into `tabList` ([4d3b51a](https://github.com/melfore/mosaic/commit/4d3b51a70197e8869b2a00de87c4735032d6628e))
+
+
+### BREAKING CHANGES
+
+* 🧨 Renamed `labelList` prop into `tabList` for Tabs. This impacts also
+ModalWithTabs.
+
+# [9.11.0](https://github.com/melfore/mosaic/compare/v9.10.2...v9.11.0) (2024-01-25)
+
+
+### Features
+
+* 🎸 [Tabs] Add disabled prop ([3f9ccdf](https://github.com/melfore/mosaic/commit/3f9ccdf9b037cbf3c55621a18c784bcf30d033f3)), closes [#385](https://github.com/melfore/mosaic/issues/385)
+
+## [9.10.2](https://github.com/melfore/mosaic/compare/v9.10.1...v9.10.2) (2024-01-25)
+
+## [9.10.1](https://github.com/melfore/mosaic/compare/v9.10.0...v9.10.1) (2024-01-24)
+
+# [9.10.0](https://github.com/melfore/mosaic/compare/v9.9.7...v9.10.0) (2024-01-24)
+
+
+### Features
+
+* 🎸 changed test imports ([57bcf56](https://github.com/melfore/mosaic/commit/57bcf562b9710d1f74b0cd0d4a80d27ddce59769)), closes [#380](https://github.com/melfore/mosaic/issues/380)
+
+## [9.9.7](https://github.com/melfore/mosaic/compare/v9.9.6...v9.9.7) (2024-01-16)
+
+## [9.9.6](https://github.com/melfore/mosaic/compare/v9.9.5...v9.9.6) (2024-01-16)
+
+## [9.9.5](https://github.com/melfore/mosaic/compare/v9.9.4...v9.9.5) (2024-01-12)
+
+## [9.9.4](https://github.com/melfore/mosaic/compare/v9.9.3...v9.9.4) (2024-01-11)
+
+
+### Bug Fixes
+
+* 🐛 [Icon] Fixed rotate function ([3269738](https://github.com/melfore/mosaic/commit/32697386a3091ccf03cd072db765b70a8ebf71e4)), closes [#305](https://github.com/melfore/mosaic/issues/305)
+
+## [9.9.3](https://github.com/melfore/mosaic/compare/v9.9.2...v9.9.3) (2024-01-10)
+
+## [9.9.2](https://github.com/melfore/mosaic/compare/v9.9.1...v9.9.2) (2024-01-10)
+
+## [9.9.1](https://github.com/melfore/mosaic/compare/v9.9.0...v9.9.1) (2023-12-21)
+
+
+### Bug Fixes
+
+* 🐛 [Progress] Type prop to be lowercase ([debb718](https://github.com/melfore/mosaic/commit/debb7180de93d3c4339fb4800fcb5715049f581e))
+* 🐛 Following official StoryBook setup for [@mui](https://github.com/mui) ([49a8d8c](https://github.com/melfore/mosaic/commit/49a8d8c001431f1d25fcc361b9db0db6f0cde437))
+* 🐛 Removing ripple from MUI theme when started in dev or ci ([d1d813a](https://github.com/melfore/mosaic/commit/d1d813a9acc0ddd49231326b8a58056995d70488))
+* 🐛 StoryBook viewports fix ([fe19986](https://github.com/melfore/mosaic/commit/fe19986939bce9bdab9beacc25bec3da9e715b30))
+* 🐛 Viewport size to be string ([e0b4333](https://github.com/melfore/mosaic/commit/e0b4333987522b2cd96000ea74ac45865da6d906))
+
+# [9.9.0](https://github.com/melfore/mosaic/compare/v9.8.2...v9.9.0) (2023-11-23)
+
+
+### Features
+
+* 🎸 [DateTimePicker] added prop type ([79da9d5](https://github.com/melfore/mosaic/commit/79da9d507a7c6668b7815a1d459983faab769e79)), closes [#364](https://github.com/melfore/mosaic/issues/364)
+
+## [9.8.2](https://github.com/melfore/mosaic/compare/v9.8.1...v9.8.2) (2023-11-02)
+
+## [9.8.1](https://github.com/melfore/mosaic/compare/v9.8.0...v9.8.1) (2023-10-25)
+
+
+### Bug Fixes
+
+* 🐛 [ModalWithTabs] fixed grid error ([e90cb53](https://github.com/melfore/mosaic/commit/e90cb538132b57a036c42b4e91695da144fedb64)), closes [#360](https://github.com/melfore/mosaic/issues/360)
+
+# [9.8.0](https://github.com/melfore/mosaic/compare/v9.7.1...v9.8.0) (2023-10-20)
+
+
+### Features
+
+* 🎸 Added localized to new components ([9d64f98](https://github.com/melfore/mosaic/commit/9d64f98f5db552b8075c5a4407c8a5b7fdc6a729)), closes [#358](https://github.com/melfore/mosaic/issues/358)
+
+## [9.7.1](https://github.com/melfore/mosaic/compare/v9.7.0...v9.7.1) (2023-10-19)
+
+# [9.7.0](https://github.com/melfore/mosaic/compare/v9.6.1...v9.7.0) (2023-10-19)
+
+
+### Features
+
+* 🎸 [DateTimePicker] Added luxon settingsZone ([e740495](https://github.com/melfore/mosaic/commit/e740495de6e0b4170dd57c03627a12e96051c2a0))
+* 🎸 [DateTimePicker]Changed return value to Date obj ([fec805e](https://github.com/melfore/mosaic/commit/fec805e72c468ec26c0705fe570611cf625f5f4e)), closes [#351](https://github.com/melfore/mosaic/issues/351)
+
+## [9.6.1](https://github.com/melfore/mosaic/compare/v9.6.0...v9.6.1) (2023-10-13)
+
+
+### Bug Fixes
+
+* 🐛 [DateTimePicker] Fixed input validation ([f7f796c](https://github.com/melfore/mosaic/commit/f7f796cca173e42febbc7f57f5212cb060660015)), closes [#349](https://github.com/melfore/mosaic/issues/349)
+
+# [9.6.0](https://github.com/melfore/mosaic/compare/v9.5.0...v9.6.0) (2023-10-12)
+
+
+### Features
+
+* 🎸 [DateTimePicker] Accept Date, number as value ([c9b8aaa](https://github.com/melfore/mosaic/commit/c9b8aaa383ae1addf40e8f3f5d393ce3e122bba0)), closes [#347](https://github.com/melfore/mosaic/issues/347)
+* 🎸 [DateTimePicker] Added timeZone prop ([89c29ba](https://github.com/melfore/mosaic/commit/89c29baea207c22f2f5403fabb85068073aacefb)), closes [#347](https://github.com/melfore/mosaic/issues/347)
+
+# [9.5.0](https://github.com/melfore/mosaic/compare/v9.4.1...v9.5.0) (2023-10-06)
+
+
+### Features
+
+* 🎸 [DateTimePicker] Added Timezone in context ([5b8672d](https://github.com/melfore/mosaic/commit/5b8672d6e97fe4f1838465532890fe65b7a400e5)), closes [#345](https://github.com/melfore/mosaic/issues/345)
+
+## [9.4.1](https://github.com/melfore/mosaic/compare/v9.4.0...v9.4.1) (2023-10-06)
+
+# [9.4.0](https://github.com/melfore/mosaic/compare/v9.3.1...v9.4.0) (2023-10-06)
+
+
+### Bug Fixes
+
+* 🐛 Fixed broken links ([3a3df57](https://github.com/melfore/mosaic/commit/3a3df57ab6b18c912d06c69c9f97515178301e99)), closes [#341](https://github.com/melfore/mosaic/issues/341)
+
+
+### Features
+
+* 🎸 [DateTimePicker] added component's export ([a99396b](https://github.com/melfore/mosaic/commit/a99396bebfd0abdcee43865b9c256e9c77e56825)), closes [#342](https://github.com/melfore/mosaic/issues/342)
+* 🎸 Added components export ([2f5424e](https://github.com/melfore/mosaic/commit/2f5424ea88e2a94d77e7b6ebf7255333f53fe0f7)), closes [#342](https://github.com/melfore/mosaic/issues/342)
+
+## [9.3.1](https://github.com/melfore/mosaic/compare/v9.3.0...v9.3.1) (2023-10-05)
+
+# [9.3.0](https://github.com/melfore/mosaic/compare/v9.2.1...v9.3.0) (2023-10-05)
+
+
+### Features
+
+* 🎸 [DateTimePicker] added no ampm format ([6e0d464](https://github.com/melfore/mosaic/commit/6e0d464bf20cbe2436e5a7e6870cab041420d94c)), closes [#336](https://github.com/melfore/mosaic/issues/336)
+* 🎸 [DateTimePicker] Added props ([0eb116c](https://github.com/melfore/mosaic/commit/0eb116c7fed8c00862f6bc4bfd547b9d380cffbd)), closes [#336](https://github.com/melfore/mosaic/issues/336)
+* 🎸 [TimePicker] added new component ([d1453ad](https://github.com/melfore/mosaic/commit/d1453ad9a4f1c2e24ac652fde810a4f35454449b)), closes [#336](https://github.com/melfore/mosaic/issues/336)
+
 ## [9.2.2-beta.1](https://github.com/melfore/mosaic/compare/v9.2.1...v9.2.2-beta.1) (2023-10-19)
 
 ## [9.2.1](https://github.com/melfore/mosaic/compare/v9.2.0...v9.2.1) (2023-09-19)
