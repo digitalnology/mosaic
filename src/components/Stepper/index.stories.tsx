@@ -1,6 +1,6 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import { configure, expect, fireEvent, fn, within } from "@storybook/test";
+import { configure, expect, fireEvent, fn, userEvent, within } from "@storybook/test";
 
 import { logInfo } from "../../utils/logger";
 import getDocsPage from "../../utils/stories";
@@ -64,15 +64,24 @@ export const Primary: Story = {
     const canvas = within(canvasElement);
     const buttonBack = canvas.getByTestId(`${DATA_CY_DEFAULT}-back`);
     const buttonNext = canvas.getByTestId(`${DATA_CY_DEFAULT}-next`);
-    if (!buttonBack) {
-      return;
-    }
 
-    fireEvent.click(buttonBack);
-    await expect(onClickMockBack).toHaveBeenCalledTimes(onClickMockBack.mock.calls.length);
-    fireEvent.click(buttonNext);
-    fireEvent.click(buttonNext);
-    await expect(onClickMockNext).toHaveBeenCalledTimes(onClickMockNext.mock.calls.length);
+    expect(buttonBack).toBeEnabled();
+
+    await userEvent.click(buttonBack);
+    expect(buttonBack).toBeDisabled();
+
+    await userEvent.click(buttonNext);
+    expect(buttonBack).toBeEnabled();
+
+    await userEvent.click(buttonNext);
+    await userEvent.click(buttonNext);
+
+    const buttonFinish = canvas.getByTestId(`${DATA_CY_DEFAULT}-finish`);
+    await userEvent.click(buttonFinish);
+
+    await expect(onClickMockBack).toHaveBeenCalledTimes(1);
+    await expect(onClickMockNext).toHaveBeenCalledTimes(3);
+    await expect(onClickMockFinish).toHaveBeenCalledTimes(1);
   },
 };
 
@@ -85,7 +94,7 @@ export const ActiveStep: Story = {
     const canvas = within(canvasElement);
     const buttonFinish = canvas.getByTestId(`${DATA_CY_DEFAULT}-finish`);
     fireEvent.click(buttonFinish);
-    await expect(onClickMockFinish).toHaveBeenCalledTimes(onClickMockFinish.mock.calls.length);
+    await expect(onClickMockFinish).toHaveBeenCalledTimes(1);
   },
 };
 
