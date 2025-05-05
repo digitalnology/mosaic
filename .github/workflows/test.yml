@@ -3,7 +3,11 @@ name: Mosaic CI - Test
 on:
   pull_request:
     branches:
-      - master
+      - main
+
+concurrency:
+  group: test-${{ github.ref_name }}
+  cancel-in-progress: true
 
 jobs:
   test:
@@ -20,7 +24,7 @@ jobs:
     - name: Install NodeJS
       uses: actions/setup-node@v3
       with:
-        node-version: lts/gallium
+        node-version: lts/iron
 
     - name: Cache Dependencies
       id: cache-dependencies
@@ -34,8 +38,15 @@ jobs:
     - name: Install Dependencies
       if: steps.cache-dependencies.outputs.cache-hit != 'true'
       run: npm ci
-    
-    - name: Unit Tests
-      run: npm run test:coverage
-      env:
-        CI: true
+
+    - name: Generate Docs
+      id: generate-docs
+      run: |
+        npm run build:storybook
+
+    - name: Test runner
+      run: |
+        npx playwright install --with-deps
+        npx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
+          "npx http-server docs/latest --port 6006 --silent" \
+          "npx wait-on tcp:127.0.0.1:6006 && npm run test:ci"

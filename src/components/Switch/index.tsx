@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { ChangeEvent, FC, useCallback } from "react";
 import { FormControlLabel as MUIFormControlLabel, Switch as MUISwitch } from "@mui/material";
 
@@ -61,9 +62,9 @@ const Switch: FC<ISwitch> = ({
   );
 };
 
-export const SwitchWithProps = Switch;
-
-export default localized(Switch, {
+export const LocalizedSwitch = localized(Switch, {
   dataCyShortcut: DATA_CY_SHORTCUT,
   localizableProps: LOCALIZABLE_PROPS,
 });
+
+export default LocalizedSwitch;

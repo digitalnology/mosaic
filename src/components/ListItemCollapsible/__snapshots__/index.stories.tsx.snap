@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display/ListItemCollapsible Children smoke-test 1`] = `
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+     tabindex="0"
+     role="button"
+     data-cy="list-item-collapsible-header"
+     style="cursor: default;"
+>
+  <div class="MuiListItemIcon-root css-mui-classname">
+    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
+         focusable="false"
+         aria-hidden="true"
+         viewbox="0 0 24 24"
+         data-testid="KeyboardArrowDownIcon"
+         data-cy="list-item-collapsible-header-icon"
+    >
+      <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z">
+      </path>
+    </svg>
+  </div>
+  <div class="MuiListItemText-root css-mui-classname"
+       data-cy="list-item-collapsible-header-content"
+  >
+    Header
+  </div>
+</div>
+<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-mui-classname"
+     data-cy="list-item-collapsible-collapse"
+     style="min-height: 0px;"
+>
+  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-mui-classname">
+    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-mui-classname">
+      Collapisble Children
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Display/ListItemCollapsible Dense smoke-test 1`] = `
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters css-mui-classname"
+     tabindex="0"
+     role="button"
+     data-cy="list-item-collapsible-header"
+     style="cursor: default;"
+>
+  <div class="MuiListItemIcon-root css-mui-classname">
+    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
+         focusable="false"
+         aria-hidden="true"
+         viewbox="0 0 24 24"
+         data-testid="KeyboardArrowDownIcon"
+         data-cy="list-item-collapsible-header-icon"
+    >
+      <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z">
+      </path>
+    </svg>
+  </div>
+  <div class="MuiListItemText-root MuiListItemText-dense css-mui-classname"
+       data-cy="list-item-collapsible-header-content"
+  >
+    Header
+  </div>
+</div>
+<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-mui-classname"
+     data-cy="list-item-collapsible-collapse"
+     style="min-height: 0px;"
+>
+  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-mui-classname">
+    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-mui-classname">
+      Collapsible Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Display/ListItemCollapsible Loading smoke-test 1`] = `
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+     tabindex="0"
+     role="button"
+     data-cy="list-item-collapsible-header"
+     style="cursor: default;"
+>
+  <div class="MuiListItemIcon-root css-mui-classname">
+    <span class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-mui-classname"
+          style="width: 24px; height: 24px;"
+    >
+    </span>
+  </div>
+  <div class="MuiListItemText-root css-mui-classname"
+       data-cy="list-item-collapsible-header-content-loading"
+  >
+    <span class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-mui-classname">
+    </span>
+  </div>
+</div>
+<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-mui-classname"
+     data-cy="list-item-collapsible-collapse"
+     style="min-height: 0px;"
+>
+  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-mui-classname">
+    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-mui-classname">
+      Collapsible Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Display/ListItemCollapsible Open smoke-test 1`] = `
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+     tabindex="0"
+     role="button"
+     data-cy="list-item-collapsible-header"
+     style="cursor: default;"
+>
+  <div class="MuiListItemIcon-root css-mui-classname">
+    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
+         focusable="false"
+         aria-hidden="true"
+         viewbox="0 0 24 24"
+         data-testid="KeyboardArrowUpIcon"
+         data-cy="list-item-collapsible-header-icon"
+    >
+      <path d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z">
+      </path>
+    </svg>
+  </div>
+  <div class="MuiListItemText-root css-mui-classname"
+       data-cy="list-item-collapsible-header-content"
+  >
+    Header
+  </div>
+</div>
+<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-mui-classname"
+     data-cy="list-item-collapsible-collapse"
+     style="min-height: 0px;"
+>
+  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-mui-classname">
+    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-mui-classname">
+      Collapsible Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Display/ListItemCollapsible Primary smoke-test 1`] = `
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+     tabindex="0"
+     role="button"
+     data-cy="list-item-collapsible-header"
+     style="cursor: default;"
+>
+  <div class="MuiListItemIcon-root css-mui-classname">
+    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
+         focusable="false"
+         aria-hidden="true"
+         viewbox="0 0 24 24"
+         data-testid="KeyboardArrowDownIcon"
+         data-cy="list-item-collapsible-header-icon"
+    >
+      <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z">
+      </path>
+    </svg>
+  </div>
+  <div class="MuiListItemText-root css-mui-classname"
+       data-cy="list-item-collapsible-header-content"
+  >
+    Header
+  </div>
+</div>
+<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-mui-classname"
+     data-cy="list-item-collapsible-collapse"
+     style="min-height: 0px;"
+>
+  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-mui-classname">
+    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-mui-classname">
+      Collapsible Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Display/ListItemCollapsible Selected smoke-test 1`] = `
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters Mui-selected MuiListItemButton-root MuiListItemButton-gutters Mui-selected css-mui-classname"
+     tabindex="0"
+     role="button"
+     data-cy="list-item-collapsible-header"
+     style="cursor: default;"
+>
+  <div class="MuiListItemIcon-root css-mui-classname">
+    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
+         focusable="false"
+         aria-hidden="true"
+         viewbox="0 0 24 24"
+         data-testid="KeyboardArrowDownIcon"
+         data-cy="list-item-collapsible-header-icon"
+    >
+      <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z">
+      </path>
+    </svg>
+  </div>
+  <div class="MuiListItemText-root css-mui-classname"
+       data-cy="list-item-collapsible-header-content"
+  >
+    Header
+  </div>
+</div>
+<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-mui-classname"
+     data-cy="list-item-collapsible-collapse"
+     style="min-height: 0px;"
+>
+  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-mui-classname">
+    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-mui-classname">
+      Collapsible Content
+    </div>
+  </div>
+</div>
+`;

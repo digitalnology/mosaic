@@ -4,9 +4,10 @@
 /.yalc/*
 /build/*
 /coverage/*
+/data/*
 /dist/*
 /docs/*
 /node_modules/*
-
-# ignore snapshots
+/tsconfig.json
 *.snap
+*.md

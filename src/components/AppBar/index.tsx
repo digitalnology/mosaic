@@ -2,7 +2,7 @@ import React, { CSSProperties, FC, useMemo } from "react";
 import { AppBar as MUIAppBar, Toolbar as MUIToolbar } from "@mui/material";
 
 import { useMosaicContext } from "../../hooks/useMosaicContext";
-import { IAppBar } from "../../types/AppBar";
+import { AppBarProps } from "../../types/AppBar";
 import { IMenu } from "../../types/Menu";
 import { ISubpartMap } from "../../utils";
 import localized, { ILocalizableProperty } from "../../utils/hocs/localized";
@@ -25,7 +25,7 @@ export const SUBPARTS_MAP: ISubpartMap = {
   ...APPBAR_ACTIONS_SUBPARTS,
 };
 
-const AppBar: FC<IAppBar> = ({
+const AppBar: FC<AppBarProps> = ({
   actions = [],
   children,
   dataCy = DATA_CY_DEFAULT,
@@ -86,9 +86,9 @@ const AppBar: FC<IAppBar> = ({
   );
 };
 
-export const AppBarWithProps = AppBar;
-
-export default localized(AppBar, {
+export const LocalizedAppBar = localized(AppBar, {
   dataCyShortcut: DATA_CY_SHORTCUT,
   localizableProps: LOCALIZABLE_PROPS,
 });
+
+export default LocalizedAppBar;

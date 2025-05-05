@@ -1,8 +1,8 @@
 import React from "react";
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
-import { localeDecorator } from "../../utils/mocks/LocaleMock";
 import getDocsPage from "../../utils/stories";
+import LocaleDecorator from "../../utils/stories/decorators/Locale";
 import Progress from "../Progress";
 
 import Tabs, { DATA_CY_DEFAULT } from ".";
@@ -10,39 +10,66 @@ import Tabs, { DATA_CY_DEFAULT } from ".";
 const COMPONENT_NAME = "Tabs";
 Tabs.displayName = COMPONENT_NAME;
 
-export default {
+const meta = {
   title: "Navigation/Tabs",
   component: Tabs,
-  decorators: [localeDecorator],
+  decorators: [LocaleDecorator],
   parameters: {
     docs: {
       ...getDocsPage({
         basedOn: {
           label: "MUI Tabs Component",
-          url: "https://mui.com/material-ui/react-progress/",
+          url: "https://mui.com/material-ui/react-tabs/",
         },
         component: COMPONENT_NAME,
         e2eTestInfo: {
           dataCyDefault: DATA_CY_DEFAULT,
         },
       }),
+      description: {
+        component: "The Tabs component is used to display content in tabs that can be switched between.",
+      },
     },
   },
-} as ComponentMeta<typeof Tabs>;
+} satisfies Meta<typeof Tabs>;
 
-const Template: ComponentStory<typeof Tabs> = (args) => <Tabs {...args} dataCy={DATA_CY_DEFAULT} />;
+export default meta;
+type Story = StoryObj<typeof meta>;
 
-export const Primary = Template.bind({});
-Primary.args = {
-  labelList: [
-    { label: "PAGE1", content: "PAGE1" },
-    { label: "PAGE2", content: "PAGE2" },
-    { label: "PAGE3", content: <Progress type="Circular" withLabel={false} /> },
-  ],
+export const Primary: Story = {
+  args: {
+    tabList: [
+      { label: "PAGE1", content: "PAGE1" },
+      { label: "PAGE2", content: "PAGE2" },
+      { label: "PAGE3", content: <Progress type="circular" withLabel={false} /> },
+    ],
+  },
 };
 
-export const Color = Template.bind({});
-Color.args = { ...Primary.args, color: "secondary" };
+export const Color: Story = {
+  args: { ...Primary.args, color: "warning" },
+};
 
-export const Orientation = Template.bind({});
-Orientation.args = { ...Primary.args, orientation: "vertical" };
+export const Orientation: Story = {
+  args: { ...Primary.args, orientation: "vertical" },
+};
+
+export const DisabledTab: Story = {
+  args: {
+    tabList: [
+      { label: "PAGE1", content: "PAGE1" },
+      { label: "PAGE2", content: "PAGE2" },
+      { label: "PAGE3", content: <Progress type="circular" withLabel={false} />, disabled: true },
+    ],
+  },
+};
+
+export const SingleTabColor: Story = {
+  args: {
+    tabList: [
+      { label: "PAGE1", content: "PAGE1" },
+      { label: "PAGE2", content: "PAGE2" },
+      { label: "PAGE3", content: <Progress type="circular" withLabel={false} />, textColor: "error" },
+    ],
+  },
+};
