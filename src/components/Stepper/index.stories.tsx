@@ -78,6 +78,7 @@ export const Primary: Story = {
 
     const buttonFinish = canvas.getByTestId(`${DATA_CY_DEFAULT}-finish`);
     await userEvent.click(buttonFinish);
+    await userEvent.unhover(buttonFinish);
 
     await expect(onClickMockBack).toHaveBeenCalledTimes(1);
     await expect(onClickMockNext).toHaveBeenCalledTimes(3);
