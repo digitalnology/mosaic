@@ -1,6 +1,6 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import { configure, expect, fireEvent, fn, userEvent, within } from "@storybook/test";
+import { configure, expect, fireEvent, fn, within } from "@storybook/test";
 
 import { logInfo } from "../../utils/logger";
 import getDocsPage from "../../utils/stories";
@@ -67,18 +67,17 @@ export const Primary: Story = {
 
     expect(buttonBack).toBeEnabled();
 
-    await userEvent.click(buttonBack);
+    fireEvent.click(buttonBack);
     expect(buttonBack).toBeDisabled();
 
-    await userEvent.click(buttonNext);
+    fireEvent.click(buttonNext);
     expect(buttonBack).toBeEnabled();
 
-    await userEvent.click(buttonNext);
-    await userEvent.click(buttonNext);
+    fireEvent.click(buttonNext);
+    fireEvent.click(buttonNext);
 
     const buttonFinish = canvas.getByTestId(`${DATA_CY_DEFAULT}-finish`);
-    await userEvent.click(buttonFinish);
-    await userEvent.unhover(buttonFinish);
+    fireEvent.click(buttonFinish);
 
     await expect(onClickMockBack).toHaveBeenCalledTimes(1);
     await expect(onClickMockNext).toHaveBeenCalledTimes(3);
