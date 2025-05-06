@@ -316,7 +316,7 @@ exports[`Navigation/Stepper Primary play-test 1`] = `
               <span class="css-mui-classname MuiTouchRipple-ripple MuiTouchRipple-rippleVisible MuiTouchRipple-ripplePulsate"
                     style="width: 65.476px; height: 65.476px; top: -15.738px; left: 5.26202px;"
               >
-                <span class="MuiTouchRipple-child MuiTouchRipple-childPulsate">
+                <span class="MuiTouchRipple-child MuiTouchRipple-childLeaving MuiTouchRipple-childPulsate">
                 </span>
               </span>
             </span>
