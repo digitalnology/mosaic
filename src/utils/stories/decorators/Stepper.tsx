@@ -5,12 +5,18 @@ import { Decorator } from "@storybook/react";
 export interface StepperMockProps {
   stepList?: [];
   activeStep?: number;
+  onNextClick?: () => void;
+  onBackClick?: () => void;
+  onFinishClick?: () => void;
 }
 
 const StepperMock: FC<PropsWithChildren<StepperMockProps>> = ({
   children,
   stepList,
   activeStep: externalActiveStep,
+  onBackClick,
+  onNextClick,
+  onFinishClick,
 }) => {
   const [activeStep, setActiveStep] = React.useState(externalActiveStep || 0);
 
@@ -26,29 +32,30 @@ const StepperMock: FC<PropsWithChildren<StepperMockProps>> = ({
 
   const handleNext = useCallback(() => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
-  }, []);
+    onNextClick?.();
+  }, [onNextClick]);
 
   const handleBack = useCallback(() => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
-  }, []);
+    onBackClick?.();
+  }, [onBackClick]);
 
   const wrappedStepper = useMemo(
     () =>
       cloneElement(children as ReactElement<any>, {
         onBackClick: handleBack,
         onNextClick: handleNext,
+        onFinishClick: onFinishClick,
         activeStep,
       }),
-    [children, handleBack, handleNext, activeStep]
+    [children, handleBack, handleNext, onFinishClick, activeStep]
   );
 
   return <div>{wrappedStepper}</div>;
 };
 
 const StepperDecorator: Decorator<StepperMockProps> = (Story, { args }) => (
-  <StepperMock activeStep={args.activeStep} stepList={args.stepList}>
-    {Story()}
-  </StepperMock>
+  <StepperMock {...args}>{Story()}</StepperMock>
 );
 
 export default StepperDecorator;

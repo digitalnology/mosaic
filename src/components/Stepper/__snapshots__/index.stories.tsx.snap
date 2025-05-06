@@ -305,13 +305,21 @@ exports[`Navigation/Stepper Primary play-test 1`] = `
       </div>
       <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-mui-classname">
         <div style="display: flex; justify-content: end;">
-          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
+          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation Mui-focusVisible MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
                   tabindex="0"
                   type="button"
                   data-cy="Stepper-finish"
                   style
           >
             Finish
+            <span class="MuiTouchRipple-root css-mui-classname">
+              <span class="css-mui-classname MuiTouchRipple-ripple MuiTouchRipple-rippleVisible MuiTouchRipple-ripplePulsate"
+                    style="width: 65.476px; height: 65.476px; top: -15.738px; left: 5.26202px;"
+              >
+                <span class="MuiTouchRipple-child MuiTouchRipple-childPulsate">
+                </span>
+              </span>
+            </span>
           </button>
         </div>
       </div>
