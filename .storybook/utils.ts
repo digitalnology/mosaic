@@ -1,5 +1,6 @@
-import { existsSync, readFileSync, writeFileSync } from "fs";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { StoryContextForEnhancers } from "@storybook/types";
+import { existsSync, readFileSync, writeFileSync } from "fs";
 
 type Snippet = {
   code: string;
@@ -35,8 +36,6 @@ export type Component = {
     examples: Story[];
   };
 };
-
-type StoryResolver = (story: Story | PromiseLike<Story>) => void;
 
 const CONDITION_RECHECK_INTERVAL_MS = 100;
 const CONDITION_OVERALL_TIMEOUT_MS = 2000;
@@ -78,7 +77,7 @@ const getPropertyType = (sbType?: any): { required: boolean; type: string } => {
   }
 
   const { name, required } = sbType;
-  let type = sbType.name;
+  let type = name;
   if (type === "other" || type === "function") {
     type = sbType.value;
   }
@@ -95,7 +94,7 @@ const getPropertyValues = (sbOptions?: readonly any[]) => {
     return undefined;
   }
 
-  let options: string[] = [];
+  const options: string[] = [];
   sbOptions.forEach((option) => {
     if (!options.includes(option)) {
       options.push(option);

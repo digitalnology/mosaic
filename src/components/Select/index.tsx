@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unnecessary-type-constraint */
 import React, { HTMLAttributes, SyntheticEvent, useCallback, useMemo } from "react";
 import {
   Autocomplete as MUIAutocomplete,
