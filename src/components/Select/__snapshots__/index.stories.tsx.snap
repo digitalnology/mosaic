@@ -41,7 +41,6 @@ exports[`Inputs/Select AutoSort smoke-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -104,7 +103,6 @@ exports[`Inputs/Select Autocomplete play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -167,7 +165,6 @@ exports[`Inputs/Select AutocompleteChange play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -231,7 +228,6 @@ exports[`Inputs/Select Disabled smoke-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -294,7 +290,6 @@ exports[`Inputs/Select Grouped play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -357,7 +352,6 @@ exports[`Inputs/Select GroupedCustomLabel play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -414,7 +408,6 @@ exports[`Inputs/Select Loading smoke-test 1`] = `
                  focusable="false"
                  aria-hidden="true"
                  viewbox="0 0 24 24"
-                 data-testid="ArrowDropDownIcon"
             >
               <path d="M7 10l5 5 5-5z">
               </path>
@@ -479,7 +472,6 @@ exports[`Inputs/Select Localized smoke-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -527,7 +519,6 @@ exports[`Inputs/Select Multiple play-test 1`] = `
              focusable="false"
              aria-hidden="true"
              viewbox="0 0 24 24"
-             data-testid="CancelIcon"
         >
           <path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z">
           </path>
@@ -560,7 +551,6 @@ exports[`Inputs/Select Multiple play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="CloseIcon"
           >
             <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
             </path>
@@ -576,7 +566,6 @@ exports[`Inputs/Select Multiple play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -639,7 +628,6 @@ exports[`Inputs/Select OnScrollEndCallback play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -702,7 +690,6 @@ exports[`Inputs/Select OptionCustomLabel play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -765,7 +752,6 @@ exports[`Inputs/Select OptionCustomRendering play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -827,7 +813,6 @@ exports[`Inputs/Select Primary play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="CloseIcon"
           >
             <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
             </path>
@@ -843,7 +828,6 @@ exports[`Inputs/Select Primary play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -911,7 +895,6 @@ exports[`Inputs/Select Required smoke-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -973,7 +956,6 @@ exports[`Inputs/Select SizeSmall smoke-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -1035,7 +1017,6 @@ exports[`Inputs/Select Styled smoke-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -1097,7 +1078,6 @@ exports[`Inputs/Select VariantFilled smoke-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -1150,7 +1130,6 @@ exports[`Inputs/Select VariantStandard smoke-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -1204,7 +1183,6 @@ exports[`Inputs/Select Virtualized play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
@@ -1267,7 +1245,6 @@ exports[`Inputs/Select VirtualizedWith1000Elements play-test 1`] = `
                focusable="false"
                aria-hidden="true"
                viewbox="0 0 24 24"
-               data-testid="ArrowDropDownIcon"
           >
             <path d="M7 10l5 5 5-5z">
             </path>
