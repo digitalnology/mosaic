@@ -1,3 +1,5 @@
+## [10.3.4-beta.2](https://github.com/melfore/mosaic/compare/v10.3.4-beta.1...v10.3.4-beta.2) (2025-05-07)
+
 ## [10.3.4-beta.1](https://github.com/melfore/mosaic/compare/v10.3.3...v10.3.4-beta.1) (2025-05-05)
 
 ## [10.3.3](https://github.com/melfore/mosaic/compare/v10.3.2...v10.3.3) (2025-01-13)
