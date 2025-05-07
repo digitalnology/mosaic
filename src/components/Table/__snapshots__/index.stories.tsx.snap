@@ -44,14 +44,14 @@ exports[`Display/Table ColumnFilters smoke-test 1`] = `
             <div class="MuiFormControl-root MuiTextField-root css-mui-classname">
               <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-standard css-mui-classname"
                      data-shrink="false"
-                     for=":r21:"
-                     id=":r21:-label"
+                     for=":r4b:"
+                     id=":r4b:-label"
               >
                 type to filter
               </label>
               <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
                 <input aria-invalid="false"
-                       id=":r21:"
+                       id=":r4b:"
                        type="text"
                        class="MuiInputBase-input MuiInput-input css-mui-classname"
                        value
@@ -338,14 +338,14 @@ exports[`Display/Table ColumnFiltersSticky smoke-test 1`] = `
             <div class="MuiFormControl-root MuiTextField-root css-mui-classname">
               <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-standard css-mui-classname"
                      data-shrink="false"
-                     for=":r22:"
-                     id=":r22:-label"
+                     for=":r4c:"
+                     id=":r4c:-label"
               >
                 type to filter
               </label>
               <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
                 <input aria-invalid="false"
-                       id=":r22:"
+                       id=":r4c:"
                        type="text"
                        class="MuiInputBase-input MuiInput-input css-mui-classname"
                        value
@@ -3508,19 +3508,18 @@ exports[`Display/Table PageSizeCustom smoke-test 1`] = `
     <div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular MuiTablePagination-toolbar css-mui-classname">
       <div class="MuiTablePagination-spacer css-mui-classname">
       </div>
-      <p id=":rr:"
+      <p id=":r1o:"
          class="MuiTablePagination-selectLabel css-mui-classname"
       >
         Rows per page:
       </p>
-      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-select MuiTablePagination-input css-mui-classname">
+      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-select MuiSelect-root MuiTablePagination-input css-mui-classname">
         <div tabindex="0"
              role="combobox"
-             aria-controls=":rs:"
              aria-expanded="false"
              aria-haspopup="listbox"
-             aria-labelledby=":rr: :rq:"
-             id=":rq:"
+             aria-labelledby=":r1o: :r1n:"
+             id=":r1n:"
              class="MuiSelect-select MuiTablePagination-select MuiSelect-standard MuiInputBase-input css-mui-classname"
         >
           3
@@ -3735,19 +3734,18 @@ exports[`Display/Table Pagination play-test 1`] = `
     <div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular MuiTablePagination-toolbar css-mui-classname">
       <div class="MuiTablePagination-spacer css-mui-classname">
       </div>
-      <p id=":ru:"
+      <p id=":r1v:"
          class="MuiTablePagination-selectLabel css-mui-classname"
       >
         Rows per page:
       </p>
-      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-select MuiTablePagination-input css-mui-classname">
+      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-select MuiSelect-root MuiTablePagination-input css-mui-classname">
         <div tabindex="0"
              role="combobox"
-             aria-controls=":rv:"
              aria-expanded="false"
              aria-haspopup="listbox"
-             aria-labelledby=":ru: :rt:"
-             id=":rt:"
+             aria-labelledby=":r1v: :r1u:"
+             id=":r1u:"
              class="MuiSelect-select MuiTablePagination-select MuiSelect-standard MuiInputBase-input css-mui-classname"
         >
           10
@@ -4107,10 +4105,10 @@ exports[`Display/Table Selectable play-test 1`] = `
               <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall css-mui-classname"
                     data-cy="table-select-all-check"
               >
-                <input class="PrivateSwitchBase-input css-mui-classname"
-                       type="checkbox"
+                <input type="checkbox"
                        data-indeterminate="false"
                        data-cy="table-select-all-input"
+                       class="PrivateSwitchBase-input css-mui-classname"
                 >
                 <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
                      focusable="false"
@@ -4150,10 +4148,10 @@ exports[`Display/Table Selectable play-test 1`] = `
               <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall css-mui-classname"
                     data-cy="checkbox-check"
               >
-                <input class="PrivateSwitchBase-input css-mui-classname"
-                       type="checkbox"
+                <input type="checkbox"
                        data-indeterminate="false"
                        data-cy="checkbox-input"
+                       class="PrivateSwitchBase-input css-mui-classname"
                 >
                 <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
                      focusable="false"
@@ -4189,10 +4187,10 @@ exports[`Display/Table Selectable play-test 1`] = `
               <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall css-mui-classname"
                     data-cy="checkbox-check"
               >
-                <input class="PrivateSwitchBase-input css-mui-classname"
-                       type="checkbox"
+                <input type="checkbox"
                        data-indeterminate="false"
                        data-cy="checkbox-input"
+                       class="PrivateSwitchBase-input css-mui-classname"
                 >
                 <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
                      focusable="false"
@@ -4228,10 +4226,10 @@ exports[`Display/Table Selectable play-test 1`] = `
               <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall css-mui-classname"
                     data-cy="checkbox-check"
               >
-                <input class="PrivateSwitchBase-input css-mui-classname"
-                       type="checkbox"
+                <input type="checkbox"
                        data-indeterminate="false"
                        data-cy="checkbox-input"
+                       class="PrivateSwitchBase-input css-mui-classname"
                 >
                 <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
                      focusable="false"
@@ -4267,10 +4265,10 @@ exports[`Display/Table Selectable play-test 1`] = `
               <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall css-mui-classname"
                     data-cy="checkbox-check"
               >
-                <input class="PrivateSwitchBase-input css-mui-classname"
-                       type="checkbox"
+                <input type="checkbox"
                        data-indeterminate="false"
                        data-cy="checkbox-input"
+                       class="PrivateSwitchBase-input css-mui-classname"
                 >
                 <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
                      focusable="false"
@@ -4306,10 +4304,10 @@ exports[`Display/Table Selectable play-test 1`] = `
               <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall css-mui-classname"
                     data-cy="checkbox-check"
               >
-                <input class="PrivateSwitchBase-input css-mui-classname"
-                       type="checkbox"
+                <input type="checkbox"
                        data-indeterminate="false"
                        data-cy="checkbox-input"
+                       class="PrivateSwitchBase-input css-mui-classname"
                 >
                 <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
                      focusable="false"
@@ -4345,10 +4343,10 @@ exports[`Display/Table Selectable play-test 1`] = `
               <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall css-mui-classname"
                     data-cy="checkbox-check"
               >
-                <input class="PrivateSwitchBase-input css-mui-classname"
-                       type="checkbox"
+                <input type="checkbox"
                        data-indeterminate="false"
                        data-cy="checkbox-input"
+                       class="PrivateSwitchBase-input css-mui-classname"
                 >
                 <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
                      focusable="false"
@@ -5047,19 +5045,18 @@ exports[`Display/Table StickyPagination smoke-test 1`] = `
     <div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular MuiTablePagination-toolbar css-mui-classname">
       <div class="MuiTablePagination-spacer css-mui-classname">
       </div>
-      <p id=":r11:"
+      <p id=":r26:"
          class="MuiTablePagination-selectLabel css-mui-classname"
       >
         Rows per page:
       </p>
-      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-select MuiTablePagination-input css-mui-classname">
+      <div class="MuiInputBase-root MuiInputBase-colorPrimary MuiTablePagination-select MuiSelect-root MuiTablePagination-input css-mui-classname">
         <div tabindex="0"
              role="combobox"
-             aria-controls=":r12:"
              aria-expanded="false"
              aria-haspopup="listbox"
-             aria-labelledby=":r11: :r10:"
-             id=":r10:"
+             aria-labelledby=":r26: :r25:"
+             id=":r25:"
              class="MuiSelect-select MuiTablePagination-select MuiSelect-standard MuiInputBase-input css-mui-classname"
         >
           10

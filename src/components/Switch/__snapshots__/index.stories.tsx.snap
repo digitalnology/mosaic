@@ -8,9 +8,9 @@ exports[`Inputs/Switch DisableRipple smoke-test 1`] = `
     <span class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked Mui-checked css-mui-classname"
           data-cy="switch-toggle"
     >
-      <input class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
-             type="checkbox"
+      <input type="checkbox"
              data-cy="switch-input"
+             class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
              checked
       >
       <span class="MuiSwitch-thumb css-mui-classname">
@@ -32,10 +32,10 @@ exports[`Inputs/Switch Disabled smoke-test 1`] = `
           aria-disabled="true"
           data-cy="switch-toggle"
     >
-      <input class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
-             disabled
+      <input disabled
              type="checkbox"
              data-cy="switch-input"
+             class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
              checked
       >
       <span class="MuiSwitch-thumb css-mui-classname">
@@ -55,9 +55,9 @@ exports[`Inputs/Switch Label smoke-test 1`] = `
     <span class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked Mui-checked css-mui-classname"
           data-cy="switch-toggle"
     >
-      <input class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
-             type="checkbox"
+      <input type="checkbox"
              data-cy="switch-input"
+             class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
              checked
       >
       <span class="MuiSwitch-thumb css-mui-classname">
@@ -80,9 +80,9 @@ exports[`Inputs/Switch LabelEnd smoke-test 1`] = `
     <span class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked Mui-checked css-mui-classname"
           data-cy="switch-toggle"
     >
-      <input class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
-             type="checkbox"
+      <input type="checkbox"
              data-cy="switch-input"
+             class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
              checked
       >
       <span class="MuiSwitch-thumb css-mui-classname">
@@ -105,9 +105,9 @@ exports[`Inputs/Switch Localized smoke-test 1`] = `
     <span class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked Mui-checked css-mui-classname"
           data-cy="locale.switch-toggle"
     >
-      <input class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
-             type="checkbox"
+      <input type="checkbox"
              data-cy="locale.switch-input"
+             class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
              checked
       >
       <span class="MuiSwitch-thumb css-mui-classname">
@@ -130,9 +130,9 @@ exports[`Inputs/Switch Primary smoke-test 1`] = `
     <span class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked Mui-checked css-mui-classname"
           data-cy="switch-toggle"
     >
-      <input class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
-             type="checkbox"
+      <input type="checkbox"
              data-cy="switch-input"
+             class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
              checked
       >
       <span class="MuiSwitch-thumb css-mui-classname">
@@ -152,9 +152,9 @@ exports[`Inputs/Switch SizeSmall smoke-test 1`] = `
     <span class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary Mui-checked Mui-checked css-mui-classname"
           data-cy="switch-toggle"
     >
-      <input class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
-             type="checkbox"
+      <input type="checkbox"
              data-cy="switch-input"
+             class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
              checked
       >
       <span class="MuiSwitch-thumb css-mui-classname">
@@ -175,9 +175,9 @@ exports[`Inputs/Switch Styled smoke-test 1`] = `
           data-cy="switch-toggle"
           style="color: red;"
     >
-      <input class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
-             type="checkbox"
+      <input type="checkbox"
              data-cy="switch-input"
+             class="PrivateSwitchBase-input MuiSwitch-input css-mui-classname"
              checked
       >
       <span class="MuiSwitch-thumb css-mui-classname">

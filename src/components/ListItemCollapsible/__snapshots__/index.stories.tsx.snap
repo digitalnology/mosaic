@@ -19,8 +19,8 @@ exports[`Display/ListItemCollapsible Children smoke-test 1`] = `
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root css-mui-classname"
   >
     Header
   </div>
@@ -56,8 +56,8 @@ exports[`Display/ListItemCollapsible Dense smoke-test 1`] = `
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root MuiListItemText-dense css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root MuiListItemText-dense css-mui-classname"
   >
     Header
   </div>
@@ -87,8 +87,8 @@ exports[`Display/ListItemCollapsible Loading smoke-test 1`] = `
     >
     </span>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content-loading"
+  <div data-cy="list-item-collapsible-header-content-loading"
+       class="MuiListItemText-root css-mui-classname"
   >
     <span class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-mui-classname">
     </span>
@@ -125,8 +125,8 @@ exports[`Display/ListItemCollapsible Open smoke-test 1`] = `
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root css-mui-classname"
   >
     Header
   </div>
@@ -162,8 +162,8 @@ exports[`Display/ListItemCollapsible Primary smoke-test 1`] = `
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root css-mui-classname"
   >
     Header
   </div>
@@ -199,8 +199,8 @@ exports[`Display/ListItemCollapsible Selected smoke-test 1`] = `
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root css-mui-classname"
   >
     Header
   </div>
