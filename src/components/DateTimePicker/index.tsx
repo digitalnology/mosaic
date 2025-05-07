@@ -1,5 +1,5 @@
 import React, { FC, useCallback, useMemo } from "react";
-import { DatePicker, TimePicker } from "@mui/x-date-pickers";
+import { DatePicker, renderTimeViewClock, TimePicker } from "@mui/x-date-pickers";
 import { AdapterLuxon } from "@mui/x-date-pickers/AdapterLuxon";
 import { DateTimePicker as MuiDateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
@@ -84,12 +84,24 @@ const DateTimePicker: FC<DateTimePickerType> = ({
     [onChange]
   );
 
+  const viewRenderers = useMemo(() => {
+    if (mobileView) {
+      return {
+        hours: renderTimeViewClock,
+        minutes: renderTimeViewClock,
+        seconds: renderTimeViewClock,
+      };
+    }
+    return undefined;
+  }, [mobileView]);
+
   return (
     <LocalizationProvider dateAdapter={AdapterLuxon}>
       {type === "dateTime" ? (
         <MuiDateTimePicker
           timezone={zone}
           desktopModeMediaQuery={desctopMode}
+          viewRenderers={viewRenderers}
           value={dateTimeValue}
           onAccept={onAcceptIso}
           onChange={onChangeIso}
@@ -114,6 +126,7 @@ const DateTimePicker: FC<DateTimePickerType> = ({
         <TimePicker
           timezone={zone}
           desktopModeMediaQuery={desctopMode}
+          viewRenderers={viewRenderers}
           value={dateTimeValue}
           onAccept={onAcceptIso}
           onChange={onChangeIso}
