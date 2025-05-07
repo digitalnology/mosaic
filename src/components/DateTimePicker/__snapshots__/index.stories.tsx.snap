@@ -1,24 +1,107 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
-<div class="MuiFormControl-root MuiTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":rd:"
-         id=":rd:-label"
+         for=":rp:"
+         id=":rp:-label"
   >
     Date Time
   </label>
-  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
-    <input aria-invalid="false"
-           autocomplete="off"
-           id=":rd:"
-           placeholder="MM/DD/YYYY"
-           type="text"
-           inputmode="text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
-           value
+  <div aria-invalid="false"
+       role="group"
+       aria-labelledby=":rp:-label"
+       class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
+  >
+    <div contenteditable="false"
+         tabindex="0"
+         class="MuiPickersSectionList-root MuiPickersInputBase-sectionsContainer css-mui-classname"
     >
+      <span data-sectionindex="0"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rq:-month"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="12"
+              aria-valuetext="Empty"
+              aria-label="Month"
+              aria-disabled="false"
+              tabindex="0"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rq:-month"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          MM
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="1"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rq:-day"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="31"
+              aria-valuetext="Empty"
+              aria-label="Day"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rq:-day"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          DD
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="2"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rq:-year"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="9999"
+              aria-valuetext="Empty"
+              aria-label="Year"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rq:-year"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          YYYY
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+    </div>
     <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
       <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
               tabindex="0"
@@ -37,37 +120,208 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
       </button>
     </div>
     <fieldset aria-hidden="true"
-              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+              class="MuiPickersOutlinedInput-notchedOutline css-mui-classname"
     >
       <legend class="css-mui-classname">
-        <span>
+        <span class="css-mui-classname">
           Date Time
         </span>
       </legend>
     </fieldset>
+    <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
+           id=":rp:"
+           aria-hidden="true"
+           tabindex="-1"
+           value
+    >
   </div>
 </div>
 `;
 
 exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
-<div class="MuiFormControl-root MuiTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":r9:"
-         id=":r9:-label"
+         for=":rh:"
+         id=":rh:-label"
   >
     Date Time
   </label>
-  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
-    <input aria-invalid="false"
-           autocomplete="off"
-           id=":r9:"
-           placeholder="MM/DD/YYYY hh:mm aa"
-           type="text"
-           inputmode="text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
-           value
+  <div aria-invalid="false"
+       role="group"
+       aria-labelledby=":rh:-label"
+       class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
+  >
+    <div contenteditable="false"
+         tabindex="0"
+         class="MuiPickersSectionList-root MuiPickersInputBase-sectionsContainer css-mui-classname"
     >
+      <span data-sectionindex="0"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":ri:-month"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="12"
+              aria-valuetext="Empty"
+              aria-label="Month"
+              aria-disabled="false"
+              tabindex="0"
+              contenteditable="true"
+              role="spinbutton"
+              id=":ri:-month"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          MM
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="1"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":ri:-day"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="31"
+              aria-valuetext="Empty"
+              aria-label="Day"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":ri:-day"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          DD
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="2"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":ri:-year"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="9999"
+              aria-valuetext="Empty"
+              aria-label="Year"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":ri:-year"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          YYYY
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+      <span data-sectionindex="3"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":ri:-hours"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="12"
+              aria-valuetext="Empty"
+              aria-label="Hours"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":ri:-hours"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          hh
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          :
+        </span>
+      </span>
+      <span data-sectionindex="4"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":ri:-minutes"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="59"
+              aria-valuetext="Empty"
+              aria-label="Minutes"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":ri:-minutes"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          mm
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+      <span data-sectionindex="5"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":ri:-meridiem"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="1"
+              aria-valuetext="Empty"
+              aria-label="Meridiem"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":ri:-meridiem"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="text"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          aa
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+    </div>
     <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
       <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
               tabindex="0"
@@ -86,201 +340,26 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
       </button>
     </div>
     <fieldset aria-hidden="true"
-              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+              class="MuiPickersOutlinedInput-notchedOutline css-mui-classname"
     >
       <legend class="css-mui-classname">
-        <span>
+        <span class="css-mui-classname">
           Date Time
         </span>
       </legend>
     </fieldset>
+    <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
+           id=":rh:"
+           aria-hidden="true"
+           tabindex="-1"
+           value
+    >
   </div>
 </div>
 `;
 
 exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
-<div class="MuiFormControl-root MuiTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
-         data-shrink="false"
-         for=":r2:"
-         id=":r2:-label"
-  >
-    Date Time
-  </label>
-  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
-    <input aria-invalid="false"
-           autocomplete="off"
-           id=":r2:"
-           placeholder="MM/DD/YYYY hh"
-           type="text"
-           inputmode="text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
-           value
-    >
-    <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
-      <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
-              tabindex="0"
-              type="button"
-              aria-label="Choose date"
-      >
-        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
-             focusable="false"
-             aria-hidden="true"
-             viewbox="0 0 24 24"
-             data-testid="CalendarIcon"
-        >
-          <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z">
-          </path>
-        </svg>
-      </button>
-    </div>
-    <fieldset aria-hidden="true"
-              class="MuiOutlinedInput-notchedOutline css-mui-classname"
-    >
-      <legend class="css-mui-classname">
-        <span>
-          Date Time
-        </span>
-      </legend>
-    </fieldset>
-  </div>
-</div>
-`;
-
-exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
-<div class="MuiFormControl-root MuiTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
-         data-shrink="false"
-         for=":rb:"
-         id=":rb:-label"
-  >
-    Data Ore
-  </label>
-  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
-    <input aria-invalid="false"
-           autocomplete="off"
-           id=":rb:"
-           placeholder="MM/DD/YYYY hh:mm"
-           type="text"
-           inputmode="text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
-           value
-    >
-    <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
-      <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
-              tabindex="0"
-              type="button"
-              aria-label="Choose date"
-      >
-        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
-             focusable="false"
-             aria-hidden="true"
-             viewbox="0 0 24 24"
-             data-testid="CalendarIcon"
-        >
-          <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z">
-          </path>
-        </svg>
-      </button>
-    </div>
-    <fieldset aria-hidden="true"
-              class="MuiOutlinedInput-notchedOutline css-mui-classname"
-    >
-      <legend class="css-mui-classname">
-        <span>
-          Data Ore
-        </span>
-      </legend>
-    </fieldset>
-  </div>
-</div>
-`;
-
-exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
-<div class="MuiFormControl-root MuiTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
-         data-shrink="true"
-         for=":r7:"
-         id=":r7:-label"
-  >
-    Date Time
-  </label>
-  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd Mui-readOnly MuiInputBase-readOnly css-mui-classname">
-    <input aria-invalid="false"
-           autocomplete="off"
-           id=":r7:"
-           placeholder="MM/DD/YYYY hh:mm:ss"
-           readonly
-           type="text"
-           aria-label="Choose date, selected date is Oct 29, 2023"
-           inputmode="text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd Mui-readOnly MuiInputBase-readOnly css-mui-classname"
-           value="10/29/2023 06:00:00"
-    >
-    <fieldset aria-hidden="true"
-              class="MuiOutlinedInput-notchedOutline css-mui-classname"
-    >
-      <legend class="css-mui-classname">
-        <span>
-          Date Time
-        </span>
-      </legend>
-    </fieldset>
-  </div>
-</div>
-`;
-
-exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
-<div class="MuiFormControl-root MuiTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
-         data-shrink="false"
-         for=":r0:"
-         id=":r0:-label"
-  >
-    Date Time
-  </label>
-  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
-    <input aria-invalid="false"
-           autocomplete="off"
-           id=":r0:"
-           placeholder="MM/DD/YYYY hh:mm"
-           type="text"
-           inputmode="text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
-           value
-    >
-    <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
-      <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
-              tabindex="0"
-              type="button"
-              aria-label="Choose date"
-      >
-        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
-             focusable="false"
-             aria-hidden="true"
-             viewbox="0 0 24 24"
-             data-testid="CalendarIcon"
-        >
-          <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z">
-          </path>
-        </svg>
-      </button>
-    </div>
-    <fieldset aria-hidden="true"
-              class="MuiOutlinedInput-notchedOutline css-mui-classname"
-    >
-      <legend class="css-mui-classname">
-        <span>
-          Date Time
-        </span>
-      </legend>
-    </fieldset>
-  </div>
-</div>
-`;
-
-exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
-<div class="MuiFormControl-root MuiTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
          for=":r4:"
@@ -288,16 +367,126 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
   >
     Date Time
   </label>
-  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
-    <input aria-invalid="false"
-           autocomplete="off"
-           id=":r4:"
-           placeholder="MM/DD/YYYY hh:mm:ss"
-           type="text"
-           inputmode="text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
-           value
+  <div aria-invalid="false"
+       role="group"
+       aria-labelledby=":r4:-label"
+       class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
+  >
+    <div contenteditable="false"
+         tabindex="0"
+         class="MuiPickersSectionList-root MuiPickersInputBase-sectionsContainer css-mui-classname"
     >
+      <span data-sectionindex="0"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r5:-month"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="12"
+              aria-valuetext="Empty"
+              aria-label="Month"
+              aria-disabled="false"
+              tabindex="0"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r5:-month"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          MM
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="1"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r5:-day"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="31"
+              aria-valuetext="Empty"
+              aria-label="Day"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r5:-day"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          DD
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="2"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r5:-year"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="9999"
+              aria-valuetext="Empty"
+              aria-label="Year"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r5:-year"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          YYYY
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+      <span data-sectionindex="3"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r5:-hours"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="23"
+              aria-valuetext="Empty"
+              aria-label="Hours"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r5:-hours"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          hh
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+    </div>
     <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
       <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
               tabindex="0"
@@ -316,37 +505,928 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
       </button>
     </div>
     <fieldset aria-hidden="true"
-              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+              class="MuiPickersOutlinedInput-notchedOutline css-mui-classname"
     >
       <legend class="css-mui-classname">
-        <span>
+        <span class="css-mui-classname">
           Date Time
         </span>
       </legend>
     </fieldset>
+    <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
+           id=":r4:"
+           aria-hidden="true"
+           tabindex="-1"
+           value
+    >
+  </div>
+</div>
+`;
+
+exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+         data-shrink="false"
+         for=":rl:"
+         id=":rl:-label"
+  >
+    Data Ore
+  </label>
+  <div aria-invalid="false"
+       role="group"
+       aria-labelledby=":rl:-label"
+       class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
+  >
+    <div contenteditable="false"
+         tabindex="0"
+         class="MuiPickersSectionList-root MuiPickersInputBase-sectionsContainer css-mui-classname"
+    >
+      <span data-sectionindex="0"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rm:-month"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="12"
+              aria-valuetext="Empty"
+              aria-label="Month"
+              aria-disabled="false"
+              tabindex="0"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rm:-month"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          MM
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="1"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rm:-day"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="31"
+              aria-valuetext="Empty"
+              aria-label="Day"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rm:-day"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          DD
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="2"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rm:-year"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="9999"
+              aria-valuetext="Empty"
+              aria-label="Year"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rm:-year"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          YYYY
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+      <span data-sectionindex="3"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rm:-hours"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="23"
+              aria-valuetext="Empty"
+              aria-label="Hours"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rm:-hours"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          hh
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          :
+        </span>
+      </span>
+      <span data-sectionindex="4"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rm:-minutes"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="59"
+              aria-valuetext="Empty"
+              aria-label="Minutes"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rm:-minutes"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          mm
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+    </div>
+    <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
+      <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
+              tabindex="0"
+              type="button"
+              aria-label="Choose date"
+      >
+        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
+             focusable="false"
+             aria-hidden="true"
+             viewbox="0 0 24 24"
+             data-testid="CalendarIcon"
+        >
+          <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <fieldset aria-hidden="true"
+              class="MuiPickersOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span class="css-mui-classname">
+          Data Ore
+        </span>
+      </legend>
+    </fieldset>
+    <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
+           id=":rl:"
+           aria-hidden="true"
+           tabindex="-1"
+           value
+    >
+  </div>
+</div>
+`;
+
+exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":re:"
+         id=":re:-label"
+  >
+    Date Time
+  </label>
+  <div aria-invalid="false"
+       role="group"
+       aria-labelledby=":re:-label"
+       class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
+  >
+    <div contenteditable="false"
+         tabindex="0"
+         class="MuiPickersSectionList-root MuiPickersInputBase-sectionsContainer css-mui-classname"
+    >
+      <span data-sectionindex="0"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rd:-month"
+              aria-readonly="false"
+              aria-valuenow="10"
+              aria-valuemin="1"
+              aria-valuemax="12"
+              aria-valuetext="October"
+              aria-label="Month"
+              aria-disabled="false"
+              tabindex="0"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rd:-month"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          10
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="1"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rd:-day"
+              aria-readonly="false"
+              aria-valuenow="29"
+              aria-valuemin="1"
+              aria-valuemax="31"
+              aria-valuetext="29"
+              aria-label="Day"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rd:-day"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          29
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="2"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rd:-year"
+              aria-readonly="false"
+              aria-valuenow="2023"
+              aria-valuemin="0"
+              aria-valuemax="9999"
+              aria-label="Year"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rd:-year"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          2023
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+      <span data-sectionindex="3"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rd:-hours"
+              aria-readonly="false"
+              aria-valuenow="6"
+              aria-valuemin="0"
+              aria-valuemax="23"
+              aria-label="Hours"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rd:-hours"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          06
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          :
+        </span>
+      </span>
+      <span data-sectionindex="4"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rd:-minutes"
+              aria-readonly="false"
+              aria-valuenow="0"
+              aria-valuemin="0"
+              aria-valuemax="59"
+              aria-label="Minutes"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rd:-minutes"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          00
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          :
+        </span>
+      </span>
+      <span data-sectionindex="5"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":rd:-seconds"
+              aria-readonly="false"
+              aria-valuenow="0"
+              aria-valuemin="0"
+              aria-valuemax="59"
+              aria-label="Seconds"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":rd:-seconds"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          00
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+    </div>
+    <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
+      <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
+              tabindex="0"
+              type="button"
+              aria-label="Choose date, selected date is Oct 29, 2023"
+      >
+        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
+             focusable="false"
+             aria-hidden="true"
+             viewbox="0 0 24 24"
+             data-testid="CalendarIcon"
+        >
+          <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <fieldset aria-hidden="true"
+              class="MuiPickersOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span class="css-mui-classname">
+          Date Time
+        </span>
+      </legend>
+    </fieldset>
+    <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
+           id=":re:"
+           aria-hidden="true"
+           tabindex="-1"
+           value="10/29/2023 06:00:00"
+    >
+  </div>
+</div>
+`;
+
+exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+         data-shrink="false"
+         for=":r0:"
+         id=":r0:-label"
+  >
+    Date Time
+  </label>
+  <div aria-invalid="false"
+       role="group"
+       aria-labelledby=":r0:-label"
+       class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
+  >
+    <div contenteditable="false"
+         tabindex="0"
+         class="MuiPickersSectionList-root MuiPickersInputBase-sectionsContainer css-mui-classname"
+    >
+      <span data-sectionindex="0"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r1:-month"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="12"
+              aria-valuetext="Empty"
+              aria-label="Month"
+              aria-disabled="false"
+              tabindex="0"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r1:-month"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          MM
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="1"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r1:-day"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="31"
+              aria-valuetext="Empty"
+              aria-label="Day"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r1:-day"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          DD
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="2"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r1:-year"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="9999"
+              aria-valuetext="Empty"
+              aria-label="Year"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r1:-year"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          YYYY
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+      <span data-sectionindex="3"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r1:-hours"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="23"
+              aria-valuetext="Empty"
+              aria-label="Hours"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r1:-hours"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          hh
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          :
+        </span>
+      </span>
+      <span data-sectionindex="4"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r1:-minutes"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="59"
+              aria-valuetext="Empty"
+              aria-label="Minutes"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r1:-minutes"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          mm
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+    </div>
+    <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
+      <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
+              tabindex="0"
+              type="button"
+              aria-label="Choose date"
+      >
+        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
+             focusable="false"
+             aria-hidden="true"
+             viewbox="0 0 24 24"
+             data-testid="CalendarIcon"
+        >
+          <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <fieldset aria-hidden="true"
+              class="MuiPickersOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span class="css-mui-classname">
+          Date Time
+        </span>
+      </legend>
+    </fieldset>
+    <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
+           id=":r0:"
+           aria-hidden="true"
+           tabindex="-1"
+           value
+    >
+  </div>
+</div>
+`;
+
+exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+         data-shrink="false"
+         for=":r8:"
+         id=":r8:-label"
+  >
+    Date Time
+  </label>
+  <div aria-invalid="false"
+       role="group"
+       aria-labelledby=":r8:-label"
+       class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
+  >
+    <div contenteditable="false"
+         tabindex="0"
+         class="MuiPickersSectionList-root MuiPickersInputBase-sectionsContainer css-mui-classname"
+    >
+      <span data-sectionindex="0"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r9:-month"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="12"
+              aria-valuetext="Empty"
+              aria-label="Month"
+              aria-disabled="false"
+              tabindex="0"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r9:-month"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          MM
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="1"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r9:-day"
+              aria-readonly="false"
+              aria-valuemin="1"
+              aria-valuemax="31"
+              aria-valuetext="Empty"
+              aria-label="Day"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r9:-day"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          DD
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          /
+        </span>
+      </span>
+      <span data-sectionindex="2"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r9:-year"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="9999"
+              aria-valuetext="Empty"
+              aria-label="Year"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r9:-year"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          YYYY
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+      <span data-sectionindex="3"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r9:-hours"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="23"
+              aria-valuetext="Empty"
+              aria-label="Hours"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r9:-hours"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          hh
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          :
+        </span>
+      </span>
+      <span data-sectionindex="4"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r9:-minutes"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="59"
+              aria-valuetext="Empty"
+              aria-label="Minutes"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r9:-minutes"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          mm
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          :
+        </span>
+      </span>
+      <span data-sectionindex="5"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":r9:-seconds"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="59"
+              aria-valuetext="Empty"
+              aria-label="Seconds"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":r9:-seconds"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          ss
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+    </div>
+    <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
+      <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
+              tabindex="0"
+              type="button"
+              aria-label="Choose date"
+      >
+        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
+             focusable="false"
+             aria-hidden="true"
+             viewbox="0 0 24 24"
+             data-testid="CalendarIcon"
+        >
+          <path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <fieldset aria-hidden="true"
+              class="MuiPickersOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span class="css-mui-classname">
+          Date Time
+        </span>
+      </legend>
+    </fieldset>
+    <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
+           id=":r8:"
+           aria-hidden="true"
+           tabindex="-1"
+           value
+    >
   </div>
 </div>
 `;
 
 exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
-<div class="MuiFormControl-root MuiTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":rf:"
-         id=":rf:-label"
+         for=":rt:"
+         id=":rt:-label"
   >
     Date Time
   </label>
-  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
-    <input aria-invalid="false"
-           autocomplete="off"
-           id=":rf:"
-           placeholder="hh:mm"
-           type="text"
-           inputmode="text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
-           value
+  <div aria-invalid="false"
+       role="group"
+       aria-labelledby=":rt:-label"
+       class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
+  >
+    <div contenteditable="false"
+         tabindex="0"
+         class="MuiPickersSectionList-root MuiPickersInputBase-sectionsContainer css-mui-classname"
     >
+      <span data-sectionindex="0"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":ru:-hours"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="23"
+              aria-valuetext="Empty"
+              aria-label="Hours"
+              aria-disabled="false"
+              tabindex="0"
+              contenteditable="true"
+              role="spinbutton"
+              id=":ru:-hours"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          hh
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+          :
+        </span>
+      </span>
+      <span data-sectionindex="1"
+            class="MuiPickersSectionList-section css-mui-classname"
+      >
+        <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
+        </span>
+        <span aria-labelledby=":ru:-minutes"
+              aria-readonly="false"
+              aria-valuemin="0"
+              aria-valuemax="59"
+              aria-valuetext="Empty"
+              aria-label="Minutes"
+              aria-disabled="false"
+              tabindex="-1"
+              contenteditable="true"
+              role="spinbutton"
+              id=":ru:-minutes"
+              spellcheck="false"
+              autocapitalize="off"
+              autocorrect="off"
+              inputmode="numeric"
+              class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
+        >
+          mm
+        </span>
+        <span class="MuiPickersInputBase-sectionAfter css-mui-classname">
+        </span>
+      </span>
+    </div>
     <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
       <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-mui-classname"
               tabindex="0"
@@ -367,14 +1447,20 @@ exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
       </button>
     </div>
     <fieldset aria-hidden="true"
-              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+              class="MuiPickersOutlinedInput-notchedOutline css-mui-classname"
     >
       <legend class="css-mui-classname">
-        <span>
+        <span class="css-mui-classname">
           Date Time
         </span>
       </legend>
     </fieldset>
+    <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
+           id=":rt:"
+           aria-hidden="true"
+           tabindex="-1"
+           value
+    >
   </div>
 </div>
 `;
