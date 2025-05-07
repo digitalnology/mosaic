@@ -209,8 +209,8 @@ exports[`Surfaces/Card Icon smoke-test 1`] = `
 >
   <div class="MuiCardHeader-root css-mui-classname">
     <div class="MuiCardHeader-avatar css-mui-classname">
-      <div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-           data-cy="card-avatar"
+      <div data-cy="card-avatar"
+           class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
            style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
       >
         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
@@ -259,8 +259,8 @@ exports[`Surfaces/Card Loading smoke-test 1`] = `
   <div class="MuiCardHeader-root css-mui-classname">
     <div class="MuiCardHeader-avatar css-mui-classname">
       <span class="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto css-mui-classname">
-        <div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-             data-cy="card-avatar-loading"
+        <div data-cy="card-avatar-loading"
+             class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
         >
           <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiAvatar-fallback css-mui-classname"
                focusable="false"

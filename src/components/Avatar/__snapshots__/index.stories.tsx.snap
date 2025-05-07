@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Display/Avatar CustomIcon smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
@@ -20,8 +20,8 @@ exports[`Display/Avatar CustomIcon smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar Image smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <img alt="avatar"
@@ -33,8 +33,8 @@ exports[`Display/Avatar Image smoke-test 1`] = `
 
 exports[`Display/Avatar Loading smoke-test 1`] = `
 <span class="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto css-mui-classname">
-  <div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-       data-cy="avatar-loading"
+  <div data-cy="avatar-loading"
+       class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
   >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiAvatar-fallback css-mui-classname"
          focusable="false"
@@ -51,8 +51,8 @@ exports[`Display/Avatar Loading smoke-test 1`] = `
 
 exports[`Display/Avatar LoadingVariant smoke-test 1`] = `
 <span class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto css-mui-classname">
-  <div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-       data-cy="avatar-loading"
+  <div data-cy="avatar-loading"
+       class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
   >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiAvatar-fallback css-mui-classname"
          focusable="false"
@@ -68,8 +68,8 @@ exports[`Display/Avatar LoadingVariant smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar Primary smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
@@ -86,8 +86,8 @@ exports[`Display/Avatar Primary smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar Styled smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
      style="background-color: red; color: white;"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
@@ -104,8 +104,8 @@ exports[`Display/Avatar Styled smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar Text smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <p class="MuiTypography-root MuiTypography-body1 css-mui-classname"
@@ -117,8 +117,8 @@ exports[`Display/Avatar Text smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar VariantRounded smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-rounded MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-rounded MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
@@ -135,8 +135,8 @@ exports[`Display/Avatar VariantRounded smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar VariantSquare smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-square MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-square MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"

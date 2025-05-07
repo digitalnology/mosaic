@@ -42,7 +42,7 @@ exports[`Display/Table ColumnFilters smoke-test 1`] = `
               style="position: initial;"
           >
             <div class="MuiFormControl-root MuiTextField-root css-mui-classname">
-              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-standard css-mui-classname"
+              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard css-mui-classname"
                      data-shrink="false"
                      for=":r4b:"
                      id=":r4b:-label"
@@ -336,7 +336,7 @@ exports[`Display/Table ColumnFiltersSticky smoke-test 1`] = `
               style="position: initial;"
           >
             <div class="MuiFormControl-root MuiTextField-root css-mui-classname">
-              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-standard css-mui-classname"
+              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard css-mui-classname"
                      data-shrink="false"
                      for=":r4c:"
                      id=":r4c:-label"

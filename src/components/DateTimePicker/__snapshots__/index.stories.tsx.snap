@@ -2,7 +2,7 @@
 
 exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
 <div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
          for=":rp:"
          id=":rp:-label"
@@ -140,7 +140,7 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
 
 exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
 <div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
          for=":rh:"
          id=":rh:-label"
@@ -360,7 +360,7 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
 
 exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
 <div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
          for=":r4:"
          id=":r4:-label"
@@ -525,7 +525,7 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
 
 exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
 <div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
          for=":rl:"
          id=":rl:-label"
@@ -718,7 +718,7 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
 
 exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
 <div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
          for=":re:"
          id=":re:-label"
@@ -941,7 +941,7 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
 
 exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
 <div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
          for=":r0:"
          id=":r0:-label"
@@ -1134,7 +1134,7 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
 
 exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
 <div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
          for=":r8:"
          id=":r8:-label"
@@ -1355,7 +1355,7 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
 
 exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
 <div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
-  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-mui-classname"
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
          for=":rt:"
          id=":rt:-label"
