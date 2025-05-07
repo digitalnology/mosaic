@@ -1,5 +1,5 @@
 import React, { FC, PropsWithChildren, useMemo } from "react";
-import { Grid } from "@mui/material";
+import { GridLegacy as Grid } from "@mui/material";
 
 import { useMosaicContext } from "../../hooks/useMosaicContext";
 import { IModal } from "../../types/Modal";

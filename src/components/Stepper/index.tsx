@@ -1,8 +1,5 @@
 import React, { FC, useMemo } from "react";
-import { Grid } from "@mui/material";
-import Step from "@mui/material/Step";
-import StepLabel from "@mui/material/StepLabel";
-import MUIStepper from "@mui/material/Stepper";
+import { GridLegacy as Grid, Step, StepLabel, Stepper as MUIStepper } from "@mui/material";
 
 import { StepperType } from "../../types/Stepper";
 import localized, { ILocalizableProperty } from "../../utils/hocs/localized";
