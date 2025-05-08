@@ -1,3 +1,15 @@
+# [11.0.0-beta.1](https://github.com/melfore/mosaic/compare/v10.3.4-beta.4...v11.0.0-beta.1) (2025-05-08)
+
+
+### Continuous Integration
+
+* 🎡 bump major version for all commit types if breaking ([6cda3c2](https://github.com/melfore/mosaic/commit/6cda3c2f49ae2ff03f284ed720e9c24325ec90ce)), closes [#450](https://github.com/melfore/mosaic/issues/450)
+
+
+### BREAKING CHANGES
+
+* 🧨 bump major version for all commit types if breaking
+
 ## [10.3.4-beta.4](https://github.com/melfore/mosaic/compare/v10.3.4-beta.3...v10.3.4-beta.4) (2025-05-07)
 
 
