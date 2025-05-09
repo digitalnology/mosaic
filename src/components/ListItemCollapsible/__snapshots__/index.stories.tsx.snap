@@ -12,15 +12,14 @@ exports[`Display/ListItemCollapsible Children smoke-test 1`] = `
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="KeyboardArrowDownIcon"
          data-cy="list-item-collapsible-header-icon"
     >
       <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z">
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root css-mui-classname"
   >
     Header
   </div>
@@ -49,15 +48,14 @@ exports[`Display/ListItemCollapsible Dense smoke-test 1`] = `
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="KeyboardArrowDownIcon"
          data-cy="list-item-collapsible-header-icon"
     >
       <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z">
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root MuiListItemText-dense css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root MuiListItemText-dense css-mui-classname"
   >
     Header
   </div>
@@ -87,8 +85,8 @@ exports[`Display/ListItemCollapsible Loading smoke-test 1`] = `
     >
     </span>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content-loading"
+  <div data-cy="list-item-collapsible-header-content-loading"
+       class="MuiListItemText-root css-mui-classname"
   >
     <span class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-mui-classname">
     </span>
@@ -118,15 +116,14 @@ exports[`Display/ListItemCollapsible Open smoke-test 1`] = `
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="KeyboardArrowUpIcon"
          data-cy="list-item-collapsible-header-icon"
     >
       <path d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z">
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root css-mui-classname"
   >
     Header
   </div>
@@ -155,15 +152,14 @@ exports[`Display/ListItemCollapsible Primary smoke-test 1`] = `
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="KeyboardArrowDownIcon"
          data-cy="list-item-collapsible-header-icon"
     >
       <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z">
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root css-mui-classname"
   >
     Header
   </div>
@@ -192,15 +188,14 @@ exports[`Display/ListItemCollapsible Selected smoke-test 1`] = `
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="KeyboardArrowDownIcon"
          data-cy="list-item-collapsible-header-icon"
     >
       <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z">
       </path>
     </svg>
   </div>
-  <div class="MuiListItemText-root css-mui-classname"
-       data-cy="list-item-collapsible-header-content"
+  <div data-cy="list-item-collapsible-header-content"
+       class="MuiListItemText-root css-mui-classname"
   >
     Header
   </div>

@@ -10,18 +10,17 @@ exports[`Inputs/Checkbox Disabled smoke-test 1`] = `
         aria-disabled="true"
         data-cy="checkbox-check"
   >
-    <input class="PrivateSwitchBase-input css-mui-classname"
-           disabled
+    <input disabled
            type="checkbox"
            data-indeterminate="false"
            data-cy="checkbox-input"
+           class="PrivateSwitchBase-input css-mui-classname"
            checked
     >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="CheckBoxIcon"
     >
       <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
       </path>
@@ -38,17 +37,16 @@ exports[`Inputs/Checkbox Intermediate smoke-test 1`] = `
   <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-indeterminate MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-indeterminate MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-checked MuiCheckbox-root MuiCheckbox-indeterminate MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium css-mui-classname"
         data-cy="checkbox-check"
   >
-    <input class="PrivateSwitchBase-input css-mui-classname"
-           type="checkbox"
+    <input type="checkbox"
            data-indeterminate="true"
            data-cy="checkbox-input"
+           class="PrivateSwitchBase-input css-mui-classname"
            checked
     >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="IndeterminateCheckBoxIcon"
     >
       <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2z">
       </path>
@@ -64,17 +62,16 @@ exports[`Inputs/Checkbox Label smoke-test 1`] = `
   <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-checked MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium css-mui-classname"
         data-cy="checkbox-check"
   >
-    <input class="PrivateSwitchBase-input css-mui-classname"
-           type="checkbox"
+    <input type="checkbox"
            data-indeterminate="false"
            data-cy="checkbox-input"
+           class="PrivateSwitchBase-input css-mui-classname"
            checked
     >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="CheckBoxIcon"
     >
       <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
       </path>
@@ -93,17 +90,16 @@ exports[`Inputs/Checkbox LabelEnd smoke-test 1`] = `
   <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-checked MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium css-mui-classname"
         data-cy="checkbox-check"
   >
-    <input class="PrivateSwitchBase-input css-mui-classname"
-           type="checkbox"
+    <input type="checkbox"
            data-indeterminate="false"
            data-cy="checkbox-input"
+           class="PrivateSwitchBase-input css-mui-classname"
            checked
     >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="CheckBoxIcon"
     >
       <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
       </path>
@@ -122,17 +118,16 @@ exports[`Inputs/Checkbox Localized smoke-test 1`] = `
   <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-checked MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium css-mui-classname"
         data-cy="locale.checkbox-check"
   >
-    <input class="PrivateSwitchBase-input css-mui-classname"
-           type="checkbox"
+    <input type="checkbox"
            data-indeterminate="false"
            data-cy="locale.checkbox-input"
+           class="PrivateSwitchBase-input css-mui-classname"
            checked
     >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="CheckBoxIcon"
     >
       <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
       </path>
@@ -152,17 +147,16 @@ exports[`Inputs/Checkbox Primary smoke-test 1`] = `
   <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-checked MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium css-mui-classname"
         data-cy="checkbox-check"
   >
-    <input class="PrivateSwitchBase-input css-mui-classname"
-           type="checkbox"
+    <input type="checkbox"
            data-indeterminate="false"
            data-cy="checkbox-input"
+           class="PrivateSwitchBase-input css-mui-classname"
            checked
     >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="CheckBoxIcon"
     >
       <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
       </path>
@@ -179,17 +173,16 @@ exports[`Inputs/Checkbox SizeSmall smoke-test 1`] = `
   <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall Mui-checked MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeSmall css-mui-classname"
         data-cy="checkbox-check"
   >
-    <input class="PrivateSwitchBase-input css-mui-classname"
-           type="checkbox"
+    <input type="checkbox"
            data-indeterminate="false"
            data-cy="checkbox-input"
+           class="PrivateSwitchBase-input css-mui-classname"
            checked
     >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="CheckBoxIcon"
     >
       <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
       </path>
@@ -207,17 +200,16 @@ exports[`Inputs/Checkbox Styled smoke-test 1`] = `
         data-cy="checkbox-check"
         style="background-color: red; color: white;"
   >
-    <input class="PrivateSwitchBase-input css-mui-classname"
-           type="checkbox"
+    <input type="checkbox"
            data-indeterminate="false"
            data-cy="checkbox-input"
+           class="PrivateSwitchBase-input css-mui-classname"
            checked
     >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="CheckBoxIcon"
     >
       <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z">
       </path>
@@ -234,16 +226,15 @@ exports[`Inputs/Checkbox Unchecked smoke-test 1`] = `
   <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium css-mui-classname"
         data-cy="checkbox-check"
   >
-    <input class="PrivateSwitchBase-input css-mui-classname"
-           type="checkbox"
+    <input type="checkbox"
            data-indeterminate="false"
            data-cy="checkbox-input"
+           class="PrivateSwitchBase-input css-mui-classname"
     >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="CheckBoxOutlineBlankIcon"
     >
       <path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z">
       </path>

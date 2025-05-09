@@ -131,9 +131,9 @@ exports[`Feedback/Progress Linear smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate css-mui-classname">
     </span>
-    <span class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar2Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar2 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar2Indeterminate css-mui-classname">
     </span>
   </span>
 </div>
@@ -146,9 +146,9 @@ exports[`Feedback/Progress LinearColor smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-barColorError MuiLinearProgress-bar1Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorError MuiLinearProgress-bar1Indeterminate css-mui-classname">
     </span>
-    <span class="MuiLinearProgress-bar MuiLinearProgress-barColorError MuiLinearProgress-bar2Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar2 MuiLinearProgress-barColorError MuiLinearProgress-bar2Indeterminate css-mui-classname">
     </span>
   </span>
 </div>
@@ -164,7 +164,7 @@ exports[`Feedback/Progress LinearDeterminate smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-mui-classname"
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-mui-classname"
           style="transform: translateX(-50%);"
     >
     </span>
@@ -179,9 +179,9 @@ exports[`Feedback/Progress LinearInvalidValue smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate css-mui-classname">
     </span>
-    <span class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar2Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar2 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar2Indeterminate css-mui-classname">
     </span>
   </span>
 </div>
@@ -197,7 +197,7 @@ exports[`Feedback/Progress LinearWithLabel smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-mui-classname"
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-mui-classname"
           style="transform: translateX(-50%);"
     >
     </span>

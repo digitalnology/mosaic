@@ -1,15 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Display/Avatar CustomIcon smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="StyleIcon"
        data-cy="avatar-icon"
        style="height: 24px; width: 24px;"
   >
@@ -20,8 +19,8 @@ exports[`Display/Avatar CustomIcon smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar Image smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <img alt="avatar"
@@ -33,14 +32,13 @@ exports[`Display/Avatar Image smoke-test 1`] = `
 
 exports[`Display/Avatar Loading smoke-test 1`] = `
 <span class="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto css-mui-classname">
-  <div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-       data-cy="avatar-loading"
+  <div data-cy="avatar-loading"
+       class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
   >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiAvatar-fallback css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="PersonIcon"
     >
       <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z">
       </path>
@@ -51,14 +49,13 @@ exports[`Display/Avatar Loading smoke-test 1`] = `
 
 exports[`Display/Avatar LoadingVariant smoke-test 1`] = `
 <span class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto css-mui-classname">
-  <div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-       data-cy="avatar-loading"
+  <div data-cy="avatar-loading"
+       class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
   >
     <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiAvatar-fallback css-mui-classname"
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="PersonIcon"
     >
       <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z">
       </path>
@@ -68,15 +65,14 @@ exports[`Display/Avatar LoadingVariant smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar Primary smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="AddIcon"
        data-cy="avatar-icon"
   >
     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -86,15 +82,14 @@ exports[`Display/Avatar Primary smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar Styled smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
      style="background-color: red; color: white;"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="AddIcon"
        data-cy="avatar-icon"
   >
     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -104,8 +99,8 @@ exports[`Display/Avatar Styled smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar Text smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <p class="MuiTypography-root MuiTypography-body1 css-mui-classname"
@@ -117,15 +112,14 @@ exports[`Display/Avatar Text smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar VariantRounded smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-rounded MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-rounded MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="AddIcon"
        data-cy="avatar-icon"
   >
     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -135,15 +129,14 @@ exports[`Display/Avatar VariantRounded smoke-test 1`] = `
 `;
 
 exports[`Display/Avatar VariantSquare smoke-test 1`] = `
-<div class="MuiAvatar-root MuiAvatar-square MuiAvatar-colorDefault css-mui-classname"
-     data-cy="avatar"
+<div data-cy="avatar"
+     class="MuiAvatar-root MuiAvatar-square MuiAvatar-colorDefault css-mui-classname"
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="AddIcon"
        data-cy="avatar-icon"
   >
     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">

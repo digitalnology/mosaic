@@ -1,3 +1,39 @@
+# [11.0.0-beta.1](https://github.com/melfore/mosaic/compare/v10.3.4-beta.4...v11.0.0-beta.1) (2025-05-08)
+
+
+### Continuous Integration
+
+* 🎡 bump major version for all commit types if breaking ([6cda3c2](https://github.com/melfore/mosaic/commit/6cda3c2f49ae2ff03f284ed720e9c24325ec90ce)), closes [#450](https://github.com/melfore/mosaic/issues/450)
+
+
+### BREAKING CHANGES
+
+* 🧨 bump major version for all commit types if breaking
+
+## [10.3.4-beta.4](https://github.com/melfore/mosaic/compare/v10.3.4-beta.3...v10.3.4-beta.4) (2025-05-07)
+
+
+### Bug Fixes
+
+* 🐛 incorrect warning on Select component ([3bee0f4](https://github.com/melfore/mosaic/commit/3bee0f4eabe1d5d974407a832af0e1d69cc30140))
+* 🐛 mobile view in DateTimePicker ([31ba662](https://github.com/melfore/mosaic/commit/31ba662ceb45f98a2af7a9369bf5b4b8c4aeaa61)), closes [#447](https://github.com/melfore/mosaic/issues/447)
+
+
+### chore
+
+* 🤖 upgrade mui v7 and mui-date-pickers v8 ([20c1070](https://github.com/melfore/mosaic/commit/20c10703dc69549400fabe892c6e5b075cd04ca3)), closes [#447](https://github.com/melfore/mosaic/issues/447)
+
+
+### BREAKING CHANGES
+
+* 🧨 updated mui to 7 and mui-date-pickers to 8
+
+## [10.3.4-beta.3](https://github.com/melfore/mosaic/compare/v10.3.4-beta.2...v10.3.4-beta.3) (2025-05-07)
+
+## [10.3.4-beta.2](https://github.com/melfore/mosaic/compare/v10.3.4-beta.1...v10.3.4-beta.2) (2025-05-07)
+
+## [10.3.4-beta.1](https://github.com/melfore/mosaic/compare/v10.3.3...v10.3.4-beta.1) (2025-05-05)
+
 ## [10.3.3](https://github.com/melfore/mosaic/compare/v10.3.2...v10.3.3) (2025-01-13)
 
 ## [10.3.2](https://github.com/melfore/mosaic/compare/v10.3.1...v10.3.2) (2024-12-17)
@@ -194,6 +230,8 @@ ModalWithTabs.
 * 🎸 [DateTimePicker] added no ampm format ([6e0d464](https://github.com/melfore/mosaic/commit/6e0d464bf20cbe2436e5a7e6870cab041420d94c)), closes [#336](https://github.com/melfore/mosaic/issues/336)
 * 🎸 [DateTimePicker] Added props ([0eb116c](https://github.com/melfore/mosaic/commit/0eb116c7fed8c00862f6bc4bfd547b9d380cffbd)), closes [#336](https://github.com/melfore/mosaic/issues/336)
 * 🎸 [TimePicker] added new component ([d1453ad](https://github.com/melfore/mosaic/commit/d1453ad9a4f1c2e24ac652fde810a4f35454449b)), closes [#336](https://github.com/melfore/mosaic/issues/336)
+
+## [9.2.2-beta.1](https://github.com/melfore/mosaic/compare/v9.2.1...v9.2.2-beta.1) (2023-10-19)
 
 ## [9.2.1](https://github.com/melfore/mosaic/compare/v9.2.0...v9.2.1) (2023-09-19)
 

@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unnecessary-type-constraint */
 import React, { HTMLAttributes, SyntheticEvent, useCallback, useMemo } from "react";
 import {
   Autocomplete as MUIAutocomplete,
@@ -297,10 +295,12 @@ const Select = <T extends SelectDataAllowed>({
   };
 
   let multipleValue: SelectMultipleData<T> = [];
-  if (Array.isArray(value) && value.length > 0 && value.every(isOptionSelectable)) {
-    multipleValue = value;
-  } else {
-    logWarn("Select", `Provided value is not valid '${value}'`);
+  if (Array.isArray(value) && value.length > 0) {
+    if (value.every(isOptionSelectable)) {
+      multipleValue = value;
+    } else {
+      logWarn("Select", `Provided value is not valid '${value}'`);
+    }
   }
 
   return (

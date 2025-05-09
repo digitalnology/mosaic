@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-require-imports */
 /* eslint-disable no-undef */
 
 // The jest-serializer-html package is available as a dependency of the test-runner
@@ -6,6 +7,7 @@ const jestSerializerHtml = require("jest-serializer-html");
 
 const CSS_DYNAMIC_ID = new RegExp("css(-[a-zA-Z0-9]*)*", "g");
 const MUI_CLONE_ELEMENT = new RegExp('data-mui-internal-clone-element="true"', "g");
+const MUI_ICON_TEST_ID = new RegExp('(<svg[\\s\\S]*?)\\s*data-testid="[^"]*"', "g");
 
 module.exports = {
   /*
@@ -20,6 +22,8 @@ module.exports = {
     const withFixedIds = val
       // It will replace all dynamic IDs with a static ID so that the snapshot is consistent
       .replace(CSS_DYNAMIC_ID, "css-mui-classname")
+      // Delete data-testid from MUI Icons to avoid snapshots inconsistency between dev and production builds
+      .replace(MUI_ICON_TEST_ID, "$1")
       // Replaces MUI data tag generated only in dev mode
       .replace(MUI_CLONE_ELEMENT, "");
     return jestSerializerHtml.print(withFixedIds);

@@ -1,15 +1,16 @@
 import { getStoryContext, TestHook, TestRunnerConfig } from "@storybook/test-runner";
+
 import {
-  waitFor,
-  SBStory,
-  initDatabase,
-  getDatabase,
-  getComponentTitle,
-  parseStory,
-  getComponentProps,
-  writeDatabase,
   getComponentDescription,
   getComponentImport,
+  getComponentProps,
+  getComponentTitle,
+  getDatabase,
+  initDatabase,
+  parseStory,
+  SBStory,
+  waitFor,
+  writeDatabase,
 } from "./utils";
 
 // TODO@luciob: move this to an environment variable
@@ -23,7 +24,7 @@ let storySourceData: SBStory;
 const getStorybookStoryData: TestHook = async (page) => {
   page
     .evaluate<SBStory>(() => {
-      return new Promise((resolve, reject) => {
+      return new Promise((resolve) => {
         const channel = globalThis.__STORYBOOK_ADDONS_CHANNEL__;
         channel.on("@storybook/core/docs/snippet-rendered", (data: SBStory) => resolve(data));
       });
@@ -45,7 +46,6 @@ const writeStoryDataToDB: TestHook = async (page, context) => {
     const importCode = getComponentImport(name);
     const props = getComponentProps(argTypes);
     database = [
-      // @ts-ignore
       ...database,
       {
         name,
@@ -54,7 +54,6 @@ const writeStoryDataToDB: TestHook = async (page, context) => {
         extension: "tsx",
         docs: {
           import: importCode,
-          // @ts-ignore
           props,
           examples: [example],
         },
@@ -96,7 +95,7 @@ const validateSnapshot: TestHook = async (page, context) => {
   }
 
   const innerHTML = await elementHandler.innerHTML();
-  // @ts-ignore
+  // @ts-expect-error global expect
   expect(innerHTML).toMatchSnapshot();
 };
 

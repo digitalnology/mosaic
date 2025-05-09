@@ -11,7 +11,6 @@ exports[`Navigation/Menu CustomIcon smoke-test 1`] = `
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="StyleIcon"
          data-cy="menu-button-icon"
          style="height: 24px; width: 24px;"
     >
@@ -38,7 +37,6 @@ exports[`Navigation/Menu CustomIconButton smoke-test 1`] = `
            focusable="false"
            aria-hidden="true"
            viewbox="0 0 24 24"
-           data-testid="StyleIcon"
            data-cy="icon-menu-button-icon"
            style="height: 24px; width: 24px;"
       >
@@ -65,7 +63,6 @@ exports[`Navigation/Menu IconButton smoke-test 1`] = `
            focusable="false"
            aria-hidden="true"
            viewbox="0 0 24 24"
-           data-testid="MenuIcon"
            data-cy="icon-menu-button-icon"
       >
         <path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z">
@@ -87,7 +84,6 @@ exports[`Navigation/Menu Primary play-test 1`] = `
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="MenuIcon"
          data-cy="menu-button-icon"
     >
       <path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z">

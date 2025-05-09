@@ -14,7 +14,6 @@ exports[`Inputs/IconButton Badge smoke-test 1`] = `
            focusable="false"
            aria-hidden="true"
            viewbox="0 0 24 24"
-           data-testid="AddIcon"
            data-cy="icon-button-icon"
       >
         <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -38,7 +37,6 @@ exports[`Inputs/IconButton CustomIcon smoke-test 1`] = `
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="StyleIcon"
        data-cy="icon-button-icon"
        style="height: 24px; width: 24px;"
   >
@@ -59,7 +57,6 @@ exports[`Inputs/IconButton Disabled smoke-test 1`] = `
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="AddIcon"
        data-cy="icon-button-icon"
   >
     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -78,7 +75,6 @@ exports[`Inputs/IconButton Primary play-test 1`] = `
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="AddIcon"
        data-cy="icon-button-icon"
   >
     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -98,7 +94,6 @@ exports[`Inputs/IconButton Rotate smoke-test 1`] = `
          focusable="false"
          aria-hidden="true"
          viewbox="0 0 24 24"
-         data-testid="AddIcon"
          data-cy="icon-button-icon"
     >
       <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -118,7 +113,6 @@ exports[`Inputs/IconButton SizeLarge smoke-test 1`] = `
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="AddIcon"
        data-cy="icon-button-icon"
   >
     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -137,7 +131,6 @@ exports[`Inputs/IconButton SizeSmall smoke-test 1`] = `
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="AddIcon"
        data-cy="icon-button-icon"
   >
     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -157,7 +150,6 @@ exports[`Inputs/IconButton Styled smoke-test 1`] = `
        focusable="false"
        aria-hidden="true"
        viewbox="0 0 24 24"
-       data-testid="AddIcon"
        data-cy="icon-button-icon"
   >
     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">
@@ -181,7 +173,6 @@ exports[`Inputs/IconButton Tooltip smoke-test 1`] = `
            focusable="false"
            aria-hidden="true"
            viewbox="0 0 24 24"
-           data-testid="AddIcon"
            data-cy="icon-button-icon"
       >
         <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z">

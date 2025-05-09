@@ -2,8 +2,8 @@
 
 exports[`Navigation/Tabs Color smoke-test 1`] = `
 <div class="MuiBox-root css-mui-classname">
-  <div class="MuiTabs-root css-mui-classname"
-       data-cy="tabs"
+  <div data-cy="tabs"
+       class="MuiTabs-root css-mui-classname"
   >
     <div class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-mui-classname"
          style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
@@ -12,8 +12,8 @@ exports[`Navigation/Tabs Color smoke-test 1`] = `
     <div class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-mui-classname"
          style="margin-bottom: 0px;"
     >
-      <div class="MuiTabs-flexContainer css-mui-classname"
-           role="tablist"
+      <div role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer css-mui-classname"
       >
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
                 tabindex="0"
@@ -59,8 +59,8 @@ exports[`Navigation/Tabs Color smoke-test 1`] = `
 
 exports[`Navigation/Tabs DisabledTab smoke-test 1`] = `
 <div class="MuiBox-root css-mui-classname">
-  <div class="MuiTabs-root css-mui-classname"
-       data-cy="tabs"
+  <div data-cy="tabs"
+       class="MuiTabs-root css-mui-classname"
   >
     <div class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-mui-classname"
          style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
@@ -69,8 +69,8 @@ exports[`Navigation/Tabs DisabledTab smoke-test 1`] = `
     <div class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-mui-classname"
          style="margin-bottom: 0px;"
     >
-      <div class="MuiTabs-flexContainer css-mui-classname"
-           role="tablist"
+      <div role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer css-mui-classname"
       >
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
                 tabindex="0"
@@ -117,15 +117,15 @@ exports[`Navigation/Tabs DisabledTab smoke-test 1`] = `
 
 exports[`Navigation/Tabs Orientation smoke-test 1`] = `
 <div class="MuiBox-root css-mui-classname">
-  <div class="MuiTabs-root MuiTabs-vertical css-mui-classname"
-       data-cy="tabs"
+  <div data-cy="tabs"
+       class="MuiTabs-root MuiTabs-vertical css-mui-classname"
   >
     <div class="MuiTabs-scroller MuiTabs-fixed css-mui-classname"
          style="overflow: hidden; margin-right: 0px;"
     >
       <div aria-orientation="vertical"
-           class="MuiTabs-flexContainer MuiTabs-flexContainerVertical css-mui-classname"
            role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer MuiTabs-flexContainerVertical MuiTabs-vertical css-mui-classname"
       >
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
                 tabindex="0"
@@ -171,8 +171,8 @@ exports[`Navigation/Tabs Orientation smoke-test 1`] = `
 
 exports[`Navigation/Tabs Primary smoke-test 1`] = `
 <div class="MuiBox-root css-mui-classname">
-  <div class="MuiTabs-root css-mui-classname"
-       data-cy="tabs"
+  <div data-cy="tabs"
+       class="MuiTabs-root css-mui-classname"
   >
     <div class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-mui-classname"
          style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
@@ -181,8 +181,8 @@ exports[`Navigation/Tabs Primary smoke-test 1`] = `
     <div class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-mui-classname"
          style="margin-bottom: 0px;"
     >
-      <div class="MuiTabs-flexContainer css-mui-classname"
-           role="tablist"
+      <div role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer css-mui-classname"
       >
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
                 tabindex="0"
@@ -228,8 +228,8 @@ exports[`Navigation/Tabs Primary smoke-test 1`] = `
 
 exports[`Navigation/Tabs SingleTabColor smoke-test 1`] = `
 <div class="MuiBox-root css-mui-classname">
-  <div class="MuiTabs-root css-mui-classname"
-       data-cy="tabs"
+  <div data-cy="tabs"
+       class="MuiTabs-root css-mui-classname"
   >
     <div class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-mui-classname"
          style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
@@ -238,8 +238,8 @@ exports[`Navigation/Tabs SingleTabColor smoke-test 1`] = `
     <div class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-mui-classname"
          style="margin-bottom: 0px;"
     >
-      <div class="MuiTabs-flexContainer css-mui-classname"
-           role="tablist"
+      <div role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer css-mui-classname"
       >
         <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
                 tabindex="0"
