@@ -1,4 +1,5 @@
 import React, { FC, useCallback, useMemo } from "react";
+import { DatePicker, renderTimeViewClock, TimePicker } from "@mui/x-date-pickers";
 import { AdapterLuxon } from "@mui/x-date-pickers/AdapterLuxon";
 import { DateTimePicker as MuiDateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
@@ -6,15 +7,20 @@ import { DateTime, Settings } from "luxon";
 
 import { useMosaicContext } from "../../hooks/useMosaicContext";
 import { DateTimePickerType, viewType } from "../../types/DateTimePicker";
+import localized, { ILocalizableProperty } from "../../utils/hocs/localized";
 import { logError } from "../../utils/logger";
 
 export const DATA_CY_DEFAULT = "timePicker";
+export const DATA_CY_SHORTCUT = "label";
+export const LOCALIZABLE_PROPS: ILocalizableProperty[] = [{ name: "label", type: "string" }];
 
 const DateTimePicker: FC<DateTimePickerType> = ({
   dataCy = DATA_CY_DEFAULT,
-  label = "Date Time",
+  type = "dateTime",
+  label,
   value,
   onAccept,
+  onChange,
   ampm = false,
   mobileView,
   timeView = "min",
@@ -69,21 +75,74 @@ const DateTimePicker: FC<DateTimePickerType> = ({
     [onAccept]
   );
 
+  const onChangeIso = useCallback(
+    (value: DateTime | undefined | null) => {
+      if (onChange) {
+        onChange(value?.toJSDate());
+      }
+    },
+    [onChange]
+  );
+
+  const viewRenderers = useMemo(() => {
+    if (mobileView) {
+      return {
+        hours: renderTimeViewClock,
+        minutes: renderTimeViewClock,
+        seconds: renderTimeViewClock,
+      };
+    }
+    return undefined;
+  }, [mobileView]);
+
   return (
     <LocalizationProvider dateAdapter={AdapterLuxon}>
-      <MuiDateTimePicker
-        timezone={zone}
-        desktopModeMediaQuery={desctopMode}
-        value={dateTimeValue}
-        onAccept={onAcceptIso}
-        data-cy={dataCy}
-        label={label}
-        views={views}
-        format={format}
-        ampm={ampm}
-      />
+      {type === "dateTime" ? (
+        <MuiDateTimePicker
+          timezone={zone}
+          desktopModeMediaQuery={desctopMode}
+          viewRenderers={viewRenderers}
+          value={dateTimeValue}
+          onAccept={onAcceptIso}
+          onChange={onChangeIso}
+          data-cy={dataCy}
+          label={label}
+          views={views}
+          format={format}
+          ampm={ampm}
+        />
+      ) : type === "date" ? (
+        <DatePicker
+          timezone={zone}
+          desktopModeMediaQuery={desctopMode}
+          value={dateTimeValue}
+          onAccept={onAcceptIso}
+          onChange={onChangeIso}
+          data-cy={dataCy}
+          label={label}
+          format={format}
+        />
+      ) : (
+        <TimePicker
+          timezone={zone}
+          desktopModeMediaQuery={desctopMode}
+          viewRenderers={viewRenderers}
+          value={dateTimeValue}
+          onAccept={onAcceptIso}
+          onChange={onChangeIso}
+          data-cy={dataCy}
+          label={label}
+          format={format}
+          ampm={ampm}
+        />
+      )}
     </LocalizationProvider>
   );
 };
+
+export const LocalizedDateTimePicker = localized(DateTimePicker, {
+  dataCyShortcut: DATA_CY_SHORTCUT,
+  localizableProps: LOCALIZABLE_PROPS,
+});
 
 export default DateTimePicker;

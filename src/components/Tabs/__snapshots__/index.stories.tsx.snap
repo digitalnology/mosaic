@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation/Tabs Color smoke-test 1`] = `
+<div class="MuiBox-root css-mui-classname">
+  <div data-cy="tabs"
+       class="MuiTabs-root css-mui-classname"
+  >
+    <div class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-mui-classname"
+         style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+    >
+    </div>
+    <div class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-mui-classname"
+         style="margin-bottom: 0px;"
+    >
+      <div role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer css-mui-classname"
+      >
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
+                tabindex="0"
+                type="button"
+                role="tab"
+                aria-selected="true"
+                style="color: rgb(237, 108, 2);"
+        >
+          PAGE1
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-mui-classname"
+                tabindex="-1"
+                type="button"
+                role="tab"
+                aria-selected="false"
+        >
+          PAGE2
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-mui-classname"
+                tabindex="-1"
+                type="button"
+                role="tab"
+                aria-selected="false"
+        >
+          PAGE3
+        </button>
+      </div>
+      <span class="MuiTabs-indicator css-mui-classname"
+            style="left: 0px; width: 90px; background: rgb(237, 108, 2);"
+      >
+      </span>
+    </div>
+  </div>
+  <div role="tabpanel"
+       id="simple-tabpanel-0"
+       aria-labelledby="horizontal-tab-0"
+       style="width: 100%;"
+  >
+    PAGE1
+  </div>
+</div>
+`;
+
+exports[`Navigation/Tabs DisabledTab smoke-test 1`] = `
+<div class="MuiBox-root css-mui-classname">
+  <div data-cy="tabs"
+       class="MuiTabs-root css-mui-classname"
+  >
+    <div class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-mui-classname"
+         style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+    >
+    </div>
+    <div class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-mui-classname"
+         style="margin-bottom: 0px;"
+    >
+      <div role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer css-mui-classname"
+      >
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
+                tabindex="0"
+                type="button"
+                role="tab"
+                aria-selected="true"
+                style="color: rgb(25, 118, 210);"
+        >
+          PAGE1
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-mui-classname"
+                tabindex="-1"
+                type="button"
+                role="tab"
+                aria-selected="false"
+        >
+          PAGE2
+        </button>
+        <button class="MuiButtonBase-root Mui-disabled MuiTab-root MuiTab-textColorPrimary Mui-disabled css-mui-classname"
+                tabindex="-1"
+                type="button"
+                disabled
+                role="tab"
+                aria-selected="false"
+        >
+          PAGE3
+        </button>
+      </div>
+      <span class="MuiTabs-indicator css-mui-classname"
+            style="left: 0px; width: 90px; background: rgb(25, 118, 210);"
+      >
+      </span>
+    </div>
+  </div>
+  <div role="tabpanel"
+       id="simple-tabpanel-0"
+       aria-labelledby="horizontal-tab-0"
+       style="width: 100%;"
+  >
+    PAGE1
+  </div>
+</div>
+`;
+
+exports[`Navigation/Tabs Orientation smoke-test 1`] = `
+<div class="MuiBox-root css-mui-classname">
+  <div data-cy="tabs"
+       class="MuiTabs-root MuiTabs-vertical css-mui-classname"
+  >
+    <div class="MuiTabs-scroller MuiTabs-fixed css-mui-classname"
+         style="overflow: hidden; margin-right: 0px;"
+    >
+      <div aria-orientation="vertical"
+           role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer MuiTabs-flexContainerVertical MuiTabs-vertical css-mui-classname"
+      >
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
+                tabindex="0"
+                type="button"
+                role="tab"
+                aria-selected="true"
+                style="color: rgb(25, 118, 210);"
+        >
+          PAGE1
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-mui-classname"
+                tabindex="-1"
+                type="button"
+                role="tab"
+                aria-selected="false"
+        >
+          PAGE2
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-mui-classname"
+                tabindex="-1"
+                type="button"
+                role="tab"
+                aria-selected="false"
+        >
+          PAGE3
+        </button>
+      </div>
+      <span class="MuiTabs-indicator css-mui-classname"
+            style="top: 0px; height: 48px; background: rgb(25, 118, 210);"
+      >
+      </span>
+    </div>
+  </div>
+  <div role="tabpanel"
+       id="simple-tabpanel-0"
+       aria-labelledby="vertical-tab-0"
+       style="width: 100%;"
+  >
+    PAGE1
+  </div>
+</div>
+`;
+
+exports[`Navigation/Tabs Primary smoke-test 1`] = `
+<div class="MuiBox-root css-mui-classname">
+  <div data-cy="tabs"
+       class="MuiTabs-root css-mui-classname"
+  >
+    <div class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-mui-classname"
+         style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+    >
+    </div>
+    <div class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-mui-classname"
+         style="margin-bottom: 0px;"
+    >
+      <div role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer css-mui-classname"
+      >
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
+                tabindex="0"
+                type="button"
+                role="tab"
+                aria-selected="true"
+                style="color: rgb(25, 118, 210);"
+        >
+          PAGE1
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-mui-classname"
+                tabindex="-1"
+                type="button"
+                role="tab"
+                aria-selected="false"
+        >
+          PAGE2
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-mui-classname"
+                tabindex="-1"
+                type="button"
+                role="tab"
+                aria-selected="false"
+        >
+          PAGE3
+        </button>
+      </div>
+      <span class="MuiTabs-indicator css-mui-classname"
+            style="left: 0px; width: 90px; background: rgb(25, 118, 210);"
+      >
+      </span>
+    </div>
+  </div>
+  <div role="tabpanel"
+       id="simple-tabpanel-0"
+       aria-labelledby="horizontal-tab-0"
+       style="width: 100%;"
+  >
+    PAGE1
+  </div>
+</div>
+`;
+
+exports[`Navigation/Tabs SingleTabColor smoke-test 1`] = `
+<div class="MuiBox-root css-mui-classname">
+  <div data-cy="tabs"
+       class="MuiTabs-root css-mui-classname"
+  >
+    <div class="MuiTabs-scrollableX MuiTabs-hideScrollbar css-mui-classname"
+         style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"
+    >
+    </div>
+    <div class="MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-mui-classname"
+         style="margin-bottom: 0px;"
+    >
+      <div role="tablist"
+           class="MuiTabs-list MuiTabs-flexContainer css-mui-classname"
+      >
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-mui-classname"
+                tabindex="0"
+                type="button"
+                role="tab"
+                aria-selected="true"
+                style="color: rgb(25, 118, 210);"
+        >
+          PAGE1
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-mui-classname"
+                tabindex="-1"
+                type="button"
+                role="tab"
+                aria-selected="false"
+        >
+          PAGE2
+        </button>
+        <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-mui-classname"
+                tabindex="-1"
+                type="button"
+                role="tab"
+                aria-selected="false"
+                style="color: rgb(211, 47, 47);"
+        >
+          PAGE3
+        </button>
+      </div>
+      <span class="MuiTabs-indicator css-mui-classname"
+            style="left: 0px; width: 90px; background: rgb(25, 118, 210);"
+      >
+      </span>
+    </div>
+  </div>
+  <div role="tabpanel"
+       id="simple-tabpanel-0"
+       aria-labelledby="horizontal-tab-0"
+       style="width: 100%;"
+  >
+    PAGE1
+  </div>
+</div>
+`;

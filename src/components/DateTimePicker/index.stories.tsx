@@ -1,18 +1,18 @@
-import React from "react";
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
-import { localeDecorator } from "../../utils/mocks/LocaleMock";
 import getDocsPage from "../../utils/stories";
+import DateTimePickerDecorator from "../../utils/stories/decorators/DateTimePicker";
+import LocaleDecorator from "../../utils/stories/decorators/Locale";
 
-import DateTimePicker, { DATA_CY_DEFAULT } from ".";
+import DateTimePicker, { DATA_CY_DEFAULT, DATA_CY_SHORTCUT, LOCALIZABLE_PROPS, LocalizedDateTimePicker } from ".";
 
 const COMPONENT_NAME = "DateTimePicker";
 DateTimePicker.displayName = COMPONENT_NAME;
 
-export default {
+const meta = {
   title: "Inputs/DateTimePicker",
-  component: DateTimePicker,
-  decorators: [localeDecorator],
+  component: LocalizedDateTimePicker,
+  decorators: [DateTimePickerDecorator, LocaleDecorator],
   parameters: {
     docs: {
       ...getDocsPage({
@@ -23,22 +23,74 @@ export default {
         component: COMPONENT_NAME,
         e2eTestInfo: {
           dataCyDefault: DATA_CY_DEFAULT,
+          dataCyShortcut: DATA_CY_SHORTCUT,
         },
+        localizableProps: LOCALIZABLE_PROPS,
       }),
+      description: {
+        component: "The DateTimePicker is a date and time picker component.",
+      },
     },
   },
-} as ComponentMeta<typeof DateTimePicker>;
+} satisfies Meta<typeof LocalizedDateTimePicker>;
 
-const Template: ComponentStory<typeof DateTimePicker> = (args) => <DateTimePicker {...args} dataCy={DATA_CY_DEFAULT} />;
+export default meta;
+type Story = StoryObj<typeof meta>;
 
-export const Primary = Template.bind({});
-Primary.args = {};
+export const Primary: Story = {
+  args: {
+    label: "Date Time",
+  },
+};
 
-export const SecondsView = Template.bind({});
-SecondsView.args = { ...Primary.args, timeView: "sec" };
+export const HoursView: Story = {
+  args: {
+    ...Primary.args,
+    timeView: "hrs",
+  },
+};
 
-export const MobileView = Template.bind({});
-MobileView.args = { ...SecondsView.args, mobileView: true, timeZone: "utc+8", value: "2023-10-29T00:00:00.000+02:00" };
+export const SecondsView: Story = {
+  args: {
+    ...Primary.args,
+    timeView: "sec",
+  },
+};
 
-export const FormatAmPm = Template.bind({});
-FormatAmPm.args = { ...Primary.args, ampm: true };
+export const MobileView: Story = {
+  args: {
+    ...SecondsView.args,
+    mobileView: true,
+    timeZone: "utc+8",
+    value: "2023-10-29T00:00:00.000+02:00",
+  },
+};
+
+export const FormatAmPm: Story = {
+  args: {
+    ...Primary.args,
+    ampm: true,
+  },
+};
+
+export const Localized: Story = {
+  args: {
+    ...Primary.args,
+    localized: true,
+    label: "locale.dateTime",
+  },
+};
+
+export const Date = {
+  args: {
+    ...Primary.args,
+    type: "date",
+  },
+};
+
+export const Time: Story = {
+  args: {
+    ...Primary.args,
+    type: "time",
+  },
+};

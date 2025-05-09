@@ -1,9 +1,11 @@
-import { IBase } from "./Base";
+import { ILocalizable } from "./Base";
 
-export type DateTimePickerType = IBase & {
+export type DateTimePickerType = ILocalizable & {
+  type?: "date" | "time" | "dateTime";
   label: string;
   value?: Date | string | number;
   onAccept?: (value: Date | undefined | null) => void;
+  onChange?: (value: Date | undefined | null) => void;
   ampm?: boolean;
   mobileView?: boolean;
   timeZone?: string;

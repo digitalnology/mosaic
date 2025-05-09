@@ -1,5 +1,5 @@
 import React, { FC, PropsWithChildren, useMemo } from "react";
-import { Grid } from "@mui/material";
+import { GridLegacy as Grid } from "@mui/material";
 
 import { useMosaicContext } from "../../hooks/useMosaicContext";
 import { IModal } from "../../types/Modal";
@@ -34,21 +34,21 @@ export const SUBPARTS_MAP = {
 export type ModalWithTabsType = TabsType & IModal;
 
 const ModalWithTabs: FC<PropsWithChildren<ModalWithTabsType>> = ({
-  dataCy = DATA_CY_DEFAULT,
-  labelList,
-  color,
-  orientation = "vertical",
-  children,
   cancel,
+  children,
   closable = false,
+  color,
   confirm,
+  dataCy = DATA_CY_DEFAULT,
   localized = false,
   onClose,
   open = false,
+  orientation = "vertical",
   responsive,
   size,
-  title,
   style,
+  tabList,
+  title,
 }) => {
   const {
     view: { tablet: tabletView },
@@ -77,17 +77,17 @@ const ModalWithTabs: FC<PropsWithChildren<ModalWithTabsType>> = ({
         <Grid item xs={12} paddingBottom={2}>
           {children}
         </Grid>
-        <Grid xs={12}>
-          <Tabs data-cy={dataCy} labelList={labelList} color={color} orientation={autoOrientation} style={style} />
+        <Grid item xs={12}>
+          <Tabs data-cy={dataCy} tabList={tabList} color={color} orientation={autoOrientation} style={style} />
         </Grid>
       </Grid>
     </Modal>
   );
 };
 
-export const ModalWithTabsWithProps = ModalWithTabs;
-
-export default localized(ModalWithTabs, {
+export const LocalizedModalWithTabs = localized(ModalWithTabs, {
   dataCyShortcut: DATA_CY_SHORTCUT,
   localizableProps: LOCALIZABLE_PROPS,
 });
+
+export default LocalizedModalWithTabs;

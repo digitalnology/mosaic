@@ -1,0 +1,490 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inputs/InputNumber Adornment smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":r1:"
+         id=":r1:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
+    <input aria-invalid="false"
+           id=":r1:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+    <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
+      <button class="MuiButtonBase-root Mui-disabled MuiIconButton-root Mui-disabled MuiIconButton-colorInherit MuiIconButton-sizeMedium css-mui-classname"
+              tabindex="-1"
+              type="button"
+              disabled
+              data-cy="icon-button"
+      >
+        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
+             focusable="false"
+             aria-hidden="true"
+             viewbox="0 0 24 24"
+             data-cy="icon-button-icon"
+        >
+          <path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber AdornmentClickable smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":r3:"
+         id=":r3:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
+    <input aria-invalid="false"
+           id=":r3:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+    <div class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-mui-classname">
+      <button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeMedium css-mui-classname"
+              tabindex="0"
+              type="button"
+              data-cy="icon-button"
+      >
+        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-mui-classname"
+             focusable="false"
+             aria-hidden="true"
+             viewbox="0 0 24 24"
+             data-cy="icon-button-icon"
+        >
+          <path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber Decimal play-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":r5:"
+         id=":r5:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":r5:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
+           value="5.275"
+           style="text-align: right; width: 100%;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber Disabled smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-disabled MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":r6:"
+         id=":r6:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-disabled MuiInputBase-formControl Mui-readOnly MuiInputBase-readOnly css-mui-classname">
+    <input aria-invalid="false"
+           disabled
+           id=":r6:"
+           readonly
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input Mui-disabled Mui-readOnly MuiInputBase-readOnly css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber Localized smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":r7:"
+         id=":r7:-label"
+  >
+    Campo numerico
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":r7:"
+           placeholder="Inserire valore..."
+           type="number"
+           data-cy="locale.inputNumber"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Campo numerico
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber MinMax smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":r8:"
+         id=":r8:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":r8:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber Nullable smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":r9:"
+         id=":r9:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":r9:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
+           value
+           style="text-align: right; width: 100%;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber Placeholder smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":ra:"
+         id=":ra:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":ra:"
+           placeholder="Enter value..."
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
+           value
+           style="text-align: right; width: 100%;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber Primary play-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":r0:"
+         id=":r0:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":r0:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber Required smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":rb:"
+         id=":rb:-label"
+  >
+    Label
+    <span aria-hidden="true"
+          class="MuiFormLabel-asterisk MuiInputLabel-asterisk css-mui-classname"
+    >
+       *
+    </span>
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":rb:"
+           required
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label *
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber SizeSmall smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":rc:"
+         id=":rc:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall css-mui-classname">
+    <input aria-invalid="false"
+           id=":rc:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber Styled smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
+         data-shrink="true"
+         for=":rd:"
+         id=":rd:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":rd:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
+           value="5"
+           style="text-align: center; width: 100%; color: red; font-weight: bold; font-size: large;"
+    >
+    <fieldset aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-mui-classname"
+    >
+      <legend class="css-mui-classname">
+        <span>
+          Label
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber VariantFilled smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled css-mui-classname"
+         data-shrink="true"
+         for=":re:"
+         id=":re:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":re:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiFilledInput-input css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+  </div>
+</div>
+`;
+
+exports[`Inputs/InputNumber VariantStandard smoke-test 1`] = `
+<div class="MuiFormControl-root MuiFormControl-marginNormal MuiTextField-root css-mui-classname"
+     style="text-align: right; width: 100%;"
+>
+  <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-standard MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-standard css-mui-classname"
+         data-shrink="true"
+         for=":rf:"
+         id=":rf:-label"
+  >
+    Label
+  </label>
+  <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
+    <input aria-invalid="false"
+           id=":rf:"
+           type="number"
+           data-cy="input-number"
+           class="MuiInputBase-input MuiInput-input css-mui-classname"
+           value="5"
+           style="text-align: right; width: 100%;"
+    >
+  </div>
+</div>
+`;

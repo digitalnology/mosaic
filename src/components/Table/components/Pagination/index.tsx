@@ -1,5 +1,6 @@
-import React, { FC, useCallback, useMemo } from "react";
-import { TablePagination as MUITablePagination, TablePaginationProps as MUITablePaginationProps } from "@mui/material";
+import React, { ChangeEvent, FC, MouseEvent, useCallback, useMemo } from "react";
+import { TablePagination as MUITablePagination } from "@mui/material";
+import { TablePaginationActionsProps as MUITablePaginationActionsProps } from "@mui/material/TablePagination/TablePaginationActions";
 
 import { ITablePagination } from "../../../../types/Table";
 import { suppressEvent } from "../../../../utils";
@@ -16,7 +17,7 @@ const TablePagination: FC<ITablePagination> = ({
   style,
 }) => {
   const paginationActions = useCallback(
-    (props: MUITablePaginationProps) => <TablePaginationActions {...props} dataCy={dataCy} />,
+    (props: MUITablePaginationActionsProps) => <TablePaginationActions {...props} dataCy={dataCy} />,
     [dataCy]
   );
 
@@ -25,8 +26,7 @@ const TablePagination: FC<ITablePagination> = ({
   const safePage = useMemo(() => (!safeCount ? 0 : page), [page, safeCount]);
 
   const onPageChange = useCallback(
-    // TODO#lb: fix any type
-    (event: any, page: any) => {
+    (event: MouseEvent | null, page: number) => {
       suppressEvent(event);
       externalOnPageChange && externalOnPageChange(page);
     },
@@ -34,8 +34,7 @@ const TablePagination: FC<ITablePagination> = ({
   );
 
   const onPageSizeChange = useCallback(
-    // TODO#lb: fix any type
-    (event: any) => {
+    (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
       const pageSize = parseInt(event.target.value, 10);
       externalOnPageSizeChange && externalOnPageSizeChange(0, pageSize);
     },
