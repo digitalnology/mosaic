@@ -1,3 +1,27 @@
+# [11.0.0](https://github.com/melfore/mosaic/compare/v10.3.3...v11.0.0) (2025-05-09)
+
+
+### Bug Fixes
+
+* 🐛 incorrect warning on Select component ([3bee0f4](https://github.com/melfore/mosaic/commit/3bee0f4eabe1d5d974407a832af0e1d69cc30140))
+* 🐛 mobile view in DateTimePicker ([31ba662](https://github.com/melfore/mosaic/commit/31ba662ceb45f98a2af7a9369bf5b4b8c4aeaa61)), closes [#447](https://github.com/melfore/mosaic/issues/447)
+
+
+### chore
+
+* 🤖 upgrade mui v7 and mui-date-pickers v8 ([20c1070](https://github.com/melfore/mosaic/commit/20c10703dc69549400fabe892c6e5b075cd04ca3)), closes [#447](https://github.com/melfore/mosaic/issues/447)
+
+
+### Continuous Integration
+
+* 🎡 bump major version for all commit types if breaking ([6cda3c2](https://github.com/melfore/mosaic/commit/6cda3c2f49ae2ff03f284ed720e9c24325ec90ce)), closes [#450](https://github.com/melfore/mosaic/issues/450)
+
+
+### BREAKING CHANGES
+
+* 🧨 bump major version for all commit types if breaking
+* 🧨 updated mui to 7 and mui-date-pickers to 8
+
 # [11.0.0-beta.1](https://github.com/melfore/mosaic/compare/v10.3.4-beta.4...v11.0.0-beta.1) (2025-05-08)
 
 
