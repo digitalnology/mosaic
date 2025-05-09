@@ -90,8 +90,8 @@
     "@mui/system": "7.x",
     "@mui/x-date-pickers": "8.x",
     "luxon": ">= 3.4.4 < 4",
-    "react": ">= 18 < 19",
-    "react-dom": ">= 18 < 19",
+    "react": ">= 18 < 20",
+    "react-dom": ">= 18 < 20",
     "react-virtuoso": "^4.10.1",
     "react-window": ">= 1.8.0 < 1.9.0"
   },
