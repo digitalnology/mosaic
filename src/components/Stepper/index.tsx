@@ -1,5 +1,5 @@
 import React, { FC, useMemo } from "react";
-import { GridLegacy as Grid, Step, StepLabel, Stepper as MUIStepper } from "@mui/material";
+import { Grid, Step, StepLabel, Stepper as MUIStepper } from "@mui/material";
 
 import { StepperType } from "../../types/Stepper";
 import localized, { ILocalizableProperty } from "../../utils/hocs/localized";
@@ -31,7 +31,7 @@ const Stepper: FC<StepperType> = ({
   const buttonFinishDataCy = useMemo(() => `${dataCy}-finish`, [dataCy]);
   return (
     <Grid container spacing={2} sx={{ flexGrow: 1 }}>
-      <Grid item xs={12}>
+      <Grid size={12}>
         <MUIStepper data-cy={dataCy} activeStep={activeStep} alternativeLabel>
           {stepsList.map((i, index) => (
             <Step key={index}>
@@ -42,10 +42,8 @@ const Stepper: FC<StepperType> = ({
       </Grid>
       {activeStep === stepsList.length ? (
         <Grid container spacing={2} sx={{ pt: 2 }}>
-          <Grid item xs={12}>
-            {finishContent}
-          </Grid>
-          <Grid item xs={12}>
+          <Grid size={12}>{finishContent}</Grid>
+          <Grid size={12}>
             <div style={{ display: "flex", justifyContent: "end" }}>
               <Button
                 dataCy={buttonFinishDataCy}
@@ -59,10 +57,8 @@ const Stepper: FC<StepperType> = ({
         </Grid>
       ) : (
         <Grid container spacing={2} sx={{ pt: 2 }}>
-          <Grid item xs={12}>
-            {stepsList[activeStep].content && stepsList[activeStep].content}
-          </Grid>
-          <Grid item xs={12}>
+          <Grid size={12}>{stepsList[activeStep].content && stepsList[activeStep].content}</Grid>
+          <Grid size={12}>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <Button
                 dataCy={buttonBackDataCy}
