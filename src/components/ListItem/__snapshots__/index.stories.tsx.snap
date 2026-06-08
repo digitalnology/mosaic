@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Display/ListItem Children smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item"
@@ -16,7 +16,7 @@ exports[`Display/ListItem Children smoke-test 1`] = `
 `;
 
 exports[`Display/ListItem Clickable play-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item"
@@ -31,7 +31,7 @@ exports[`Display/ListItem Clickable play-test 1`] = `
 `;
 
 exports[`Display/ListItem Dense smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item"
@@ -46,7 +46,7 @@ exports[`Display/ListItem Dense smoke-test 1`] = `
 `;
 
 exports[`Display/ListItem Icon smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item"
@@ -72,7 +72,7 @@ exports[`Display/ListItem Icon smoke-test 1`] = `
 `;
 
 exports[`Display/ListItem IconCustom smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item"
@@ -99,7 +99,7 @@ exports[`Display/ListItem IconCustom smoke-test 1`] = `
 `;
 
 exports[`Display/ListItem IconLoading smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item"
@@ -121,7 +121,7 @@ exports[`Display/ListItem IconLoading smoke-test 1`] = `
 `;
 
 exports[`Display/ListItem Loading smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item"
@@ -137,7 +137,7 @@ exports[`Display/ListItem Loading smoke-test 1`] = `
 `;
 
 exports[`Display/ListItem Primary smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item"
@@ -152,7 +152,7 @@ exports[`Display/ListItem Primary smoke-test 1`] = `
 `;
 
 exports[`Display/ListItem Selected smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters Mui-selected MuiListItemButton-root MuiListItemButton-gutters Mui-selected css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters Mui-selected css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item"

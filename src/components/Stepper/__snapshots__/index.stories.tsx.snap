@@ -2,12 +2,12 @@
 
 exports[`Navigation/Stepper ActiveStep play-test 1`] = `
 <div>
-  <div class="MuiGridLegacy-root MuiGridLegacy-container MuiGridLegacy-spacing-xs-2 css-mui-classname">
-    <div class="MuiGridLegacy-root MuiGridLegacy-item MuiGridLegacy-grid-xs-12 css-mui-classname">
-      <div class="MuiStepper-root MuiStepper-horizontal MuiStepper-alternativeLabel css-mui-classname"
-           data-cy="Stepper"
+  <div class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-mui-classname">
+    <div class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-mui-classname">
+      <ol class="MuiStepper-root MuiStepper-horizontal MuiStepper-alternativeLabel css-mui-classname"
+          data-cy="Stepper"
       >
-        <div class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
+        <li class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
           <span class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel css-mui-classname">
             <span class="MuiStepLabel-iconContainer Mui-completed MuiStepLabel-alternativeLabel css-mui-classname">
               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiStepIcon-root Mui-completed css-mui-classname"
@@ -25,10 +25,10 @@ exports[`Navigation/Stepper ActiveStep play-test 1`] = `
               </span>
             </span>
           </span>
-        </div>
-        <div class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
+        </li>
+        <li class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
           <div class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-completed css-mui-classname">
-            <span class="MuiStepConnector-line MuiStepConnector-lineHorizontal css-mui-classname">
+            <span class="MuiStepConnector-line css-mui-classname">
             </span>
           </div>
           <span class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel css-mui-classname">
@@ -48,10 +48,10 @@ exports[`Navigation/Stepper ActiveStep play-test 1`] = `
               </span>
             </span>
           </span>
-        </div>
-        <div class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
+        </li>
+        <li class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
           <div class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-completed css-mui-classname">
-            <span class="MuiStepConnector-line MuiStepConnector-lineHorizontal css-mui-classname">
+            <span class="MuiStepConnector-line css-mui-classname">
             </span>
           </div>
           <span class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel css-mui-classname">
@@ -71,16 +71,16 @@ exports[`Navigation/Stepper ActiveStep play-test 1`] = `
               </span>
             </span>
           </span>
-        </div>
-      </div>
+        </li>
+      </ol>
     </div>
-    <div class="MuiGridLegacy-root MuiGridLegacy-container MuiGridLegacy-spacing-xs-2 css-mui-classname">
-      <div class="MuiGridLegacy-root MuiGridLegacy-item MuiGridLegacy-grid-xs-12 css-mui-classname">
+    <div class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-mui-classname">
+      <div class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-mui-classname">
         All Steps are completed
       </div>
-      <div class="MuiGridLegacy-root MuiGridLegacy-item MuiGridLegacy-grid-xs-12 css-mui-classname">
+      <div class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-mui-classname">
         <div style="display: flex; justify-content: end;">
-          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
+          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-sizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
                   tabindex="0"
                   type="button"
                   data-cy="Stepper-finish"
@@ -96,12 +96,12 @@ exports[`Navigation/Stepper ActiveStep play-test 1`] = `
 
 exports[`Navigation/Stepper Localized smoke-test 1`] = `
 <div>
-  <div class="MuiGridLegacy-root MuiGridLegacy-container MuiGridLegacy-spacing-xs-2 css-mui-classname">
-    <div class="MuiGridLegacy-root MuiGridLegacy-item MuiGridLegacy-grid-xs-12 css-mui-classname">
-      <div class="MuiStepper-root MuiStepper-horizontal MuiStepper-alternativeLabel css-mui-classname"
-           data-cy="Stepper"
+  <div class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-mui-classname">
+    <div class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-mui-classname">
+      <ol class="MuiStepper-root MuiStepper-horizontal MuiStepper-alternativeLabel css-mui-classname"
+          data-cy="Stepper"
       >
-        <div class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
+        <li class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
           <span class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel css-mui-classname">
             <span class="MuiStepLabel-iconContainer Mui-completed MuiStepLabel-alternativeLabel css-mui-classname">
               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiStepIcon-root Mui-completed css-mui-classname"
@@ -119,10 +119,10 @@ exports[`Navigation/Stepper Localized smoke-test 1`] = `
               </span>
             </span>
           </span>
-        </div>
-        <div class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel css-mui-classname">
+        </li>
+        <li class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel css-mui-classname">
           <div class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-active css-mui-classname">
-            <span class="MuiStepConnector-line MuiStepConnector-lineHorizontal css-mui-classname">
+            <span class="MuiStepConnector-line css-mui-classname">
             </span>
           </div>
           <span class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel css-mui-classname">
@@ -153,10 +153,10 @@ exports[`Navigation/Stepper Localized smoke-test 1`] = `
               </span>
             </span>
           </span>
-        </div>
-        <div class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel css-mui-classname">
+        </li>
+        <li class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel css-mui-classname">
           <div class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-disabled css-mui-classname">
-            <span class="MuiStepConnector-line MuiStepConnector-lineHorizontal css-mui-classname">
+            <span class="MuiStepConnector-line css-mui-classname">
             </span>
           </div>
           <span class="MuiStepLabel-root MuiStepLabel-horizontal Mui-disabled MuiStepLabel-alternativeLabel css-mui-classname">
@@ -187,16 +187,16 @@ exports[`Navigation/Stepper Localized smoke-test 1`] = `
               </span>
             </span>
           </span>
-        </div>
-      </div>
+        </li>
+      </ol>
     </div>
-    <div class="MuiGridLegacy-root MuiGridLegacy-container MuiGridLegacy-spacing-xs-2 css-mui-classname">
-      <div class="MuiGridLegacy-root MuiGridLegacy-item MuiGridLegacy-grid-xs-12 css-mui-classname">
+    <div class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-mui-classname">
+      <div class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-mui-classname">
         CONTENT PAGE 2
       </div>
-      <div class="MuiGridLegacy-root MuiGridLegacy-item MuiGridLegacy-grid-xs-12 css-mui-classname">
+      <div class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-mui-classname">
         <div style="display: flex; justify-content: space-between;">
-          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
+          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-sizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
                   tabindex="0"
                   type="button"
                   data-cy="Stepper-back"
@@ -204,7 +204,7 @@ exports[`Navigation/Stepper Localized smoke-test 1`] = `
           >
             Dietro
           </button>
-          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
+          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-sizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
                   tabindex="0"
                   type="button"
                   data-cy="Stepper-next"
@@ -220,12 +220,12 @@ exports[`Navigation/Stepper Localized smoke-test 1`] = `
 
 exports[`Navigation/Stepper Primary play-test 1`] = `
 <div>
-  <div class="MuiGridLegacy-root MuiGridLegacy-container MuiGridLegacy-spacing-xs-2 css-mui-classname">
-    <div class="MuiGridLegacy-root MuiGridLegacy-item MuiGridLegacy-grid-xs-12 css-mui-classname">
-      <div class="MuiStepper-root MuiStepper-horizontal MuiStepper-alternativeLabel css-mui-classname"
-           data-cy="Stepper"
+  <div class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-mui-classname">
+    <div class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-mui-classname">
+      <ol class="MuiStepper-root MuiStepper-horizontal MuiStepper-alternativeLabel css-mui-classname"
+          data-cy="Stepper"
       >
-        <div class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
+        <li class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
           <span class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel css-mui-classname">
             <span class="MuiStepLabel-iconContainer Mui-completed MuiStepLabel-alternativeLabel css-mui-classname">
               <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiStepIcon-root Mui-completed css-mui-classname"
@@ -243,10 +243,10 @@ exports[`Navigation/Stepper Primary play-test 1`] = `
               </span>
             </span>
           </span>
-        </div>
-        <div class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
+        </li>
+        <li class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
           <div class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-completed css-mui-classname">
-            <span class="MuiStepConnector-line MuiStepConnector-lineHorizontal css-mui-classname">
+            <span class="MuiStepConnector-line css-mui-classname">
             </span>
           </div>
           <span class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel css-mui-classname">
@@ -266,10 +266,10 @@ exports[`Navigation/Stepper Primary play-test 1`] = `
               </span>
             </span>
           </span>
-        </div>
-        <div class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
+        </li>
+        <li class="MuiStep-root MuiStep-horizontal MuiStep-alternativeLabel Mui-completed css-mui-classname">
           <div class="MuiStepConnector-root MuiStepConnector-horizontal MuiStepConnector-alternativeLabel Mui-completed css-mui-classname">
-            <span class="MuiStepConnector-line MuiStepConnector-lineHorizontal css-mui-classname">
+            <span class="MuiStepConnector-line css-mui-classname">
             </span>
           </div>
           <span class="MuiStepLabel-root MuiStepLabel-horizontal MuiStepLabel-alternativeLabel css-mui-classname">
@@ -289,16 +289,16 @@ exports[`Navigation/Stepper Primary play-test 1`] = `
               </span>
             </span>
           </span>
-        </div>
-      </div>
+        </li>
+      </ol>
     </div>
-    <div class="MuiGridLegacy-root MuiGridLegacy-container MuiGridLegacy-spacing-xs-2 css-mui-classname">
-      <div class="MuiGridLegacy-root MuiGridLegacy-item MuiGridLegacy-grid-xs-12 css-mui-classname">
+    <div class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-mui-classname">
+      <div class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-mui-classname">
         All Steps are completed
       </div>
-      <div class="MuiGridLegacy-root MuiGridLegacy-item MuiGridLegacy-grid-xs-12 css-mui-classname">
+      <div class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-mui-classname">
         <div style="display: flex; justify-content: end;">
-          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
+          <button class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-sizeMedium MuiButton-colorPrimary MuiButton-disableElevation css-mui-classname"
                   tabindex="0"
                   type="button"
                   data-cy="Stepper-finish"

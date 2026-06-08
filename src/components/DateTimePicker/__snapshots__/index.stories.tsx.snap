@@ -1,17 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
-<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname"
+     data-cy="timePicker"
+>
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":rp:"
-         id=":rp:-label"
+         for=":rq:"
+         id=":rq:-label"
   >
     Date Time
   </label>
   <div aria-invalid="false"
        role="group"
-       aria-labelledby=":rp:-label"
+       aria-labelledby=":rq:-label"
        class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
   >
     <div contenteditable="false"
@@ -23,8 +25,7 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rq:-month"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="12"
               aria-valuetext="Empty"
@@ -33,9 +34,8 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
               tabindex="0"
               contenteditable="true"
               role="spinbutton"
-              id=":rq:-month"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -51,8 +51,7 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rq:-day"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="31"
               aria-valuetext="Empty"
@@ -61,9 +60,8 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rq:-day"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -79,8 +77,7 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rq:-year"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="9999"
               aria-valuetext="Empty"
@@ -89,9 +86,8 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rq:-year"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -107,6 +103,7 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
               tabindex="0"
               type="button"
               aria-label="Choose date"
+              data-mui-picker-open-button="true"
       >
         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
              focusable="false"
@@ -128,7 +125,7 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
       </legend>
     </fieldset>
     <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
-           id=":rp:"
+           id=":rq:"
            aria-hidden="true"
            tabindex="-1"
            value
@@ -138,17 +135,19 @@ exports[`Inputs/DateTimePicker Date smoke-test 1`] = `
 `;
 
 exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
-<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname"
+     data-cy="timePicker"
+>
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":rh:"
-         id=":rh:-label"
+         for=":ri:"
+         id=":ri:-label"
   >
     Date Time
   </label>
   <div aria-invalid="false"
        role="group"
-       aria-labelledby=":rh:-label"
+       aria-labelledby=":ri:-label"
        class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
   >
     <div contenteditable="false"
@@ -160,8 +159,7 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":ri:-month"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="12"
               aria-valuetext="Empty"
@@ -170,9 +168,8 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
               tabindex="0"
               contenteditable="true"
               role="spinbutton"
-              id=":ri:-month"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -188,8 +185,7 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":ri:-day"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="31"
               aria-valuetext="Empty"
@@ -198,9 +194,8 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":ri:-day"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -216,8 +211,7 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":ri:-year"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="9999"
               aria-valuetext="Empty"
@@ -226,9 +220,8 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":ri:-year"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -243,8 +236,7 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":ri:-hours"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="12"
               aria-valuetext="Empty"
@@ -253,9 +245,8 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":ri:-hours"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -271,8 +262,7 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":ri:-minutes"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="59"
               aria-valuetext="Empty"
@@ -281,9 +271,8 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":ri:-minutes"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -298,8 +287,7 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":ri:-meridiem"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="1"
               aria-valuetext="Empty"
@@ -308,9 +296,8 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":ri:-meridiem"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="text"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -326,6 +313,7 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
               tabindex="0"
               type="button"
               aria-label="Choose date"
+              data-mui-picker-open-button="true"
       >
         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
              focusable="false"
@@ -347,7 +335,7 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
       </legend>
     </fieldset>
     <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
-           id=":rh:"
+           id=":ri:"
            aria-hidden="true"
            tabindex="-1"
            value
@@ -357,17 +345,19 @@ exports[`Inputs/DateTimePicker FormatAmPm smoke-test 1`] = `
 `;
 
 exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
-<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname"
+     data-cy="timePicker"
+>
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":r4:"
-         id=":r4:-label"
+         for=":r5:"
+         id=":r5:-label"
   >
     Date Time
   </label>
   <div aria-invalid="false"
        role="group"
-       aria-labelledby=":r4:-label"
+       aria-labelledby=":r5:-label"
        class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
   >
     <div contenteditable="false"
@@ -379,8 +369,7 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r5:-month"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="12"
               aria-valuetext="Empty"
@@ -389,9 +378,8 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
               tabindex="0"
               contenteditable="true"
               role="spinbutton"
-              id=":r5:-month"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -407,8 +395,7 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r5:-day"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="31"
               aria-valuetext="Empty"
@@ -417,9 +404,8 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r5:-day"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -435,8 +421,7 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r5:-year"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="9999"
               aria-valuetext="Empty"
@@ -445,9 +430,8 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r5:-year"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -462,8 +446,7 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r5:-hours"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="23"
               aria-valuetext="Empty"
@@ -472,9 +455,8 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r5:-hours"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -490,6 +472,7 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
               tabindex="0"
               type="button"
               aria-label="Choose date"
+              data-mui-picker-open-button="true"
       >
         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
              focusable="false"
@@ -511,7 +494,7 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
       </legend>
     </fieldset>
     <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
-           id=":r4:"
+           id=":r5:"
            aria-hidden="true"
            tabindex="-1"
            value
@@ -521,17 +504,19 @@ exports[`Inputs/DateTimePicker HoursView smoke-test 1`] = `
 `;
 
 exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
-<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname"
+     data-cy="locale.dateTime"
+>
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":rl:"
-         id=":rl:-label"
+         for=":rm:"
+         id=":rm:-label"
   >
     Data Ore
   </label>
   <div aria-invalid="false"
        role="group"
-       aria-labelledby=":rl:-label"
+       aria-labelledby=":rm:-label"
        class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
   >
     <div contenteditable="false"
@@ -543,8 +528,7 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rm:-month"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="12"
               aria-valuetext="Empty"
@@ -553,9 +537,8 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
               tabindex="0"
               contenteditable="true"
               role="spinbutton"
-              id=":rm:-month"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -571,8 +554,7 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rm:-day"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="31"
               aria-valuetext="Empty"
@@ -581,9 +563,8 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rm:-day"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -599,8 +580,7 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rm:-year"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="9999"
               aria-valuetext="Empty"
@@ -609,9 +589,8 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rm:-year"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -626,8 +605,7 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rm:-hours"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="23"
               aria-valuetext="Empty"
@@ -636,9 +614,8 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rm:-hours"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -654,8 +631,7 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rm:-minutes"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="59"
               aria-valuetext="Empty"
@@ -664,9 +640,8 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rm:-minutes"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -682,6 +657,7 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
               tabindex="0"
               type="button"
               aria-label="Choose date"
+              data-mui-picker-open-button="true"
       >
         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
              focusable="false"
@@ -703,7 +679,7 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
       </legend>
     </fieldset>
     <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
-           id=":rl:"
+           id=":rm:"
            aria-hidden="true"
            tabindex="-1"
            value
@@ -713,7 +689,9 @@ exports[`Inputs/DateTimePicker Localized smoke-test 1`] = `
 `;
 
 exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
-<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname"
+     data-cy="timePicker"
+>
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
          for=":re:"
@@ -735,8 +713,7 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rd:-month"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuenow="10"
               aria-valuemin="1"
               aria-valuemax="12"
@@ -746,9 +723,8 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
               tabindex="0"
               contenteditable="true"
               role="spinbutton"
-              id=":rd:-month"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -764,8 +740,7 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rd:-day"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuenow="29"
               aria-valuemin="1"
               aria-valuemax="31"
@@ -775,9 +750,8 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rd:-day"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -793,8 +767,7 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rd:-year"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuenow="2023"
               aria-valuemin="0"
               aria-valuemax="9999"
@@ -803,9 +776,8 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rd:-year"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -820,8 +792,7 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rd:-hours"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuenow="6"
               aria-valuemin="0"
               aria-valuemax="23"
@@ -830,9 +801,8 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rd:-hours"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -848,8 +818,7 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rd:-minutes"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuenow="0"
               aria-valuemin="0"
               aria-valuemax="59"
@@ -858,9 +827,8 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rd:-minutes"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -876,8 +844,7 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":rd:-seconds"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuenow="0"
               aria-valuemin="0"
               aria-valuemax="59"
@@ -886,9 +853,8 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":rd:-seconds"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -904,6 +870,7 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
               tabindex="0"
               type="button"
               aria-label="Choose date, selected date is Oct 29, 2023"
+              data-mui-picker-open-button="true"
       >
         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
              focusable="false"
@@ -935,17 +902,19 @@ exports[`Inputs/DateTimePicker MobileView smoke-test 1`] = `
 `;
 
 exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
-<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname"
+     data-cy="timePicker"
+>
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":r0:"
-         id=":r0:-label"
+         for=":r1:"
+         id=":r1:-label"
   >
     Date Time
   </label>
   <div aria-invalid="false"
        role="group"
-       aria-labelledby=":r0:-label"
+       aria-labelledby=":r1:-label"
        class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
   >
     <div contenteditable="false"
@@ -957,8 +926,7 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r1:-month"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="12"
               aria-valuetext="Empty"
@@ -967,9 +935,8 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
               tabindex="0"
               contenteditable="true"
               role="spinbutton"
-              id=":r1:-month"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -985,8 +952,7 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r1:-day"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="31"
               aria-valuetext="Empty"
@@ -995,9 +961,8 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r1:-day"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1013,8 +978,7 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r1:-year"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="9999"
               aria-valuetext="Empty"
@@ -1023,9 +987,8 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r1:-year"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1040,8 +1003,7 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r1:-hours"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="23"
               aria-valuetext="Empty"
@@ -1050,9 +1012,8 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r1:-hours"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1068,8 +1029,7 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r1:-minutes"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="59"
               aria-valuetext="Empty"
@@ -1078,9 +1038,8 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r1:-minutes"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1096,6 +1055,7 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
               tabindex="0"
               type="button"
               aria-label="Choose date"
+              data-mui-picker-open-button="true"
       >
         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
              focusable="false"
@@ -1117,7 +1077,7 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
       </legend>
     </fieldset>
     <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
-           id=":r0:"
+           id=":r1:"
            aria-hidden="true"
            tabindex="-1"
            value
@@ -1127,17 +1087,19 @@ exports[`Inputs/DateTimePicker Primary smoke-test 1`] = `
 `;
 
 exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
-<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname"
+     data-cy="timePicker"
+>
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":r8:"
-         id=":r8:-label"
+         for=":r9:"
+         id=":r9:-label"
   >
     Date Time
   </label>
   <div aria-invalid="false"
        role="group"
-       aria-labelledby=":r8:-label"
+       aria-labelledby=":r9:-label"
        class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
   >
     <div contenteditable="false"
@@ -1149,8 +1111,7 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r9:-month"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="12"
               aria-valuetext="Empty"
@@ -1159,9 +1120,8 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
               tabindex="0"
               contenteditable="true"
               role="spinbutton"
-              id=":r9:-month"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1177,8 +1137,7 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r9:-day"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="1"
               aria-valuemax="31"
               aria-valuetext="Empty"
@@ -1187,9 +1146,8 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r9:-day"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1205,8 +1163,7 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r9:-year"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="9999"
               aria-valuetext="Empty"
@@ -1215,9 +1172,8 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r9:-year"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1232,8 +1188,7 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r9:-hours"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="23"
               aria-valuetext="Empty"
@@ -1242,9 +1197,8 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r9:-hours"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1260,8 +1214,7 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r9:-minutes"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="59"
               aria-valuetext="Empty"
@@ -1270,9 +1223,8 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r9:-minutes"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1288,8 +1240,7 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":r9:-seconds"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="59"
               aria-valuetext="Empty"
@@ -1298,9 +1249,8 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":r9:-seconds"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1316,6 +1266,7 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
               tabindex="0"
               type="button"
               aria-label="Choose date"
+              data-mui-picker-open-button="true"
       >
         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
              focusable="false"
@@ -1337,7 +1288,7 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
       </legend>
     </fieldset>
     <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
-           id=":r8:"
+           id=":r9:"
            aria-hidden="true"
            tabindex="-1"
            value
@@ -1347,17 +1298,19 @@ exports[`Inputs/DateTimePicker SecondsView smoke-test 1`] = `
 `;
 
 exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
-<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname">
+<div class="MuiFormControl-root MuiPickersTextField-root css-mui-classname"
+     data-cy="timePicker"
+>
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":rt:"
-         id=":rt:-label"
+         for=":ru:"
+         id=":ru:-label"
   >
     Date Time
   </label>
   <div aria-invalid="false"
        role="group"
-       aria-labelledby=":rt:-label"
+       aria-labelledby=":ru:-label"
        class="MuiPickersInputBase-root MuiPickersOutlinedInput-root MuiPickersInputBase-colorPrimary MuiPickersInputBase-adornedEnd css-mui-classname"
   >
     <div contenteditable="false"
@@ -1369,8 +1322,7 @@ exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":ru:-hours"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="23"
               aria-valuetext="Empty"
@@ -1379,9 +1331,8 @@ exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
               tabindex="0"
               contenteditable="true"
               role="spinbutton"
-              id=":ru:-hours"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1397,8 +1348,7 @@ exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
       >
         <span class="MuiPickersInputBase-sectionBefore css-mui-classname">
         </span>
-        <span aria-labelledby=":ru:-minutes"
-              aria-readonly="false"
+        <span aria-readonly="false"
               aria-valuemin="0"
               aria-valuemax="59"
               aria-valuetext="Empty"
@@ -1407,9 +1357,8 @@ exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
               tabindex="-1"
               contenteditable="true"
               role="spinbutton"
-              id=":ru:-minutes"
               spellcheck="false"
-              autocapitalize="off"
+              autocapitalize="none"
               autocorrect="off"
               inputmode="numeric"
               class="MuiPickersSectionList-sectionContent MuiPickersInputBase-sectionContent css-mui-classname"
@@ -1425,6 +1374,7 @@ exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
               tabindex="0"
               type="button"
               aria-label="Choose time"
+              data-mui-picker-open-button="true"
       >
         <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-mui-classname"
              focusable="false"
@@ -1448,7 +1398,7 @@ exports[`Inputs/DateTimePicker Time smoke-test 1`] = `
       </legend>
     </fieldset>
     <input class="MuiPickersInputBase-input MuiPickersOutlinedInput-input css-mui-classname"
-           id=":rt:"
+           id=":ru:"
            aria-hidden="true"
            tabindex="-1"
            value
