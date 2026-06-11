@@ -5,9 +5,7 @@ exports[`Inputs/Checkbox Disabled smoke-test 1`] = `
        data-cy="checkbox"
        style="margin: 0px;"
 >
-  <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-disabled PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-checked Mui-disabled MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium css-mui-classname"
-        tabindex="-1"
-        aria-disabled="true"
+  <span class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-checked Mui-disabled MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium css-mui-classname"
         data-cy="checkbox-check"
   >
     <input disabled
@@ -39,6 +37,7 @@ exports[`Inputs/Checkbox Intermediate smoke-test 1`] = `
   >
     <input type="checkbox"
            data-indeterminate="true"
+           aria-checked="mixed"
            data-cy="checkbox-input"
            class="PrivateSwitchBase-input css-mui-classname"
            checked

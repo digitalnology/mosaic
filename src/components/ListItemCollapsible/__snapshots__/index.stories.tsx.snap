@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Display/ListItemCollapsible Children smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item-collapsible-header"
@@ -37,7 +37,7 @@ exports[`Display/ListItemCollapsible Children smoke-test 1`] = `
 `;
 
 exports[`Display/ListItemCollapsible Dense smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-dense MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item-collapsible-header"
@@ -73,7 +73,7 @@ exports[`Display/ListItemCollapsible Dense smoke-test 1`] = `
 `;
 
 exports[`Display/ListItemCollapsible Loading smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item-collapsible-header"
@@ -105,7 +105,7 @@ exports[`Display/ListItemCollapsible Loading smoke-test 1`] = `
 `;
 
 exports[`Display/ListItemCollapsible Open smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item-collapsible-header"
@@ -141,7 +141,7 @@ exports[`Display/ListItemCollapsible Open smoke-test 1`] = `
 `;
 
 exports[`Display/ListItemCollapsible Primary smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item-collapsible-header"
@@ -177,7 +177,7 @@ exports[`Display/ListItemCollapsible Primary smoke-test 1`] = `
 `;
 
 exports[`Display/ListItemCollapsible Selected smoke-test 1`] = `
-<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters Mui-selected MuiListItemButton-root MuiListItemButton-gutters Mui-selected css-mui-classname"
+<div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters Mui-selected css-mui-classname"
      tabindex="0"
      role="button"
      data-cy="list-item-collapsible-header"

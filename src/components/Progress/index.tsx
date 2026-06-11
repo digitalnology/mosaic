@@ -78,7 +78,14 @@ const Progress: FC<ProgressProps> = ({
       <div style={circularWrapperStyle}>
         <MUICircularProgress data-cy={dataCy} color={color} variant={variant} value={percent} />
         {withLabel && (
-          <Typography component="div" color="text.secondary" variant="caption" style={circularLabelStyle}>
+          <Typography
+            component="div"
+            variant="caption"
+            style={circularLabelStyle}
+            sx={{
+              color: "text.secondary",
+            }}
+          >
             {percentString}
           </Typography>
         )}
@@ -90,7 +97,14 @@ const Progress: FC<ProgressProps> = ({
     <div style={flexCenterStyle}>
       <MUILinearProgress data-cy={dataCy} color={color} variant={variant} value={percent} style={linearWrapperStyle} />
       {withLabel && (
-        <Typography color="text.secondary" variant="body2" style={linearLabelStyle}>
+        <Typography
+          variant="body2"
+          style={linearLabelStyle}
+          // color="text.secondary"
+          sx={{
+            color: "text.secondary",
+          }}
+        >
           {percentString}
         </Typography>
       )}
