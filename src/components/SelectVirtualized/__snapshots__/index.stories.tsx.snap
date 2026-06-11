@@ -1,26 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Inputs/SelectVirtualized AutoSort smoke-test 1`] = `
-<div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
            data-shrink="false"
-           for=":ra:"
-           id=":ra:-label"
+           for=":re:"
+           id=":re:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":ra:"
+             id=":re:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="false"
              autocapitalize="none"
@@ -62,26 +62,26 @@ exports[`Inputs/SelectVirtualized AutoSort smoke-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized Autocomplete play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":r4:"
-           id=":r4:-label"
+           for=":r6:"
+           id=":r6:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r4:"
+             id=":r6:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="list"
              aria-expanded="true"
              autocapitalize="none"
@@ -89,7 +89,7 @@ exports[`Inputs/SelectVirtualized Autocomplete play-test 1`] = `
              role="combobox"
              data-cy="select"
              value="M"
-             aria-controls=":r4:-listbox"
+             aria-controls=":r6:-listbox"
              style="width: 100%;"
       >
       <div class="MuiAutocomplete-endAdornment css-mui-classname">
@@ -124,26 +124,26 @@ exports[`Inputs/SelectVirtualized Autocomplete play-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized AutocompleteChange play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":r7:"
-           id=":r7:-label"
+           for=":ra:"
+           id=":ra:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r7:"
+             id=":ra:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="list"
              aria-expanded="true"
              autocapitalize="none"
@@ -151,7 +151,7 @@ exports[`Inputs/SelectVirtualized AutocompleteChange play-test 1`] = `
              role="combobox"
              data-cy="select"
              value="M"
-             aria-controls=":r7:-listbox"
+             aria-controls=":ra:-listbox"
              style="width: 100%;"
       >
       <div class="MuiAutocomplete-endAdornment css-mui-classname">
@@ -186,16 +186,16 @@ exports[`Inputs/SelectVirtualized AutocompleteChange play-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized Disabled smoke-test 1`] = `
-<div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-disabled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
            data-shrink="false"
-           for=":rd:"
-           id=":rd:-label"
+           for=":ri:"
+           id=":ri:-label"
     >
       Select
     </label>
@@ -203,10 +203,10 @@ exports[`Inputs/SelectVirtualized Disabled smoke-test 1`] = `
       <input aria-invalid="false"
              autocomplete="off"
              disabled
-             id=":rd:"
+             id=":ri:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input Mui-disabled MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input Mui-disabled MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="false"
              autocapitalize="none"
@@ -249,26 +249,26 @@ exports[`Inputs/SelectVirtualized Disabled smoke-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized Grouped play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":rg:"
-           id=":rg:-label"
+           for=":rm:"
+           id=":rm:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":rg:"
+             id=":rm:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="true"
              autocapitalize="none"
@@ -276,7 +276,7 @@ exports[`Inputs/SelectVirtualized Grouped play-test 1`] = `
              role="combobox"
              data-cy="select"
              value
-             aria-controls=":rg:-listbox"
+             aria-controls=":rm:-listbox"
              style="width: 100%;"
       >
       <div class="MuiAutocomplete-endAdornment css-mui-classname">
@@ -311,26 +311,26 @@ exports[`Inputs/SelectVirtualized Grouped play-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized GroupedCustomLabel play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":rj:"
-           id=":rj:-label"
+           for=":rq:"
+           id=":rq:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":rj:"
+             id=":rq:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="true"
              autocapitalize="none"
@@ -338,7 +338,7 @@ exports[`Inputs/SelectVirtualized GroupedCustomLabel play-test 1`] = `
              role="combobox"
              data-cy="select"
              value
-             aria-controls=":rj:-listbox"
+             aria-controls=":rq:-listbox"
              style="width: 100%;"
       >
       <div class="MuiAutocomplete-endAdornment css-mui-classname">
@@ -373,8 +373,8 @@ exports[`Inputs/SelectVirtualized GroupedCustomLabel play-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized Loading smoke-test 1`] = `
-<div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <span class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse MuiSkeleton-withChildren MuiSkeleton-heightAuto css-mui-classname"
         style="width: 100%;"
@@ -385,9 +385,9 @@ exports[`Inputs/SelectVirtualized Loading smoke-test 1`] = `
       <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
         <input aria-invalid="false"
                autocomplete="off"
-               id=":rm:"
+               id=":ru:"
                type="text"
-               class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+               class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
                aria-autocomplete="both"
                aria-expanded="false"
                autocapitalize="none"
@@ -432,26 +432,26 @@ exports[`Inputs/SelectVirtualized Loading smoke-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized Localized smoke-test 1`] = `
-<div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="locale.select-outer-wrapper"
+<div data-cy="locale.select-outer-wrapper"
+     class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
            data-shrink="false"
-           for=":rp:"
-           id=":rp:-label"
+           for=":r12:"
+           id=":r12:-label"
     >
       Menu a tendina
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":rp:"
+             id=":r12:"
              placeholder="Inserire valore..."
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="false"
              autocapitalize="none"
@@ -493,29 +493,29 @@ exports[`Inputs/SelectVirtualized Localized smoke-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized Multiple play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":rs:"
-           id=":rs:-label"
+           for=":r16:"
+           id=":r16:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedStart MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
-      <div class="MuiButtonBase-root MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-deletable MuiChip-deletableColorDefault MuiChip-filledDefault MuiAutocomplete-tag MuiAutocomplete-tagSizeMedium css-mui-classname"
+      <div class="MuiButtonBase-root MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-deletable MuiAutocomplete-tag MuiAutocomplete-tagSizeMedium css-mui-classname"
            tabindex="-1"
            role="button"
-           data-tag-index="0"
+           data-item-index="0"
       >
-        <span class="MuiChip-label MuiChip-labelMedium css-mui-classname">
+        <span class="MuiChip-label css-mui-classname">
           Sculpture
         </span>
-        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-deleteIcon MuiChip-deleteIconMedium MuiChip-deleteIconColorDefault MuiChip-deleteIconFilledColorDefault css-mui-classname"
+        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiChip-deleteIcon css-mui-classname"
              focusable="false"
              aria-hidden="true"
              viewbox="0 0 24 24"
@@ -526,10 +526,10 @@ exports[`Inputs/SelectVirtualized Multiple play-test 1`] = `
       </div>
       <input aria-invalid="false"
              autocomplete="off"
-             id=":rs:"
+             id=":r16:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="true"
              autocapitalize="none"
@@ -537,7 +537,7 @@ exports[`Inputs/SelectVirtualized Multiple play-test 1`] = `
              role="combobox"
              data-cy="select"
              value
-             aria-controls=":rs:-listbox"
+             aria-controls=":r16:-listbox"
              style="width: 100%;"
       >
       <div class="MuiAutocomplete-endAdornment css-mui-classname">
@@ -587,26 +587,26 @@ exports[`Inputs/SelectVirtualized Multiple play-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized OnScrollEndCallback play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":r10:"
-           id=":r10:-label"
+           for=":r1b:"
+           id=":r1b:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r10:"
+             id=":r1b:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="true"
              autocapitalize="none"
@@ -614,7 +614,7 @@ exports[`Inputs/SelectVirtualized OnScrollEndCallback play-test 1`] = `
              role="combobox"
              data-cy="select"
              value
-             aria-controls=":r10:-listbox"
+             aria-controls=":r1b:-listbox"
              style="width: 100%;"
       >
       <div class="MuiAutocomplete-endAdornment css-mui-classname">
@@ -649,26 +649,26 @@ exports[`Inputs/SelectVirtualized OnScrollEndCallback play-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized OptionCustomLabel play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":r13:"
-           id=":r13:-label"
+           for=":r1f:"
+           id=":r1f:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r13:"
+             id=":r1f:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="true"
              autocapitalize="none"
@@ -676,7 +676,7 @@ exports[`Inputs/SelectVirtualized OptionCustomLabel play-test 1`] = `
              role="combobox"
              data-cy="select"
              value
-             aria-controls=":r13:-listbox"
+             aria-controls=":r1f:-listbox"
              style="width: 100%;"
       >
       <div class="MuiAutocomplete-endAdornment css-mui-classname">
@@ -711,26 +711,26 @@ exports[`Inputs/SelectVirtualized OptionCustomLabel play-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized OptionCustomRendering play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":r16:"
-           id=":r16:-label"
+           for=":r1j:"
+           id=":r1j:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r16:"
+             id=":r1j:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="true"
              autocapitalize="none"
@@ -738,7 +738,7 @@ exports[`Inputs/SelectVirtualized OptionCustomRendering play-test 1`] = `
              role="combobox"
              data-cy="select"
              value
-             aria-controls=":r16:-listbox"
+             aria-controls=":r1j:-listbox"
              style="width: 100%;"
       >
       <div class="MuiAutocomplete-endAdornment css-mui-classname">
@@ -773,26 +773,26 @@ exports[`Inputs/SelectVirtualized OptionCustomRendering play-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized Primary play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-focused MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-focused MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":r0:"
-           id=":r0:-label"
+           for=":r1:"
+           id=":r1:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r0:"
+             id=":r1:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="false"
              autocapitalize="none"
@@ -849,16 +849,16 @@ exports[`Inputs/SelectVirtualized Primary play-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized Required smoke-test 1`] = `
-<div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
            data-shrink="false"
-           for=":r19:"
-           id=":r19:-label"
+           for=":r1n:"
+           id=":r1n:-label"
     >
       Select
       <span aria-hidden="true"
@@ -870,11 +870,11 @@ exports[`Inputs/SelectVirtualized Required smoke-test 1`] = `
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r19:"
+             id=":r1n:"
              placeholder="Select a value"
              required
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="false"
              autocapitalize="none"
@@ -916,26 +916,26 @@ exports[`Inputs/SelectVirtualized Required smoke-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized SizeSmall smoke-test 1`] = `
-<div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined css-mui-classname"
            data-shrink="false"
-           for=":r1c:"
-           id=":r1c:-label"
+           for=":r1r:"
+           id=":r1r:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r1c:"
+             id=":r1r:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="false"
              autocapitalize="none"
@@ -977,26 +977,26 @@ exports[`Inputs/SelectVirtualized SizeSmall smoke-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized Styled smoke-test 1`] = `
-<div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="color: red; font-weight: bold; font-size: large; text-align: center; width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
            data-shrink="false"
-           for=":r1f:"
-           id=":r1f:-label"
+           for=":r1v:"
+           id=":r1v:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r1f:"
+             id=":r1v:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="false"
              autocapitalize="none"
@@ -1038,26 +1038,26 @@ exports[`Inputs/SelectVirtualized Styled smoke-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized VariantFilled smoke-test 1`] = `
-<div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-filled css-mui-classname"
            data-shrink="false"
-           for=":r1i:"
-           id=":r1i:-label"
+           for=":r23:"
+           id=":r23:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline MuiFilledInput-adornedEnd MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r1i:"
+             id=":r23:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiFilledInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiFilledInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="false"
              autocapitalize="none"
@@ -1090,26 +1090,26 @@ exports[`Inputs/SelectVirtualized VariantFilled smoke-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized VariantStandard smoke-test 1`] = `
-<div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard css-mui-classname"
            data-shrink="false"
-           for=":r1l:"
-           id=":r1l:-label"
+           for=":r27:"
+           id=":r27:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r1l:"
+             id=":r27:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="false"
              autocapitalize="none"
@@ -1142,26 +1142,26 @@ exports[`Inputs/SelectVirtualized VariantStandard smoke-test 1`] = `
 `;
 
 exports[`Inputs/SelectVirtualized VirtualizedWith1000Elements play-test 1`] = `
-<div class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
-     data-cy="select-outer-wrapper"
+<div data-cy="select-outer-wrapper"
+     class="MuiAutocomplete-root Mui-expanded Mui-focused MuiAutocomplete-hasPopupIcon css-mui-classname"
 >
   <div class="MuiFormControl-root MuiFormControl-marginNormal MuiFormControl-fullWidth MuiTextField-root css-mui-classname"
        style="width: 100%;"
   >
     <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
            data-shrink="true"
-           for=":r1o:"
-           id=":r1o:-label"
+           for=":r2b:"
+           id=":r2b:-label"
     >
       Select
     </label>
     <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-mui-classname">
       <input aria-invalid="false"
              autocomplete="off"
-             id=":r1o:"
+             id=":r2b:"
              placeholder="Select a value"
              type="text"
-             class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
+             class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused css-mui-classname"
              aria-autocomplete="both"
              aria-expanded="true"
              autocapitalize="none"
@@ -1169,7 +1169,7 @@ exports[`Inputs/SelectVirtualized VirtualizedWith1000Elements play-test 1`] = `
              role="combobox"
              data-cy="select"
              value
-             aria-controls=":r1o:-listbox"
+             aria-controls=":r2b:-listbox"
              style="width: 100%;"
       >
       <div class="MuiAutocomplete-endAdornment css-mui-classname">

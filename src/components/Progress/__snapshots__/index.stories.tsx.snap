@@ -10,7 +10,7 @@ exports[`Feedback/Progress Circular smoke-test 1`] = `
     <svg class="MuiCircularProgress-svg css-mui-classname"
          viewbox="22 22 44 44"
     >
-      <circle class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-mui-classname"
+      <circle class="MuiCircularProgress-circle css-mui-classname"
               cx="44"
               cy="44"
               r="20.2"
@@ -33,7 +33,7 @@ exports[`Feedback/Progress CircularColor smoke-test 1`] = `
     <svg class="MuiCircularProgress-svg css-mui-classname"
          viewbox="22 22 44 44"
     >
-      <circle class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-mui-classname"
+      <circle class="MuiCircularProgress-circle css-mui-classname"
               cx="44"
               cy="44"
               r="20.2"
@@ -51,13 +51,15 @@ exports[`Feedback/Progress CircularDeterminate smoke-test 1`] = `
   <span class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorPrimary css-mui-classname"
         role="progressbar"
         aria-valuenow="50"
+        aria-valuemin="0"
+        aria-valuemax="100"
         data-cy="progress"
         style="width: 40px; height: 40px; transform: rotate(-90deg);"
   >
     <svg class="MuiCircularProgress-svg css-mui-classname"
          viewbox="22 22 44 44"
     >
-      <circle class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-mui-classname"
+      <circle class="MuiCircularProgress-circle css-mui-classname"
               cx="44"
               cy="44"
               r="20.2"
@@ -81,7 +83,7 @@ exports[`Feedback/Progress CircularInvalidValue smoke-test 1`] = `
     <svg class="MuiCircularProgress-svg css-mui-classname"
          viewbox="22 22 44 44"
     >
-      <circle class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-mui-classname"
+      <circle class="MuiCircularProgress-circle css-mui-classname"
               cx="44"
               cy="44"
               r="20.2"
@@ -99,13 +101,15 @@ exports[`Feedback/Progress CircularWithLabel smoke-test 1`] = `
   <span class="MuiCircularProgress-root MuiCircularProgress-determinate MuiCircularProgress-colorPrimary css-mui-classname"
         role="progressbar"
         aria-valuenow="50"
+        aria-valuemin="0"
+        aria-valuemax="100"
         data-cy="progress"
         style="width: 40px; height: 40px; transform: rotate(-90deg);"
   >
     <svg class="MuiCircularProgress-svg css-mui-classname"
          viewbox="22 22 44 44"
     >
-      <circle class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate css-mui-classname"
+      <circle class="MuiCircularProgress-circle css-mui-classname"
               cx="44"
               cy="44"
               r="20.2"
@@ -131,9 +135,9 @@ exports[`Feedback/Progress Linear smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 css-mui-classname">
     </span>
-    <span class="MuiLinearProgress-bar MuiLinearProgress-bar2 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar2Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar2 css-mui-classname">
     </span>
   </span>
 </div>
@@ -146,9 +150,9 @@ exports[`Feedback/Progress LinearColor smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorError MuiLinearProgress-bar1Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 css-mui-classname">
     </span>
-    <span class="MuiLinearProgress-bar MuiLinearProgress-bar2 MuiLinearProgress-barColorError MuiLinearProgress-bar2Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar2 css-mui-classname">
     </span>
   </span>
 </div>
@@ -164,7 +168,7 @@ exports[`Feedback/Progress LinearDeterminate smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-mui-classname"
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 css-mui-classname"
           style="transform: translateX(-50%);"
     >
     </span>
@@ -179,9 +183,9 @@ exports[`Feedback/Progress LinearInvalidValue smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 css-mui-classname">
     </span>
-    <span class="MuiLinearProgress-bar MuiLinearProgress-bar2 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar2Indeterminate css-mui-classname">
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar2 css-mui-classname">
     </span>
   </span>
 </div>
@@ -197,7 +201,7 @@ exports[`Feedback/Progress LinearWithLabel smoke-test 1`] = `
         data-cy="progress"
         style="margin-right: 8px; width: 100%;"
   >
-    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate css-mui-classname"
+    <span class="MuiLinearProgress-bar MuiLinearProgress-bar1 css-mui-classname"
           style="transform: translateX(-50%);"
     >
     </span>

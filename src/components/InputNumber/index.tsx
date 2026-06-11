@@ -98,16 +98,16 @@ const InputNumber: FC<IInputNumber> = ({
     <MUITextField
       onKeyDown={onKeyDownHandler}
       disabled={disabled}
-      InputLabelProps={{
-        shrink,
-      }}
-      inputProps={{
-        "data-cy": dataCy,
-        style: { ...BASE_STYLE, ...style },
-      }}
-      InputProps={{
-        endAdornment: adornment,
-        readOnly: disabled,
+      slotProps={{
+        inputLabel: shrink,
+        htmlInput: {
+          "data-cy": dataCy,
+          style: { ...BASE_STYLE, ...style },
+        },
+        input: {
+          endAdornment: adornment,
+          readOnly: disabled,
+        },
       }}
       label={label}
       margin="normal"

@@ -44,11 +44,11 @@ const Switch: FC<ISwitch> = ({
           data-cy={getComposedDataCy(dataCy, SUBPARTS_MAP.toggle)}
           disabled={disabled}
           disableRipple={disableRipple}
-          inputProps={
-            {
+          slotProps={{
+            input: {
               "data-cy": getComposedDataCy(dataCy, SUBPARTS_MAP.input),
-            } as any
-          }
+            } as any,
+          }}
           onChange={onChangeHandler}
           required={required}
           size={size}
