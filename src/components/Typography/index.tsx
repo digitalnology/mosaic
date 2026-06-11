@@ -72,7 +72,7 @@ const Typography: FC<PropsWithChildren<ITypography>> = ({
   return (
     <MUITypography
       data-cy={dataCy}
-      display={display}
+      sx={{ display }}
       gutterBottom={bottomSpacing}
       noWrap={truncated}
       style={style}

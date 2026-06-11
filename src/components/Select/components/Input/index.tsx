@@ -32,7 +32,7 @@ const SelectInput: FC<ISelectInput> = ({
   type,
   variant,
 }) => {
-  const { inputProps: forwardedInputProps, ...forwardedRefs } = forwarded;
+  const { slotProps: forwardedSlotProps, ...forwardedRefs } = forwarded;
 
   const style = useMemo((): CSSProperties => ({ ...externalStyle, width: "100%" }), [externalStyle]);
 
@@ -41,13 +41,16 @@ const SelectInput: FC<ISelectInput> = ({
     [dataCy, loading]
   );
 
-  const inputProps = useMemo(
+  const slotProps = useMemo(
     () => ({
-      ...forwardedInputProps,
-      "data-cy": inputDataCy,
-      style,
+      ...forwardedSlotProps,
+      htmlInput: {
+        ...forwardedSlotProps.htmlInput,
+        "data-cy": inputDataCy,
+        style,
+      },
     }),
-    [forwardedInputProps, inputDataCy, style]
+    [forwardedSlotProps, inputDataCy, style]
   );
 
   if (loading) {
@@ -55,7 +58,7 @@ const SelectInput: FC<ISelectInput> = ({
       <MUISkeleton width="100%">
         <MUITextField
           {...forwardedRefs}
-          inputProps={inputProps}
+          slotProps={slotProps}
           margin="normal"
           size={size}
           variant={variant}
@@ -68,7 +71,7 @@ const SelectInput: FC<ISelectInput> = ({
   return (
     <MUITextField
       {...forwardedRefs}
-      inputProps={inputProps}
+      slotProps={slotProps}
       label={label}
       margin="normal"
       placeholder={placeholder}

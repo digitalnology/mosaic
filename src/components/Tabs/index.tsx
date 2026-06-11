@@ -29,7 +29,7 @@ const Tabs: FC<TabsType> = ({
         value={value}
         onChange={handleChange}
         textColor="primary"
-        TabIndicatorProps={{ style: { background: theme.palette[color].main } }}
+        slotProps={{ indicator: { style: { background: theme.palette[color].main } } }}
         orientation={orientation}
         variant={orientation === "vertical" ? "standard" : "scrollable"}
         scrollButtons="auto"

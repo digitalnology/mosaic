@@ -6,17 +6,17 @@ exports[`Inputs/InputText Adornment smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
-         for=":r1:"
-         id=":r1:-label"
+         for=":r3:"
+         id=":r3:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
     <input aria-invalid="false"
-           id=":r1:"
+           id=":r3:"
            type="text"
            data-cy="input-text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
            value="Value"
            style="width: 100%;"
     >
@@ -57,17 +57,17 @@ exports[`Inputs/InputText AdornmentClickable smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
-         for=":r3:"
-         id=":r3:-label"
+         for=":r6:"
+         id=":r6:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-mui-classname">
     <input aria-invalid="false"
-           id=":r3:"
+           id=":r6:"
            type="text"
            data-cy="input-text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-mui-classname"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
            value="Value"
            style="width: 100%;"
     >
@@ -107,15 +107,15 @@ exports[`Inputs/InputText Disabled smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-disabled MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
-         for=":r5:"
-         id=":r5:-label"
+         for=":r9:"
+         id=":r9:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-disabled MuiInputBase-formControl Mui-readOnly MuiInputBase-readOnly css-mui-classname">
     <input aria-invalid="false"
            disabled
-           id=":r5:"
+           id=":r9:"
            readonly
            type="text"
            data-cy="input-text"
@@ -142,14 +142,14 @@ exports[`Inputs/InputText Localized smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
-         for=":r6:"
-         id=":r6:-label"
+         for=":rb:"
+         id=":rb:-label"
   >
     Campo testuale
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
     <input aria-invalid="false"
-           id=":r6:"
+           id=":rb:"
            placeholder="Inserire valore..."
            type="text"
            data-cy="locale.inputText"
@@ -176,22 +176,22 @@ exports[`Inputs/InputText Multiline smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
-         for=":r7:"
-         id=":r7:-label"
+         for=":rd:"
+         id=":rd:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-multiline css-mui-classname">
     <textarea aria-invalid="false"
-              id=":r7:"
+              id=":rd:"
               data-cy="input-text"
-              class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline css-mui-classname"
+              class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
               style="width: 100%; height: 69px;"
     >
       Value
     </textarea>
     <textarea aria-hidden="true"
-              class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline css-mui-classname"
+              class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
               readonly
               tabindex="-1"
               style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0px); width: 1220px; padding-top: 0px; padding-bottom: 0px;"
@@ -216,14 +216,14 @@ exports[`Inputs/InputText Placeholder smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-mui-classname"
          data-shrink="false"
-         for=":r8:"
-         id=":r8:-label"
+         for=":rf:"
+         id=":rf:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
     <input aria-invalid="false"
-           id=":r8:"
+           id=":rf:"
            placeholder="Enter value..."
            type="text"
            data-cy="input-text"
@@ -250,14 +250,14 @@ exports[`Inputs/InputText Primary play-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
-         for=":r0:"
-         id=":r0:-label"
+         for=":r1:"
+         id=":r1:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl css-mui-classname">
     <input aria-invalid="false"
-           id=":r0:"
+           id=":r1:"
            type="text"
            data-cy="input-text"
            class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
@@ -283,8 +283,8 @@ exports[`Inputs/InputText Required smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled Mui-required MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
-         for=":r9:"
-         id=":r9:-label"
+         for=":rh:"
+         id=":rh:-label"
   >
     Label
     <span aria-hidden="true"
@@ -295,7 +295,7 @@ exports[`Inputs/InputText Required smoke-test 1`] = `
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
     <input aria-invalid="false"
-           id=":r9:"
+           id=":rh:"
            required
            type="text"
            data-cy="input-text"
@@ -322,17 +322,17 @@ exports[`Inputs/InputText SizeSmall smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
-         for=":ra:"
-         id=":ra:-label"
+         for=":rj:"
+         id=":rj:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall css-mui-classname">
     <input aria-invalid="false"
-           id=":ra:"
+           id=":rj:"
            type="text"
            data-cy="input-text"
-           class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-mui-classname"
+           class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
            value="Value"
            style="width: 100%;"
     >
@@ -355,14 +355,14 @@ exports[`Inputs/InputText Styled smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-mui-classname"
          data-shrink="true"
-         for=":rb:"
-         id=":rb:-label"
+         for=":rl:"
+         id=":rl:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
     <input aria-invalid="false"
-           id=":rb:"
+           id=":rl:"
            type="text"
            data-cy="input-text"
            class="MuiInputBase-input MuiOutlinedInput-input css-mui-classname"
@@ -388,14 +388,14 @@ exports[`Inputs/InputText VariantFilled smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled css-mui-classname"
          data-shrink="true"
-         for=":rc:"
-         id=":rc:-label"
+         for=":rn:"
+         id=":rn:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
     <input aria-invalid="false"
-           id=":rc:"
+           id=":rn:"
            type="text"
            data-cy="input-text"
            class="MuiInputBase-input MuiFilledInput-input css-mui-classname"
@@ -412,14 +412,14 @@ exports[`Inputs/InputText VariantStandard smoke-test 1`] = `
 >
   <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-standard MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-standard css-mui-classname"
          data-shrink="true"
-         for=":rd:"
-         id=":rd:-label"
+         for=":rp:"
+         id=":rp:-label"
   >
     Label
   </label>
   <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-mui-classname">
     <input aria-invalid="false"
-           id=":rd:"
+           id=":rp:"
            type="text"
            data-cy="input-text"
            class="MuiInputBase-input MuiInput-input css-mui-classname"

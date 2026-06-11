@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { CSSProperties, ReactNode } from "react";
-import { TablePaginationActionsProps as MUITablePaginationActionsProps } from "@mui/material/TablePagination/TablePaginationActions";
+import { TablePaginationActionsProps as MUITablePaginationActionsProps } from "@mui/material";
 
 import { IAdornment } from "./Adornment";
 import { IBase, ILoadable, ILocalizable } from "./Base";
