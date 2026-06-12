@@ -44,8 +44,6 @@ jobs:
 
       - name: Run ESLint and Prettier
         id: code-format
-        # disabled to save time until release is fixed
-        if: false
         run: |
           npm run clean:code
           git add .
@@ -70,8 +68,6 @@ jobs:
 
       - name: Test runner
         id: test-runner
-        # disabled to save time until release is fixed
-        if: false
         run: |
           npx playwright install --with-deps
           npx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
@@ -99,7 +95,7 @@ jobs:
           GIT_COMMITTER_NAME: ${{ secrets.GIT_USER_NAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release --debug
+        run: npx semantic-release
 
       - name: Send Notification
         uses: Co-qn/google-chat-notification@master
