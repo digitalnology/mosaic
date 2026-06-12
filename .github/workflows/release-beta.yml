@@ -84,6 +84,7 @@ jobs:
         run: npm run build
 
       - name: Push changes before release
+        if: false
         run: |
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }} || echo "Push failed"
 
