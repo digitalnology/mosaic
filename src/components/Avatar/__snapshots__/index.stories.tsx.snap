@@ -24,7 +24,7 @@ exports[`Display/Avatar Image smoke-test 1`] = `
      style="background-color: rgb(25, 118, 210); color: rgb(255, 255, 255);"
 >
   <img alt="avatar"
-       src="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Roof_hafez_tomb.jpg/440px-Roof_hafez_tomb.jpg"
+       src="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Roof_hafez_tomb.jpg/60px-Roof_hafez_tomb.jpg"
        class="MuiAvatar-img css-mui-classname"
   >
 </div>
