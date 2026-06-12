@@ -89,9 +89,7 @@ jobs:
 
       - name: Push changes before release
         run: |
-          git config --local user.email "${{ secrets.GIT_USER_EMAIL }}"
-          git config --local user.name "${{ secrets.GIT_USER_NAME }}" 
-          git push origin HEAD:beta || echo "Push failed"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }} || echo "Push failed"
 
       - name: Release
         env:
