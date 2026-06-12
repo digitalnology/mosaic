@@ -100,7 +100,6 @@ const Progress: FC<ProgressProps> = ({
         <Typography
           variant="body2"
           style={linearLabelStyle}
-          // color="text.secondary"
           sx={{
             color: "text.secondary",
           }}
