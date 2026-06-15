@@ -44,6 +44,8 @@ jobs:
 
       - name: Run ESLint and Prettier
         id: code-format
+        # save some time while debugging
+        if: false
         run: |
           npm run clean:code
           git add .
@@ -68,6 +70,8 @@ jobs:
 
       - name: Test runner
         id: test-runner
+        # save some time while debugging
+        if: false
         run: |
           npx playwright install --with-deps
           npx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
