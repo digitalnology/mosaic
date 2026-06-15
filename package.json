@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/digitalnology/mosaic.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
