@@ -52,7 +52,7 @@ export const CustomIcon: Story = {
 
 export const Image: Story = {
   args: {
-    src: "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Roof_hafez_tomb.jpg/440px-Roof_hafez_tomb.jpg",
+    src: "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Roof_hafez_tomb.jpg/60px-Roof_hafez_tomb.jpg",
   },
 };
 
