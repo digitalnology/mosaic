@@ -36,12 +36,6 @@ jobs:
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Git Config
-        run: |
-          git config --local user.email "${{ secrets.GIT_USER_EMAIL }}"
-          git config --local user.name "${{ secrets.GIT_USER_NAME }}"
-          git pull
-
       - name: Run ESLint and Prettier
         id: code-format
         run: |
@@ -85,13 +79,9 @@ jobs:
 
       - name: Release
         env:
-          GIT_AUTHOR_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
-          GIT_AUTHOR_NAME: ${{ secrets.GIT_USER_NAME }}
-          GIT_COMMITTER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
-          GIT_COMMITTER_NAME: ${{ secrets.GIT_USER_NAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+        run: npx semantic-release --debug
 
       - name: Send Notification
         uses: Co-qn/google-chat-notification@master
@@ -99,4 +89,4 @@ jobs:
           name: ${{ github.workflow }}
           url: ${{ secrets.GOOGLE_CHAT }}
           status: ${{ job.status }}
-        if: always()
+        if: false
