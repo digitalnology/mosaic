@@ -12,6 +12,8 @@ concurrency:
 jobs:
   release-beta:
     runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -88,8 +90,6 @@ jobs:
         run: npm run build
 
       - name: Release
-        permissions:
-          contents: write
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
