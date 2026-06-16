@@ -1,5 +1,7 @@
 # [12.0.0-beta.2](https://github.com/digitalnology/mosaic/compare/v12.0.0-beta.1...v12.0.0-beta.2) (2026-06-16)
 
+# [12.0.0-beta.2](https://github.com/digitalnology/mosaic/compare/v12.0.0-beta.1...v12.0.0-beta.2) (2026-06-16)
+
 # [12.0.0-beta.1](https://github.com/digitalnology/mosaic/compare/v11.0.0...v12.0.0-beta.1) (2026-06-15)
 
 
