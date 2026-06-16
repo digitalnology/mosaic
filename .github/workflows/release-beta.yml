@@ -96,7 +96,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release --debug
+        run: NODE_AUTH_TOKEN="" npx semantic-release --debug
 
       - name: Send Notification
         uses: Co-qn/google-chat-notification@master
