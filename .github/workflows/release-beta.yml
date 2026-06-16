@@ -5,6 +5,9 @@ on:
     branches:
       - beta
 
+permissions:
+  id-token: write
+
 concurrency:
   group: release-beta
   cancel-in-progress: true
@@ -13,7 +16,6 @@ jobs:
   release-beta:
     runs-on: ubuntu-22.04
     permissions:
-      id-token: write
       contents: write
     steps:
       - name: Checkout
