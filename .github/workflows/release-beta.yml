@@ -3,13 +3,14 @@ name: Mosaic CI - Release Beta
 on:
   push:
     branches:
+      - main
       - beta
 
 permissions:
   id-token: write
 
 concurrency:
-  group: release-beta
+  group: release-${ github.ref_name }
   cancel-in-progress: true
 
 jobs:
@@ -63,9 +64,16 @@ jobs:
           git commit -m "refactor: 💡 Clean code" -a
 
       - name: Generate Docs
+        if: ${ github.ref_name == 'main' }
+        run: npm run build:storybook
+
+      - name: Generate Docs (Beta)
+        if: ${ github.ref_name == 'beta' }
+        run: npm run build:storybook:beta
+
+      - name: Stage Docs
         id: generate-docs
         run: |
-          npm run build:storybook:beta
           git add .
           echo "generated-docs=$(git status -s -uno | wc -l)" >> $GITHUB_OUTPUT
 
@@ -75,20 +83,31 @@ jobs:
           git commit -m "docs: ✏️ Updated StoryBook" -a
 
       - name: Test runner
-        id: test-runner
-        # save some time while debugging
-        if: false
+        if: ${ github.ref_name == 'main' }
+        run: |
+          npx playwright install --with-deps
+          npx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
+            "npx http-server docs/latest --port 6006 --silent" \
+            "npx wait-on tcp:127.0.0.1:6006 && npm run test:ci"
+
+      - name: Test runner (Beta)
+        if: ${ github.ref_name == 'beta' }
         run: |
           npx playwright install --with-deps
           npx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
             "npx http-server docs/beta --port 6006 --silent" \
             "npx wait-on tcp:127.0.0.1:6006 && npm run test:ci"
+
+      - name: Stage Database
+        id: test-runner
+        run: |
+          git add .
           echo "components-db=$(git status -s -uno | wc -l)" >> $GITHUB_OUTPUT
 
       - name: Commit Database
         if: steps.test-runner.outputs.components-db > 0
         run: |
-          git commit -m "docs: ✏️ Updated components database" -a
+          git commit -m "docs: ✏️ Updated components database"
 
       - name: Build
         run: npm run build
