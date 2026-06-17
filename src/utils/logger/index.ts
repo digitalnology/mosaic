@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 export type ILogLevel = "error" | "info" | "warn";
 
-const MOSAIC_TAG = "[@melfore/mosaic]";
+const MOSAIC_TAG = "[@digitalnology/mosaic]";
 
 /**
  * Logs message for given level and component

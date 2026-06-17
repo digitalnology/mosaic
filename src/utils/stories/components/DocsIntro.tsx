@@ -54,7 +54,7 @@ const DocsIntro: FC<IDocsIntro> = ({ basedOn, component, localizable = false, te
         </>
       )}
       <Spacer direction="vertical" />
-      <code className={DOCS_CODEBLOCK_CLASS}>{`import { ${component} } from "@melfore/mosaic";`}</code>
+      <code className={DOCS_CODEBLOCK_CLASS}>{`import { ${component} } from "@digitalnology/mosaic";`}</code>
       <Spacer direction="vertical" level={3} />
     </div>
   );

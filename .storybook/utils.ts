@@ -134,7 +134,7 @@ export const getComponentDescription = (name: string, parameters: any) =>
  * Gets component import
  */
 export const getComponentImport = (name: string): Snippet => {
-  const code = `import { ${name} } from "@melfore/mosaic";`;
+  const code = `import { ${name} } from "@digitalnology/mosaic";`;
   return { code };
 };
 
