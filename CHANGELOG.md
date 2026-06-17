@@ -1,3 +1,10 @@
+## [11.0.3](https://github.com/digitalnology/mosaic/compare/v11.0.2...v11.0.3) (2026-06-17)
+
+
+### Bug Fixes
+
+* 🐛 try restore github plugin ([7fd0a9e](https://github.com/digitalnology/mosaic/commit/7fd0a9e9edb0e3fd0f4782b1c8ce7f484cd9d0c4))
+
 # [12.0.0-beta.6](https://github.com/digitalnology/mosaic/compare/v12.0.0-beta.5...v12.0.0-beta.6) (2026-06-17)
 
 
