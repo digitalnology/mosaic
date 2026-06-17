@@ -1,3 +1,10 @@
+## [12.0.2](https://github.com/digitalnology/mosaic/compare/v12.0.1...v12.0.2) (2026-06-17)
+
+
+### Bug Fixes
+
+* 🐛 melfore references ([eed4093](https://github.com/digitalnology/mosaic/commit/eed4093dacba7d77782db0b5dc7198a85d0d545f))
+
 ## [11.0.3](https://github.com/digitalnology/mosaic/compare/v11.0.2...v11.0.3) (2026-06-17)
 
 

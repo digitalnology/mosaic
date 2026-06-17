@@ -1,6 +1,6 @@
 {
   "name": "@digitalnology-oss/mosaic",
-  "version": "11.0.3",
+  "version": "12.0.2",
   "homepage": "https://github.com/digitalnology/mosaic#readme",
   "description": "Digitalnology's UI kit library based on `@material-ui`",
   "repository": {
