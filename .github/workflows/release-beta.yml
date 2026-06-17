@@ -117,11 +117,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
         run: npx semantic-release --debug
-
-      - name: Send Notification
-        uses: Co-qn/google-chat-notification@master
-        with:
-          name: ${{ github.workflow }}
-          url: ${{ secrets.GOOGLE_CHAT }}
-          status: ${{ job.status }}
-        if: false
