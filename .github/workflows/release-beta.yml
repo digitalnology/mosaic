@@ -10,7 +10,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: release-${ github.ref_name }
+  group: release-${{ github.ref_name }}
   cancel-in-progress: true
 
 jobs:
@@ -64,11 +64,11 @@ jobs:
           git commit -m "refactor: 💡 Clean code" -a
 
       - name: Generate Docs
-        if: ${ github.ref_name == 'main' }
+        if: ${{ github.ref_name == 'main' }}
         run: npm run build:storybook
 
       - name: Generate Docs (Beta)
-        if: ${ github.ref_name == 'beta' }
+        if: ${{ github.ref_name == 'beta' }}
         run: npm run build:storybook:beta
 
       - name: Stage Docs
@@ -83,7 +83,7 @@ jobs:
           git commit -m "docs: ✏️ Updated StoryBook" -a
 
       - name: Test runner
-        if: ${ github.ref_name == 'main' }
+        if: ${{ github.ref_name == 'main' }}
         run: |
           npx playwright install --with-deps
           npx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
@@ -91,7 +91,7 @@ jobs:
             "npx wait-on tcp:127.0.0.1:6006 && npm run test:ci"
 
       - name: Test runner (Beta)
-        if: ${ github.ref_name == 'beta' }
+        if: ${{ github.ref_name == 'beta' }}
         run: |
           npx playwright install --with-deps
           npx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
