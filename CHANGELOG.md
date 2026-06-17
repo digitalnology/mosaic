@@ -1,3 +1,25 @@
+# [12.0.0-beta.5](https://github.com/digitalnology/mosaic/compare/v12.0.0-beta.4...v12.0.0-beta.5) (2026-06-17)
+
+# [12.0.0-beta.4](https://github.com/digitalnology/mosaic/compare/v12.0.0-beta.3...v12.0.0-beta.4) (2026-06-17)
+
+# [12.0.0-beta.3](https://github.com/digitalnology/mosaic/compare/v12.0.0-beta.2...v12.0.0-beta.3) (2026-06-16)
+
+# [12.0.0-beta.2](https://github.com/digitalnology/mosaic/compare/v12.0.0-beta.1...v12.0.0-beta.2) (2026-06-16)
+
+# [12.0.0-beta.2](https://github.com/digitalnology/mosaic/compare/v12.0.0-beta.1...v12.0.0-beta.2) (2026-06-16)
+
+# [12.0.0-beta.1](https://github.com/digitalnology/mosaic/compare/v11.0.0...v12.0.0-beta.1) (2026-06-15)
+
+
+### Features
+
+* 🎸 migrate @mui/* packages to version 9 ([e5a029c](https://github.com/digitalnology/mosaic/commit/e5a029cb8169eb0beee9d9cd487772b5ab494075)), closes [#456](https://github.com/digitalnology/mosaic/issues/456)
+
+
+### BREAKING CHANGES
+
+* 🧨 updated @mui/* packages version
+
 # [12.0.0-beta.2](https://github.com/melfore/mosaic/compare/v12.0.0-beta.1...v12.0.0-beta.2) (2026-06-12)
 
 # [12.0.0-beta.1](https://github.com/melfore/mosaic/compare/v11.0.1-beta.2...v12.0.0-beta.1) (2026-06-12)
