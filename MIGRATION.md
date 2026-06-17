@@ -53,7 +53,7 @@ Export of `*Intl` components **has been removed** in favour of a new approach wh
 
 Mosaic localizable components now use a dedicated boolean flag called `localized` to make all supported strings localized.
 
-For each component, the <a href="https://melfore.github.io/mosaic/" target="_blank">documentation</a> tells the user if the component can be localized and if so, it lists all the localizable properties under the `Intl` section.
+For each component, the <a href="https://digitalnology.github.io/mosaic/" target="_blank">documentation</a> tells the user if the component can be localized and if so, it lists all the localizable properties under the `Intl` section.
 
 The benefits from previous approach are several:
 - same export / import for component: remove `Intl` import and just add `localize` property to standard component
@@ -64,7 +64,7 @@ The benefits from previous approach are several:
 - door open to future possibility of defining which props to localize and which not...
 
 Below three common use cases of migration for localized components.
-For other components, use the same pattern, applying the related <a href="https://melfore.github.io/mosaic/" target="_blank">documentation</a>.
+For other components, use the same pattern, applying the related <a href="https://digitalnology.github.io/mosaic/" target="_blank">documentation</a>.
 
 ### Migration examples
 
@@ -73,7 +73,7 @@ For other components, use the same pattern, applying the related <a href="https:
 Old code:
 
 ```
-import { ButtonIntl } from '@melfore/mosaic';
+import { ButtonIntl } from '@digitalnology/mosaic';
 
 ...
 
@@ -88,7 +88,7 @@ import { ButtonIntl } from '@melfore/mosaic';
 New code:
 
 ```
-import { Button } from '@melfore/mosaic';
+import { Button } from '@digitalnology/mosaic';
 
 ...
 
@@ -106,7 +106,7 @@ import { Button } from '@melfore/mosaic';
 Old code:
 
 ```
-import { InputNumberIntl } from '@melfore/mosaic';
+import { InputNumberIntl } from '@digitalnology/mosaic';
 
 <InputNumberIntl
   required
@@ -120,7 +120,7 @@ import { InputNumberIntl } from '@melfore/mosaic';
 New code:
 
 ```
-import { InputNumber } from '@melfore/mosaic';
+import { InputNumber } from '@digitalnology/mosaic';
 
 <InputNumber
   required
@@ -137,7 +137,7 @@ import { InputNumber } from '@melfore/mosaic';
 Old code:
 
 ```
-import { TypographyIntl } from '@melfore/mosaic';
+import { TypographyIntl } from '@digitalnology/mosaic';
 
 ...
 
@@ -147,7 +147,7 @@ import { TypographyIntl } from '@melfore/mosaic';
 New code:
 
 ```
-import { Typography } from '@melfore/mosaic';
+import { Typography } from '@digitalnology/mosaic';
 
 ...
 

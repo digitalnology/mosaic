@@ -1,18 +1,18 @@
-# @melfore/mosaic
+# @digitalnology/mosaic
 
- ![Mosaic CI - Release](https://github.com/melfore/mosaic/workflows/Mosaic%20CI%20-%20Release/badge.svg) [![Mosaic CI - Release Beta](https://github.com/melfore/mosaic/actions/workflows/release-beta.yml/badge.svg)](https://github.com/melfore/mosaic/actions/workflows/release-beta.yml) ![Mosaic CI - Test](https://github.com/melfore/mosaic/workflows/Mosaic%20CI%20-%20Test/badge.svg) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+ ![Mosaic CI - Release](https://github.com/digitalnology/mosaic/workflows/Mosaic%20CI%20-%20Release/badge.svg) ![Mosaic CI - Test](https://github.com/digitalnology/mosaic/workflows/Mosaic%20CI%20-%20Test/badge.svg) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-Melfore's UI kit library based on `@mui/*`.
+Digitalnology's UI kit library based on `@mui/*`.
 
- <a href="https://github.com/melfore/mosaic/blob/main/CHANGELOG.md" target="_blank">**Changelog**</a> | <a href="https://github.com/melfore/mosaic/blob/main/CONTRIBUTING.md" target="_blank">**Contributing**</a> | <a href="https://github.com/melfore/mosaic/blob/main/MIGRATION.md" target="_blank">**Migration**</a> | <a href="https://melfore.github.io/mosaic/latest/" target="_blank">**Storybook**</a>
+ <a href="https://github.com/digitalnology/mosaic/blob/main/CHANGELOG.md" target="_blank">**Changelog**</a> | <a href="https://github.com/digitalnology/mosaic/blob/main/CONTRIBUTING.md" target="_blank">**Contributing**</a> | <a href="https://github.com/digitalnology/mosaic/blob/main/MIGRATION.md" target="_blank">**Migration**</a> | <a href="https://digitalnology.github.io/mosaic/latest/" target="_blank">**Storybook**</a>
 
 ## Getting started
 
-Starting from @melfore/mosaic v8.x Mosaic dropped support for React < v18.x and Material UI < v5.x
+Starting from @digitalnology/mosaic v8.x Mosaic dropped support for React < v18.x and Material UI < v5.x
 
 Add the package to your project with:
 
-`npm install @melfore/mosaic`
+`npm install @digitalnology/mosaic`
 
 It requires these `peerDependencies` to be installed in host project:
 
@@ -31,7 +31,7 @@ It requires these `peerDependencies` to be installed in host project:
 
 ## Usage
 
-Browse our <a href="https://melfore.github.io/mosaic/latest/" target="_blank">StoryBook</a> to discover all available components.
+Browse our <a href="https://digitalnology.github.io/mosaic/latest/" target="_blank">StoryBook</a> to discover all available components.
 
 Each component has a dedicated docs page showing how to import plus a playground with a table listing all props that can be dynamically changed to see the results in real time.
 
@@ -41,4 +41,4 @@ Below the props table you can find a list of most common usage scenario. These a
 
 ![component sample stories](./assets/component-sample-stories.png)
 
-Browse <a href="https://melfore.github.io/mosaic/latest/" target="_blank">StoryBook</a> to discover all available components.
+Browse <a href="https://digitalnology.github.io/mosaic/latest/" target="_blank">StoryBook</a> to discover all available components.

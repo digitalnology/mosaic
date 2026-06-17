@@ -213,27 +213,27 @@ Subsequent steps will not be triggered.
 
 ## Install locally on host projects
 
-Use this guide to locally use/test `@melfore/mosaic` on host projects, while developing new features on it.
+Use this guide to locally use/test `@digitalnology/mosaic` on host projects, while developing new features on it.
 
 1. Install [`yalc`](https://github.com/whitecolor/yalc) local package manager
 
    `npm i yalc -g`
 
-2. Build `@melfore/mosaic`
+2. Build `@digitalnology/mosaic`
 
    `npm run build`
 
-3. Publish locally `@melfore/mosaic`
+3. Publish locally `@digitalnology/mosaic`
 
    `yalc publish --push --private`
 
    You will get something similar in the output:
 
-   `@melfore/mosaic@0.1.0-6ea98d41 published in store.`
+   `@digitalnology/mosaic@0.1.0-6ea98d41 published in store.`
 
-4. Move to the folder of the utilizing project and add local dependency for `@melfore/mosaic` (it will temporary replace the dependency for the online package)
+4. Move to the folder of the utilizing project and add local dependency for `@digitalnology/mosaic` (it will temporary replace the dependency for the online package)
 
-   `yalc add @melfore/mosaic`
+   `yalc add @digitalnology/mosaic`
 
    You will see the new entry in your `package.json`
    Remember to add these two rules to your `.gitignore` to avoid pushing to repo:
@@ -249,7 +249,7 @@ Use this guide to locally use/test `@melfore/mosaic` on host projects, while dev
 6. Import and use components in your code
 
    ```
-   import { MosaicComponent } from '@melfore/mosaic';
+   import { MosaicComponent } from '@digitalnology/mosaic';
 
    ...
 

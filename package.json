@@ -2,7 +2,7 @@
   "name": "@digitalnology-oss/mosaic",
   "version": "11.0.3",
   "homepage": "https://github.com/digitalnology/mosaic#readme",
-  "description": "Melfore's UI kit library based on `@material-ui`",
+  "description": "Digitalnology's UI kit library based on `@material-ui`",
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalnology/mosaic.git"
