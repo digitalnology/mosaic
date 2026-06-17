@@ -19,9 +19,7 @@ jobs:
     permissions:
       id-token: write
       contents: write
-      deployments: write
       issues: read
-      pages: write
       pull-requests: read
     steps:
       - name: Checkout
@@ -55,8 +53,6 @@ jobs:
 
       - name: Run ESLint and Prettier
         id: code-format
-        # save some time while debugging
-        if: false
         run: |
           npm run clean:code
           git add .
@@ -120,4 +116,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
-        run: npx semantic-release --debug
+        run: npx semantic-release
